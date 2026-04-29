@@ -125,6 +125,35 @@ def test_contributor_activity_record_creation():
     assert record.target_number == 10
 
 
+def test_contributor_activity_record_from_issue_node():
+    """Contributor activity records should hydrate issue creation events."""
+    records = ContributorActivityRecord.from_github_node(
+        {
+            "number": 12,
+            "createdAt": "2024-01-02T00:00:00Z",
+            "author": {"login": "dana"},
+        },
+        {
+            "owner": "org",
+            "repo": "repo",
+            "target_type": "issue",
+            "cutoff": datetime.fromisoformat("2024-01-01T00:00:00+00:00"),
+        },
+    )
+
+    assert records == [
+        ContributorActivityRecord(
+            repo="org/repo",
+            activity_type="authored_issue",
+            actor="dana",
+            occurred_at=datetime.fromisoformat("2024-01-02T00:00:00+00:00"),
+            target_type="issue",
+            target_number=12,
+            target_author="dana",
+        )
+    ]
+
+
 def test_issue_timeline_event_record_creation():
     """Issue timeline records should preserve normalized event metadata."""
     occurred = datetime(2024, 1, 1)
@@ -249,4 +278,3 @@ def test_parse_dt():
 def test_parse_dt_none():
     """A missing timestamp should remain missing."""
     assert _parse_dt(None) is None
-

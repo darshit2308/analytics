@@ -13,8 +13,9 @@ import logging
 from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import UTC, datetime, timedelta
-import requests
 from typing import TypeVar
+
+import requests
 
 from hiero_analytics.config.github import BASE_URL
 from hiero_analytics.config.paths import load_query
@@ -35,6 +36,12 @@ from .pagination import extract_graphql_cursor_page, paginate_cursor
 logger = logging.getLogger(__name__)
 
 T = TypeVar("T", bound=BaseRecord)
+_CONTRIBUTOR_ACTIVITY_TYPES = [
+    "authored_issue",
+    "authored_pull_request",
+    "reviewed_pull_request",
+    "merged_pull_request",
+]
 _ISSUE_TIMELINE_HEADERS = {
     "Accept": "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
@@ -56,6 +63,17 @@ def _cache_kwargs(
         kwargs["refresh"] = True
 
     return kwargs
+
+
+def _parse_graphql_datetime(value: object) -> datetime | None:
+    """Parse an ISO datetime string from a GitHub GraphQL response."""
+    if not isinstance(value, str):
+        return None
+
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
 
 # --------------------------------------------------------
 # GENERIC RESOURCE FETCHER ENGINE
@@ -547,6 +565,74 @@ def fetch_org_merged_pr_difficulty_graphql(
 # FETCH CONTRIBUTOR ACTIVITY
 # --------------------------------------------------------
 
+def _fetch_repo_pull_request_activity_graphql(
+    client: GitHubClient,
+    owner: str,
+    repo: str,
+    cutoff: datetime,
+) -> list[ContributorActivityRecord]:
+    """Fetch contributor activity signals from pull request lifecycle data."""
+    contributor_activity_query = load_query("contributor_activity")
+    return fetch_github_resource(
+        client,
+        contributor_activity_query,
+        {"owner": owner, "repo": repo},
+        ContributorActivityRecord,
+        ["repository", "pullRequests"],
+        cache_key="repo_contributor_pull_request_activity",
+        cache_scope=f"{owner}_{repo}",
+        cache_parameters={"owner": owner, "repo": repo},
+        context_builder=lambda _node: {
+            "owner": owner,
+            "repo": repo,
+            "cutoff": cutoff,
+            "target_type": "pull_request",
+        },
+        use_cache=False,
+    )
+
+
+def _fetch_repo_issue_activity_graphql(
+    client: GitHubClient,
+    owner: str,
+    repo: str,
+    cutoff: datetime,
+) -> list[ContributorActivityRecord]:
+    """Fetch contributor activity signals from recently opened issues."""
+    contributor_issue_activity_query = load_query("contributor_issue_activity")
+
+    def page(cursor: str | None) -> tuple[list[ContributorActivityRecord], str | None, bool]:
+        data = client.graphql(
+            contributor_issue_activity_query,
+            {"owner": owner, "repo": repo, "cursor": cursor},
+        )
+        nodes, next_cursor, has_next = extract_graphql_cursor_page(data, ["repository", "issues"])
+
+        records: list[ContributorActivityRecord] = []
+        page_has_older_issues = False
+
+        for node in nodes:
+            created_at = _parse_graphql_datetime(node.get("createdAt"))
+            if created_at is not None and created_at < cutoff:
+                page_has_older_issues = True
+
+            records.extend(
+                ContributorActivityRecord.from_github_node(
+                    node,
+                    {
+                        "owner": owner,
+                        "repo": repo,
+                        "cutoff": cutoff,
+                        "target_type": "issue",
+                    },
+                )
+            )
+
+        return records, next_cursor, has_next and not page_has_older_issues
+
+    return paginate_cursor(page)
+
+
 def fetch_repo_contributor_activity_graphql(
     client: GitHubClient,
     owner: str,
@@ -558,22 +644,52 @@ def fetch_repo_contributor_activity_graphql(
     refresh: bool = False
     ) -> list[ContributorActivityRecord]:
     """
-    Fetch contributor activity signals from pull request lifecycle data.
+    Fetch contributor activity signals from recent issue and PR lifecycle data.
+
+    Issue activity (issues opened by a contributor) and pull request
+    activity (PRs authored, reviewed, or merged) are combined into a
+    single stream of ``ContributorActivityRecord`` instances.
 
     Signals include:
+    - authored_issue (issues opened within the lookback window)
     - authored_pull_request
     - reviewed_pull_request
     - merged_pull_request
     """
-    CONTRIBUTOR_ACTIVITY_QUERY = load_query("contributor_activity")
-    cutoff = datetime.now(UTC) - timedelta(days=lookback_days)
-    return fetch_github_resource(
-        client, CONTRIBUTOR_ACTIVITY_QUERY, {"owner": owner, "repo": repo}, ContributorActivityRecord, ["repository", "pullRequests"],
-        cache_key="repo_contributor_activity", cache_scope=f"{owner}_{repo}",
-        cache_parameters={"owner": owner, "repo": repo, "lookback_days": lookback_days},
-        context_builder=lambda _node: {"owner": owner, "repo": repo, "cutoff": cutoff},
-        **_cache_kwargs(use_cache, cache_ttl_seconds, refresh),
+    cache_scope = f"{owner}_{repo}"
+    cache_parameters = {
+        "owner": owner,
+        "repo": repo,
+        "lookback_days": lookback_days,
+        "activity_types": _CONTRIBUTOR_ACTIVITY_TYPES,
+    }
+    cached = load_records_cache(
+        "repo_contributor_activity",
+        cache_scope,
+        cache_parameters,
+        ContributorActivityRecord,
+        use_cache=use_cache,
+        ttl_seconds=cache_ttl_seconds,
+        refresh=refresh,
     )
+    if cached is not None:
+        return cached
+
+    cutoff = datetime.now(UTC) - timedelta(days=lookback_days)
+    records = [
+        *_fetch_repo_pull_request_activity_graphql(client, owner, repo, cutoff),
+        *_fetch_repo_issue_activity_graphql(client, owner, repo, cutoff),
+    ]
+
+    save_records_cache(
+        "repo_contributor_activity",
+        cache_scope,
+        cache_parameters,
+        ContributorActivityRecord,
+        records,
+        use_cache=use_cache,
+    )
+    return records
 
 def fetch_org_contributor_activity_graphql(
     client: GitHubClient,
@@ -591,7 +707,12 @@ def fetch_org_contributor_activity_graphql(
         return fetch_repo_contributor_activity_graphql(client, repo.owner, repo.name, lookback_days=lookback_days, **_cache_kwargs(use_cache, cache_ttl_seconds, refresh))
     return fetch_org_resource_parallel(
         client, org, fetch_func, ContributorActivityRecord, max_workers, "org_contributor_activity",
-        {"org": org, "repos": sorted(repos) if repos else [], "lookback_days": lookback_days}, repos=repos,
+        {
+            "org": org,
+            "repos": sorted(repos) if repos else [],
+            "lookback_days": lookback_days,
+            "activity_types": _CONTRIBUTOR_ACTIVITY_TYPES,
+        }, repos=repos,
         task_desc="contributor activity",
         **_cache_kwargs(use_cache, cache_ttl_seconds, refresh),
     )

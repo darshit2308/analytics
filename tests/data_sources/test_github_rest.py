@@ -21,7 +21,7 @@ def bypass_pagination(monkeypatch):
     monkeypatch.setattr(
         search,
         "paginate_page_number",
-        lambda f: f(1),
+        lambda f, **_kwargs: f(1),
     )
 
 
@@ -109,7 +109,7 @@ def test_search_issues_uses_paginator(monkeypatch, mock_client):
 
     called = {"value": False}
 
-    def fake_paginator(page_fn):
+    def fake_paginator(page_fn, **_kwargs):
         called["value"] = True
         return page_fn(1)
 

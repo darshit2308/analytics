@@ -1,4 +1,9 @@
-"""Analytics helpers for maintainer-pipeline role classification."""
+"""Analytics helpers for maintainer-pipeline role classification.
+
+This module classifies contributor activity records, including both
+pull request and issue activity, into governance roles and builds
+aggregated pipeline tables for yearly and repository-level views.
+"""
 
 from __future__ import annotations
 
@@ -8,7 +13,8 @@ from hiero_analytics.data_sources.models import ContributorActivityRecord
 
 STAGE_COLUMNS = ["general_user", "triage", "committer", "maintainer"]
 
-_PR_ACTIVITY_TYPES = {
+_MAINTAINER_ACTIVITY_TYPES = {
+    "authored_issue",
     "authored_pull_request",
     "reviewed_pull_request",
     "merged_pull_request",
@@ -23,7 +29,7 @@ def activity_to_role_dataframe(
     rows = []
 
     for record in records:
-        if record.activity_type not in _PR_ACTIVITY_TYPES:
+        if record.activity_type not in _MAINTAINER_ACTIVITY_TYPES:
             continue
 
         repo_name = record.repo.split("/")[-1]
@@ -46,7 +52,7 @@ def activity_to_role_dataframe(
 
 
 def build_maintainer_yearly_pipeline(stage_df: pd.DataFrame) -> pd.DataFrame:
-    """Build yearly contributor counts for each observed PR activity stage."""
+    """Build yearly contributor counts for each observed PR and issue activity stage."""
     if stage_df.empty:
         return pd.DataFrame(columns=["year", *STAGE_COLUMNS])
 
@@ -63,7 +69,7 @@ def build_maintainer_yearly_pipeline(stage_df: pd.DataFrame) -> pd.DataFrame:
 
 
 def build_maintainer_repo_pipeline(stage_df: pd.DataFrame) -> pd.DataFrame:
-    """Build repository-level contributor counts for each observed PR activity stage."""
+    """Build repository-level contributor counts for each observed PR and issue activity stage."""
     if stage_df.empty:
         return pd.DataFrame(columns=["repo", *STAGE_COLUMNS])
 

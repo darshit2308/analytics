@@ -197,6 +197,14 @@ class ContributorActivityRecord(BaseRecord):
 
     @classmethod
     def from_github_node(cls, node: dict, context: dict) -> list[ContributorActivityRecord]:
+        """Hydrate contributor activity records from a GraphQL activity node."""
+        if context.get("target_type") == "issue":
+            return cls._from_issue_node(node, context)
+
+        return cls._from_pull_request_node(node, context)
+
+    @classmethod
+    def _from_pull_request_node(cls, node: dict, context: dict) -> list[ContributorActivityRecord]:
         """Hydrate contributor activity records from a GraphQL PR node."""
         repo_name = cls._repo_name(context)
         cutoff = context.get("cutoff")
@@ -251,6 +259,30 @@ class ContributorActivityRecord(BaseRecord):
             )
         return records
 
+    @classmethod
+    def _from_issue_node(cls, node: dict, context: dict) -> list[ContributorActivityRecord]:
+        """Hydrate contributor activity records from a GraphQL issue node."""
+        repo_name = cls._repo_name(context)
+        cutoff = context.get("cutoff")
+        issue_number = node["number"]
+
+        issue_author = node.get("author", {}).get("login") if node.get("author") else None
+        issue_created_at = _parse_dt(node.get("createdAt"))
+        if not issue_created_at or (cutoff is not None and issue_created_at < cutoff) or not issue_author:
+            return []
+
+        return [
+            cls(
+                repo=repo_name,
+                activity_type="authored_issue",
+                actor=issue_author,
+                occurred_at=issue_created_at,
+                target_type="issue",
+                target_number=issue_number,
+                target_author=issue_author,
+            )
+        ]
+
 
 @dataclass(frozen=True)
 class ContributorMergedPRCountRecord(BaseRecord):
@@ -295,4 +327,3 @@ class RunnerRecord:
     job_name: str
     runner: str
     is_self_hosted: bool | None # None = undefine/fallback/env-param
-

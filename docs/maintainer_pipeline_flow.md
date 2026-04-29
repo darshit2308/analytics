@@ -7,7 +7,7 @@ The maintainer pipeline estimates **active governance participation** across the
 It does this by combining:
 
 - the **governance source of truth** for repository roles
-- the **observed GitHub pull request activity** of contributors
+- the **observed GitHub issue and pull request activity** of contributors
 
 The final production outputs are charts and CSVs that show how many unique active contributors were observed as:
 
@@ -25,7 +25,7 @@ The maintainer pipeline runs in this order:
 1. Fetch the Hiero governance configuration.
 2. Build a repo-level lookup of contributor roles from governance.
 3. Fetch contributor activity from GitHub across the organization.
-4. Keep only PR lifecycle signals relevant to this pipeline.
+4. Keep only issue creation and PR lifecycle signals relevant to this pipeline.
 5. Assign each activity record a repo-scoped governance role.
 6. Aggregate unique contributors by year and by repository.
 7. Save CSV outputs and render charts.
@@ -58,17 +58,19 @@ The governance file provides:
 
 Contributor activity is fetched from the GitHub GraphQL API using:
 
-- `src/hiero_analytics/data_sources/github_queries.py`
+- `src/hiero_analytics/data_sources/queries/`
 - `src/hiero_analytics/data_sources/github_ingest.py`
 
-The maintainer pipeline uses PR lifecycle data only:
+The maintainer pipeline uses issue creation and PR lifecycle data:
 
+- issue author
 - PR author
 - PR reviewer
 - PR merger
 
 Specifically, the current pipeline emits these activity types:
 
+- `authored_issue`
 - `authored_pull_request`
 - `reviewed_pull_request`
 - `merged_pull_request`
@@ -116,7 +118,7 @@ By default:
 
 Important note:
 
-- The current maintainer pipeline still works correctly because the classification step explicitly filters to the three PR lifecycle types listed above.
+- The current maintainer pipeline still works correctly because the classification step explicitly filters to the issue creation and PR lifecycle types listed above.
 
 ## Step 1: Build Governance Role Lookup
 
@@ -185,10 +187,11 @@ That function:
 
 ### Repo-Level Fetch
 
-For each repository, the pipeline fetches pull requests ordered by `UPDATED_AT DESC`.
+For each repository, the pipeline fetches pull requests ordered by `UPDATED_AT DESC` and issues ordered by `CREATED_AT DESC`.
 
-For each PR, it emits contributor activity records for:
+For each issue or PR, it emits contributor activity records for:
 
+- the issue author
 - the PR author
 - each reviewer
 - the user who merged the PR
@@ -199,11 +202,12 @@ Each emitted record is normalized into a `ContributorActivityRecord`.
 
 The repo fetcher applies the `183`-day cutoff at record creation time:
 
+- issue authors are kept only if `createdAt >= cutoff`
 - PR authors are kept only if `createdAt >= cutoff`
 - reviewers are kept only if `submittedAt >= cutoff`
 - mergers are kept only if `mergedAt >= cutoff`
 
-It also stops pagination early once the oldest PR on a page has `updatedAt < cutoff`.
+Issue pagination stops early once a page contains issues created before the cutoff.
 
 ## Step 3: Convert Activity to Role-Labeled Events
 
@@ -214,6 +218,7 @@ This transformation lives in:
 For each activity record:
 
 1. Keep only these activity types:
+   - `authored_issue`
    - `authored_pull_request`
    - `reviewed_pull_request`
    - `merged_pull_request`
@@ -385,13 +390,13 @@ The governance counts answer:
 
 The activity pipeline answers:
 
-- who both holds the role and was recently active through PR lifecycle events
+- who both holds the role and was recently active through issue creation or PR lifecycle events
 
 So the governance count is usually larger, especially for:
 
 - committers
 - repositories with many configured role holders
-- repos where not all role holders authored, reviewed, or merged PRs in the lookback window
+- repos where not all role holders opened issues or authored, reviewed, or merged PRs in the lookback window
 
 ## Why This Methodology Was Chosen
 
@@ -439,7 +444,7 @@ That order shows:
 - `src/hiero_analytics/analysis/maintainer_pipeline.py`
 - `src/hiero_analytics/data_sources/governance_config.py`
 - `src/hiero_analytics/data_sources/github_ingest.py`
-- `src/hiero_analytics/data_sources/github_queries.py`
+- `src/hiero_analytics/data_sources/queries/`
 - `src/hiero_analytics/data_sources/cache.py`
 - `src/hiero_analytics/export/save.py`
 - `src/hiero_analytics/plotting/bars.py`
