@@ -1,3 +1,4 @@
+"""Tests for GitHub contributor activity ingestion."""
 from datetime import UTC, datetime, timedelta
 from unittest.mock import Mock
 
@@ -9,11 +10,13 @@ from hiero_analytics.data_sources.models import ContributorActivityRecord, Repos
 
 @pytest.fixture
 def mock_client():
+    """Mock GitHub client fixture."""
     return Mock()
 
 
 @pytest.fixture
 def bypass_pagination(monkeypatch):
+    """Bypass pagination to return a single page."""
     monkeypatch.setattr(
         ingest,
         "paginate_cursor",
@@ -26,6 +29,7 @@ def _to_iso(value: datetime) -> str:
 
 
 def test_fetch_repo_contributor_activity_graphql(mock_client, bypass_pagination):
+    """Test fetching repository contributor activity."""
     now = datetime.now(UTC)
     issue_created_at = _to_iso(now - timedelta(days=6))
     created_at = _to_iso(now - timedelta(days=5))
@@ -103,6 +107,7 @@ def test_fetch_repo_contributor_activity_graphql(mock_client, bypass_pagination)
 
 
 def test_fetch_repo_issue_activity_graphql_stops_after_older_issue(mock_client):
+    """Test early stop for older issues in pagination."""
     now = datetime.now(UTC)
     recent_issue_created_at = _to_iso(now - timedelta(days=5))
     older_issue_created_at = _to_iso(now - timedelta(days=40))
@@ -143,6 +148,7 @@ def test_fetch_repo_issue_activity_graphql_stops_after_older_issue(mock_client):
 
 
 def test_fetch_org_contributor_activity_graphql(monkeypatch, mock_client):
+    """Test fetching organization contributor activity."""
     repos = [
         RepositoryRecord("org/repo1", "repo1", "org"),
         RepositoryRecord("org/repo2", "repo2", "org"),

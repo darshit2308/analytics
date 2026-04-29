@@ -1,5 +1,4 @@
-"""
-GitHub data ingestion utilities using the GraphQL API.
+"""GitHub data ingestion utilities using the GraphQL API.
 
 This module provides functions for retrieving repositories, issues, and
 merged pull request metadata from GitHub. Data is fetched using cursor-
@@ -109,6 +108,7 @@ def fetch_github_resource(  # noqa: UP047
         return cached
 
     def page(cursor: str | None) -> tuple[list[T], str | None, bool]:
+        """Fetch a single page of GraphQL results."""
         paginated_vars = dict(variables)
         paginated_vars["cursor"] = cursor
 
@@ -244,6 +244,7 @@ def fetch_org_issues_graphql(
     ) -> list[IssueRecord]:
     """Fetch all issues across all repositories in an organization."""
     def fetch_func(repo):
+        """Fetch issues for a single repository."""
         return fetch_repo_issues_graphql(client, repo.owner, repo.name, states=states, **_cache_kwargs(use_cache, cache_ttl_seconds, refresh))
     return fetch_org_resource_parallel(
         client, org, fetch_func, IssueRecord, max_workers, "org_issues",
@@ -337,6 +338,7 @@ def fetch_issue_timeline_events_rest(
     unique_issues = {(issue.repo, issue.number): issue for issue in issues}
 
     def fetch_func(issue: IssueRecord) -> list[IssueTimelineEventRecord]:
+        """Fetch timeline events for a single issue."""
         owner, repo = issue.repo.split("/", maxsplit=1)
         return fetch_repo_issue_timeline_events_rest(
             client,
@@ -492,6 +494,7 @@ def fetch_repo_issue_events_for_issues_since(
     repos = sorted({issue.repo for issue in issues})
 
     def fetch_func(full_repo: str) -> list[IssueTimelineEventRecord]:
+        """Fetch timeline events for all issues in a repository."""
         owner, repo = full_repo.split("/", maxsplit=1)
         return fetch_repo_issue_events_rest_since(
             client,
@@ -553,6 +556,7 @@ def fetch_org_merged_pr_difficulty_graphql(
     ) -> list[PullRequestDifficultyRecord]:
     """Fetch merged pull request difficulty records across all repositories in an organization."""
     def fetch_func(repo):
+        """Fetch merged PR difficulty metrics for a repository."""
         return fetch_repo_merged_pr_difficulty_graphql(client,
         repo.owner, repo.name, **_cache_kwargs(use_cache, cache_ttl_seconds, refresh))
     return fetch_org_resource_parallel(
@@ -602,6 +606,7 @@ def _fetch_repo_issue_activity_graphql(
     contributor_issue_activity_query = load_query("contributor_issue_activity")
 
     def page(cursor: str | None) -> tuple[list[ContributorActivityRecord], str | None, bool]:
+        """Fetch a single page of issues."""
         data = client.graphql(
             contributor_issue_activity_query,
             {"owner": owner, "repo": repo, "cursor": cursor},
@@ -643,8 +648,7 @@ def fetch_repo_contributor_activity_graphql(
     cache_ttl_seconds: int | None = None,
     refresh: bool = False
     ) -> list[ContributorActivityRecord]:
-    """
-    Fetch contributor activity signals from recent issue and PR lifecycle data.
+    """Fetch contributor activity signals from recent issue and PR lifecycle data.
 
     Issue activity (issues opened by a contributor) and pull request
     activity (PRs authored, reviewed, or merged) are combined into a
@@ -704,6 +708,7 @@ def fetch_org_contributor_activity_graphql(
     ) -> list[ContributorActivityRecord]:
     """Fetch contributor activity records across all repositories in an organization."""
     def fetch_func(repo):
+        """Fetch contributor activity for a repository."""
         return fetch_repo_contributor_activity_graphql(client, repo.owner, repo.name, lookback_days=lookback_days, **_cache_kwargs(use_cache, cache_ttl_seconds, refresh))
     return fetch_org_resource_parallel(
         client, org, fetch_func, ContributorActivityRecord, max_workers, "org_contributor_activity",
@@ -756,6 +761,7 @@ def fetch_org_contributor_merged_pr_count_graphql(
 ) -> list[ContributorMergedPRCountRecord]:
     """Fetch contributor merged pull request count for a specific user in an org."""
     def fetch_func(repo):
+        """Fetch merged PR counts for a contributor in a repository."""
         return fetch_repo_contributor_merged_pr_count_graphql(client,
         repo.owner, repo.name, login=login,
         **_cache_kwargs(use_cache, cache_ttl_seconds, refresh))

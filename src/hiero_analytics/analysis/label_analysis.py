@@ -1,3 +1,4 @@
+"""Module for analyzing and counting repository labels."""
 from __future__ import annotations
 
 from hiero_analytics.data_sources.models import IssueRecord
@@ -10,8 +11,7 @@ def _count_issues(
     *,
     closed_only: bool = False,
 ) -> dict[str, int]:
-    """
-    Count issues matching a collection of LabelSpec rules.
+    """Count issues matching a collection of LabelSpec rules.
 
     Each LabelSpec represents a classification rule defined by a set of
     labels and a name. An issue is counted for a spec if its labels satisfy
@@ -51,8 +51,7 @@ def count_issues_by_label_specs(
     issues: list[IssueRecord],
     specs: tuple[LabelSpec, ...],
 ) -> dict[str, int]:
-    """
-    Count issues matching each LabelSpec classification.
+    """Count issues matching each LabelSpec classification.
 
     This function aggregates issue counts for each label specification,
     allowing datasets to be grouped by predefined label categories
@@ -77,8 +76,7 @@ def count_closed_issues_by_label_specs(
     issues: list[IssueRecord],
     specs: tuple[LabelSpec, ...],
 ) -> dict[str, int]:
-    """
-    Count closed issues matching each LabelSpec classification.
+    """Count closed issues matching each LabelSpec classification.
 
     This function behaves the same as `count_issues_by_label_specs`,
     but only includes issues whose state is "closed".

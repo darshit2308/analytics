@@ -1,3 +1,4 @@
+"""Tests for GitHub REST API interactions."""
 from unittest.mock import Mock
 
 import pytest
@@ -10,14 +11,13 @@ import hiero_analytics.data_sources.github_search as search
 
 @pytest.fixture
 def mock_client():
+    """Mock GitHub client fixture."""
     return Mock()
 
 
 @pytest.fixture
 def bypass_pagination(monkeypatch):
-    """
-    Replace paginate_page_number so only one page runs.
-    """
+    """Replace paginate_page_number so only one page runs."""
     monkeypatch.setattr(
         search,
         "paginate_page_number",
@@ -30,7 +30,7 @@ def bypass_pagination(monkeypatch):
 # --------------------------------------------------------
 
 def test_search_issues_returns_items(mock_client, bypass_pagination):
-
+    """Test searching issues returns correctly mapped items."""
     mock_client.get.return_value = {
         "items": [
             {"id": 1, "title": "Issue A"},
@@ -49,7 +49,7 @@ def test_search_issues_returns_items(mock_client, bypass_pagination):
 # --------------------------------------------------------
 
 def test_search_issues_calls_client_with_correct_params(mock_client, bypass_pagination):
-
+    """Test searching issues calls client with proper request parameters."""
     mock_client.get.return_value = {"items": []}
 
     search.search_issues(mock_client, "repo:org/repo is:issue")
@@ -72,7 +72,7 @@ def test_search_issues_calls_client_with_correct_params(mock_client, bypass_pagi
 # --------------------------------------------------------
 
 def test_search_issues_filters_non_dict_items(mock_client, bypass_pagination):
-
+    """Test searching issues filters out invalid non-dictionary items."""
     mock_client.get.return_value = {
         "items": [
             {"id": 1},
@@ -93,7 +93,7 @@ def test_search_issues_filters_non_dict_items(mock_client, bypass_pagination):
 # --------------------------------------------------------
 
 def test_search_issues_handles_missing_items(mock_client, bypass_pagination):
-
+    """Test searching issues gracefully handles missing items key in response."""
     mock_client.get.return_value = {}
 
     results = search.search_issues(mock_client, "test")
@@ -106,7 +106,7 @@ def test_search_issues_handles_missing_items(mock_client, bypass_pagination):
 # --------------------------------------------------------
 
 def test_search_issues_uses_paginator(monkeypatch, mock_client):
-
+    """Test searching issues uses the paginator helper."""
     called = {"value": False}
 
     def fake_paginator(page_fn, **_kwargs):
