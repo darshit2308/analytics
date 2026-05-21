@@ -42,6 +42,25 @@ def assign_difficulty(labels, specs):
     return UNKNOWN_DIFFICULTY
 
 
+_TIMELINE_EVENT_ORDER = {
+    "unlabeled": 0,
+    "labeled": 1,
+    "closed": 2,
+    "reopened": 3,
+}
+
+
+def _normalize_datetime(value: datetime | None) -> datetime | None:
+    """Return a timezone-aware UTC datetime for stable comparisons."""
+    if value is None:
+        return None
+
+    if value.tzinfo is None:
+        return value.replace(tzinfo=UTC)
+
+    return value.astimezone(UTC)
+
+
 def _issues_labeled_since(
     issues: list[IssueRecord],
     timeline_events: list[IssueTimelineEventRecord],
@@ -60,17 +79,39 @@ def _issues_labeled_since(
     for spec in difficulty_specs:
         difficulty_label_names |= spec.labels
 
-    # Track net label state per issue: add on "labeled", remove on "unlabeled".
-    labeled: set[tuple[str, int]] = set()
-    for event in timeline_events:
+    # Precompute the set of issue keys we care about so we can skip
+    # repository-wide events for issues outside the fetched set (e.g.
+    # closed issues or issues not matching the query).
+    issue_key_set = {(issue.repo, issue.number) for issue in issues}
+
+    # Sort events chronologically with a stable tie-breaker to handle
+    # unordered results from concurrent per-repo REST API fetches.
+    sorted_events = sorted(
+        timeline_events,
+        key=lambda event: (
+            _normalize_datetime(event.occurred_at),
+            _TIMELINE_EVENT_ORDER.get(event.event_type, 99),
+        ),
+    )
+
+    # Track active difficulty labels per issue: add on "labeled", remove on
+    # "unlabeled".  Keyed by (repo, issue_number, label) so that removing
+    # one difficulty label does not erase the record of a different one.
+    active_labels: set[tuple[str, int, str]] = set()
+    for event in sorted_events:
+        if (event.repo, event.issue_number) not in issue_key_set:
+            continue
         if event.label is None or event.label not in difficulty_label_names:
             continue
 
-        key = (event.repo, event.issue_number)
+        label_key = (event.repo, event.issue_number, event.label)
         if event.event_type == "labeled":
-            labeled.add(key)
+            active_labels.add(label_key)
         elif event.event_type == "unlabeled":
-            labeled.discard(key)
+            active_labels.discard(label_key)
+
+    # Derive the set of qualifying issue keys from active labels.
+    labeled: set[tuple[str, int]] = {(repo, number) for repo, number, _label in active_labels}
 
     # Fallback: include issues created after the cutoff whose current labels
     # match a difficulty spec but lack a corresponding timeline event.
