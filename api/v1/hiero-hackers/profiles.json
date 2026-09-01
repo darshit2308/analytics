@@ -507,7 +507,7 @@
   }
  ],
  "row_count": 46,
- "generated_at": "2026-08-31T18:37:34.338408+00:00",
+ "generated_at": "2026-09-01T14:06:03.671545+00:00",
  "stale": false,
  "periods": {
   "7d": [
@@ -524,8 +524,8 @@
    {
     "contributor": "hendrikebbers",
     "prs_opened": 1,
-    "reviews_given": 4,
-    "merges_done": 4,
+    "reviews_given": 1,
+    "merges_done": 1,
     "issues_opened": 0,
     "labels_applied": 0,
     "repos_touched": 1,
@@ -583,7 +583,7 @@
    },
    {
     "contributor": "HousniAbdellatife",
-    "prs_opened": 1,
+    "prs_opened": 0,
     "reviews_given": 1,
     "merges_done": 0,
     "issues_opened": 0,
@@ -614,8 +614,8 @@
    {
     "contributor": "Jexsie",
     "prs_opened": 1,
-    "reviews_given": 3,
-    "merges_done": 4,
+    "reviews_given": 1,
+    "merges_done": 3,
     "issues_opened": 0,
     "labels_applied": 0,
     "repos_touched": 1,
@@ -624,7 +624,7 @@
    {
     "contributor": "oGranny",
     "prs_opened": 0,
-    "reviews_given": 2,
+    "reviews_given": 1,
     "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0,
@@ -636,7 +636,7 @@
    {
     "contributor": "MonaaEid",
     "prs_opened": 3,
-    "reviews_given": 46,
+    "reviews_given": 45,
     "merges_done": 29,
     "issues_opened": 1,
     "labels_applied": 0,
@@ -665,11 +665,11 @@
    },
    {
     "contributor": "exploreriii",
-    "prs_opened": 36,
+    "prs_opened": 35,
     "reviews_given": 96,
-    "merges_done": 105,
-    "issues_opened": 99,
-    "labels_applied": 256,
+    "merges_done": 104,
+    "issues_opened": 95,
+    "labels_applied": 255,
     "repos_touched": 11,
     "last_active": "2026-08-30 18:03:27+00:00"
    },
