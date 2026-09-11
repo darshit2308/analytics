@@ -88,6 +88,10 @@
    "status": false
   },
   {
+   "repo": "hiero-tck-action",
+   "status": false
+  },
+  {
    "repo": "hiero-verify-fn",
    "status": false
   },
@@ -136,8 +140,8 @@
    "status": true
   }
  ],
- "row_count": 30,
- "generated_at": "2026-09-06T12:47:58.764311+00:00",
+ "row_count": 31,
+ "generated_at": "2026-09-11T13:30:04.763429+00:00",
  "stale": false,
  "group": "Ownership",
  "macro": "Security & scorecards"
