@@ -59,6 +59,20 @@
  ],
  "rows": [
   {
+   "hip": 1522,
+   "hip_title": "Account Staking Configuration via the Hedera Account Service",
+   "repo": "hiero-ledger/hiero-consensus-node",
+   "pr_number": 26944,
+   "pr_title": "feat: account staking configuration via the Hedera Account Service (HIP-1522)",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "title|body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "uration via the Hedera Account Service (HIP-1522)",
+   "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/26944"
+  },
+  {
    "hip": 1427,
    "hip_title": "Historical Record File Wrapping for Block Stream Cutover",
    "repo": "hiero-ledger/hiero-mirror-node",
@@ -1737,6 +1751,20 @@
    "counted": true,
    "snippet": "ad engineer on the Simple Fees project [HIP-1261](https://hips.hedera.com/hip/hip-1261).",
    "url": "https://github.com/hiero-ledger/governance/pull/410"
+  },
+  {
+   "hip": 1261,
+   "hip_title": "Simple Fees",
+   "repo": "hiero-ledger/governance",
+   "pr_number": 753,
+   "pr_title": "chore: add ddeskov-limechain and Fantomasa to hiero-sdk-js-maintainers",
+   "pr_state": "MERGED",
+   "pr_merged_at": "2026-09-30 06:44:51+00:00",
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "rsion`, `ping`/`pingAll`, fee estimate (HIP-1261) and mirror balance JSON-RPC methods (#",
+   "url": "https://github.com/hiero-ledger/governance/pull/753"
   },
   {
    "hip": 1261,
@@ -11681,6 +11709,20 @@
   {
    "hip": 367,
    "hip_title": "Unlimited Token Associations Per Account",
+   "repo": "hiero-ledger/hiero-json-rpc-relay",
+   "pr_number": 5828,
+   "pr_title": "build(deps): bump the minor-and-patch-npm-daily group across 1 directory with 8 updates",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "elationships</code> is deprecated as of HIP-367 and truncated at 1000 relationships. Re",
+   "url": "https://github.com/hiero-ledger/hiero-json-rpc-relay/pull/5828"
+  },
+  {
+   "hip": 367,
+   "hip_title": "Unlimited Token Associations Per Account",
    "repo": "hiero-ledger/hiero-sdk-go",
    "pr_number": 1789,
    "pr_title": "fix(tests): restore mirror-node token balance assertions",
@@ -11691,6 +11733,20 @@
    "counted": true,
    "snippet": "s in e2e tests that were disabled after HIP-367 dropped token balances from the consens",
    "url": "https://github.com/hiero-ledger/hiero-sdk-go/pull/1789"
+  },
+  {
+   "hip": 367,
+   "hip_title": "Unlimited Token Associations Per Account",
+   "repo": "hiero-ledger/hiero-sdk-js",
+   "pr_number": 4393,
+   "pr_title": "chore(release): v2.89.0",
+   "pr_state": "MERGED",
+   "pr_merged_at": "2026-09-28 11:28:02+00:00",
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "tokenRelationships` is deprecated as of HIP-367 and truncated at 1000 relationships. Re",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-js/pull/4393"
   },
   {
    "hip": 206,
@@ -11763,8 +11819,8 @@
    "url": "https://github.com/hiero-ledger/hiero-sdk-python/pull/380"
   }
  ],
- "row_count": 836,
- "generated_at": "2026-09-26T13:44:58.920978+00:00",
+ "row_count": 840,
+ "generated_at": "2026-10-01T16:16:48.180829+00:00",
  "stale": false,
  "group": "Evidence",
  "macro": "HIPs"

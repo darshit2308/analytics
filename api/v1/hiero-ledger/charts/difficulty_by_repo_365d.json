@@ -1,0 +1,329 @@
+{
+ "schema_version": 1,
+ "id": "difficulty_by_repo_365d",
+ "kind": "categories",
+ "org": "hiero-ledger",
+ "source": "difficulty_by_repo_365d.csv",
+ "metric": "open_issues_by_difficulty",
+ "unit": "Open issues",
+ "population": "Open issues in each repository, by difficulty label. 'Unknown' is an open issue with no difficulty label yet. Each issue is counted once.",
+ "dimensions": [
+  "repo",
+  "series"
+ ],
+ "mark": "bar",
+ "stacked": true,
+ "normalize": false,
+ "orientation": "horizontal",
+ "value_format": "integer",
+ "rank": true,
+ "top_n": 12,
+ "reference": null,
+ "value_max": null,
+ "group": null,
+ "category": {
+  "key": "repo",
+  "label": "Repository"
+ },
+ "window": {
+  "kind": "trailing",
+  "days": 365,
+  "end": "2026-10-01T16:10:18.296003+00:00"
+ },
+ "series": [
+  {
+   "key": "Unknown",
+   "label": "Unknown",
+   "color": "#B3B3B3"
+  },
+  {
+   "key": "Good First Issue",
+   "label": "Good First Issue",
+   "color": "#66C2A5"
+  },
+  {
+   "key": "Beginner",
+   "label": "Beginner",
+   "color": "#8DA0CB"
+  },
+  {
+   "key": "Intermediate",
+   "label": "Intermediate",
+   "color": "#FFD92F"
+  },
+  {
+   "key": "Advanced",
+   "label": "Advanced",
+   "color": "#E78AC3"
+  }
+ ],
+ "details": [],
+ "rows": [
+  {
+   "repo": "governance",
+   "Unknown": 12,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "heka-identity-platform",
+   "Unknown": 19,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero",
+   "Unknown": 1,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-block-node",
+   "Unknown": 406,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-cli",
+   "Unknown": 35,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-consensus-node",
+   "Unknown": 683,
+   "Good First Issue": 2,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-consensus-specifications",
+   "Unknown": 4,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-contracts",
+   "Unknown": 2,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-cryptography",
+   "Unknown": 16,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-did-sdk-js",
+   "Unknown": 3,
+   "Good First Issue": 3,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-docs",
+   "Unknown": 2,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-enterprise-java",
+   "Unknown": 49,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-gradle-conventions",
+   "Unknown": 9,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-hederium",
+   "Unknown": 1,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-json-rpc-relay",
+   "Unknown": 91,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-local-node",
+   "Unknown": 8,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-mirror-node",
+   "Unknown": 85,
+   "Good First Issue": 3,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-mirror-node-explorer",
+   "Unknown": 17,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-sdk-cpp",
+   "Unknown": 9,
+   "Good First Issue": 6,
+   "Beginner": 15,
+   "Intermediate": 23,
+   "Advanced": 4
+  },
+  {
+   "repo": "hiero-sdk-go",
+   "Unknown": 16,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-sdk-java",
+   "Unknown": 23,
+   "Good First Issue": 6,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-sdk-js",
+   "Unknown": 31,
+   "Good First Issue": 2,
+   "Beginner": 11,
+   "Intermediate": 1,
+   "Advanced": 2
+  },
+  {
+   "repo": "hiero-sdk-python",
+   "Unknown": 12,
+   "Good First Issue": 3,
+   "Beginner": 9,
+   "Intermediate": 24,
+   "Advanced": 20
+  },
+  {
+   "repo": "hiero-sdk-rust",
+   "Unknown": 23,
+   "Good First Issue": 1,
+   "Beginner": 2,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-sdk-swift",
+   "Unknown": 6,
+   "Good First Issue": 2,
+   "Beginner": 4,
+   "Intermediate": 11,
+   "Advanced": 5
+  },
+  {
+   "repo": "hiero-sdk-tck",
+   "Unknown": 43,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-solo-action",
+   "Unknown": 5,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "hiero-website",
+   "Unknown": 6,
+   "Good First Issue": 1,
+   "Beginner": 1,
+   "Intermediate": 4,
+   "Advanced": 10
+  },
+  {
+   "repo": "sdk-collaboration-hub",
+   "Unknown": 38,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "solo",
+   "Unknown": 203,
+   "Good First Issue": 3,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "solo-containers",
+   "Unknown": 3,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "solo-docs",
+   "Unknown": 15,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "tsc",
+   "Unknown": 8,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  }
+ ],
+ "generated_at": "2026-10-01T16:10:18.296003+00:00",
+ "stale": false
+}
