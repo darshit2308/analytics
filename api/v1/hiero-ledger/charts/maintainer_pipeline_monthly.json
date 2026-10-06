@@ -153,11 +153,11 @@
    "bucket": "2026-10",
    "general_user": 3,
    "triage": 0,
-   "committer": 21,
-   "maintainer": 26,
+   "committer": 20,
+   "maintainer": 27,
    "partial": true
   }
  ],
- "generated_at": "2026-10-01T16:12:09.775580+00:00",
+ "generated_at": "2026-10-06T15:47:34.023727+00:00",
  "stale": false
 }

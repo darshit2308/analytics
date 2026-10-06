@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 365,
-  "end": "2026-10-01T16:10:18.296003+00:00"
+  "end": "2026-10-06T15:46:31.603596+00:00"
  },
  "series": [
   {
@@ -85,7 +85,7 @@
   },
   {
    "repo": "hiero-block-node",
-   "Unknown": 406,
+   "Unknown": 416,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -101,7 +101,7 @@
   },
   {
    "repo": "hiero-consensus-node",
-   "Unknown": 683,
+   "Unknown": 702,
    "Good First Issue": 2,
    "Beginner": 0,
    "Intermediate": 0,
@@ -125,7 +125,7 @@
   },
   {
    "repo": "hiero-cryptography",
-   "Unknown": 16,
+   "Unknown": 17,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -173,7 +173,7 @@
   },
   {
    "repo": "hiero-json-rpc-relay",
-   "Unknown": 91,
+   "Unknown": 97,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -189,7 +189,7 @@
   },
   {
    "repo": "hiero-mirror-node",
-   "Unknown": 85,
+   "Unknown": 88,
    "Good First Issue": 3,
    "Beginner": 0,
    "Intermediate": 0,
@@ -213,7 +213,7 @@
   },
   {
    "repo": "hiero-sdk-go",
-   "Unknown": 16,
+   "Unknown": 17,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -221,7 +221,7 @@
   },
   {
    "repo": "hiero-sdk-java",
-   "Unknown": 23,
+   "Unknown": 22,
    "Good First Issue": 6,
    "Beginner": 0,
    "Intermediate": 0,
@@ -229,7 +229,7 @@
   },
   {
    "repo": "hiero-sdk-js",
-   "Unknown": 31,
+   "Unknown": 34,
    "Good First Issue": 2,
    "Beginner": 11,
    "Intermediate": 1,
@@ -241,7 +241,7 @@
    "Good First Issue": 3,
    "Beginner": 9,
    "Intermediate": 24,
-   "Advanced": 20
+   "Advanced": 21
   },
   {
    "repo": "hiero-sdk-rust",
@@ -261,7 +261,7 @@
   },
   {
    "repo": "hiero-sdk-tck",
-   "Unknown": 43,
+   "Unknown": 44,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -279,13 +279,13 @@
    "repo": "hiero-website",
    "Unknown": 6,
    "Good First Issue": 1,
-   "Beginner": 1,
+   "Beginner": 2,
    "Intermediate": 4,
    "Advanced": 10
   },
   {
    "repo": "sdk-collaboration-hub",
-   "Unknown": 38,
+   "Unknown": 37,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -293,7 +293,7 @@
   },
   {
    "repo": "solo",
-   "Unknown": 203,
+   "Unknown": 209,
    "Good First Issue": 3,
    "Beginner": 0,
    "Intermediate": 0,
@@ -324,6 +324,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-01T16:10:18.296003+00:00",
+ "generated_at": "2026-10-06T15:46:31.603596+00:00",
  "stale": false
 }

@@ -381,10 +381,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-01T16:17:47.319350+00:00",
+ "generated_at": "2026-10-06T15:52:18.267096+00:00",
  "provenance": {
   "git_sha": "193100a",
-  "data_as_of": "2026-10-01T16:10:09.156225+00:00"
+  "data_as_of": "2026-10-01T16:11:53.577190+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -414,7 +414,7 @@
      "id": "loadshare",
      "macro": "Governance",
      "title": "Who carries the review load",
-     "row_count": 22,
+     "row_count": 21,
      "path": "hiero-ledger/loadshare.json"
     },
     {
@@ -442,7 +442,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2858,
+     "row_count": 2859,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -500,7 +500,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 840,
+     "row_count": 846,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -1248,7 +1248,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-01T16:16:48.191172+00:00"
+      "generated_at": "2026-10-06T15:51:37.766531+00:00"
      }
     },
     {
@@ -1330,7 +1330,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-01T16:16:48.186486+00:00"
+      "generated_at": "2026-10-06T15:51:37.763032+00:00"
      }
     },
     {
@@ -1501,7 +1501,7 @@
          "label": "1 month",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_30d.png",
          "width": 2091,
-         "height": 1906,
+         "height": 1844,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_30d.json"
@@ -1511,7 +1511,7 @@
          "label": "Week",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_7d.png",
          "width": 2091,
-         "height": 1718,
+         "height": 1468,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_7d.json"
@@ -1607,7 +1607,7 @@
          "label": "1 month",
          "file": "charts/org/hiero-ledger/release_timeline_30d.png",
          "width": 1790,
-         "height": 1358,
+         "height": 1295,
          "interactive": {
           "kind": "events",
           "path": "hiero-ledger/charts/release_timeline_30d.json"
@@ -1616,8 +1616,8 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/release_timeline_7d.png",
-         "width": 1790,
-         "height": 982,
+         "width": 1792,
+         "height": 606,
          "interactive": {
           "kind": "events",
           "path": "hiero-ledger/charts/release_timeline_7d.json"
@@ -1630,7 +1630,8 @@
         "Filter to the selected span (Week / 1 month / 1 year / Last 18 months).",
         "Plot one point per release, sorted top-to-bottom by release count within that span.",
         "Label each row with its exact count instead of relying on dot density, which would distort under high cadence."
-       ]
+       ],
+       "full_row": true
       }
      ],
      "group": "Release cadence & staleness"
@@ -1666,7 +1667,7 @@
      },
      {
       "label": "active last month %",
-      "value": "11%",
+      "value": "10%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -1814,7 +1815,7 @@
      },
      {
       "label": ">3x their own typical gap",
-      "value": 6,
+      "value": 7,
       "note": "Repos currently more than 3x past their own typical release gap \u2014 furthest behind *relative to their own pace*, not by raw days. A repo with a naturally long cadence isn't counted just for having one; only repos with an established cadence (2+ releases) are eligible.",
       "methodology": [
        "For each repo with 2+ releases, compute the median gap between consecutive releases.",
@@ -2269,7 +2270,7 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-hackers/difficulty_by_repo_7d.png",
-         "width": 2095,
+         "width": 2096,
          "height": 901,
          "interactive": {
           "kind": "categories",
@@ -2392,7 +2393,7 @@
      },
      {
       "label": "active last month %",
-      "value": "35%",
+      "value": "33%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
