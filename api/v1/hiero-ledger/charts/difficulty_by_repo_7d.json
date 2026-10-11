@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 7,
-  "end": "2026-10-06T15:46:32.642859+00:00"
+  "end": "2026-10-11T15:27:23.392655+00:00"
  },
  "series": [
   {
@@ -61,15 +61,7 @@
  "rows": [
   {
    "repo": "hiero-block-node",
-   "Unknown": 25,
-   "Good First Issue": 0,
-   "Beginner": 0,
-   "Intermediate": 0,
-   "Advanced": 0
-  },
-  {
-   "repo": "hiero-cli",
-   "Unknown": 1,
+   "Unknown": 22,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -77,7 +69,7 @@
   },
   {
    "repo": "hiero-consensus-node",
-   "Unknown": 28,
+   "Unknown": 37,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -100,8 +92,16 @@
    "Advanced": 0
   },
   {
+   "repo": "hiero-gradle-conventions",
+   "Unknown": 1,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
    "repo": "hiero-json-rpc-relay",
-   "Unknown": 11,
+   "Unknown": 6,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -109,15 +109,7 @@
   },
   {
    "repo": "hiero-mirror-node",
-   "Unknown": 4,
-   "Good First Issue": 0,
-   "Beginner": 0,
-   "Intermediate": 0,
-   "Advanced": 0
-  },
-  {
-   "repo": "hiero-mirror-node-explorer",
-   "Unknown": 1,
+   "Unknown": 5,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -125,39 +117,31 @@
   },
   {
    "repo": "hiero-sdk-go",
-   "Unknown": 1,
-   "Good First Issue": 0,
-   "Beginner": 0,
-   "Intermediate": 0,
-   "Advanced": 0
-  },
-  {
-   "repo": "hiero-sdk-java",
    "Unknown": 2,
-   "Good First Issue": 2,
+   "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
    "Advanced": 0
   },
   {
    "repo": "hiero-sdk-js",
-   "Unknown": 3,
-   "Good First Issue": 0,
-   "Beginner": 0,
+   "Unknown": 4,
+   "Good First Issue": 7,
+   "Beginner": 3,
    "Intermediate": 0,
    "Advanced": 0
   },
   {
    "repo": "hiero-sdk-python",
-   "Unknown": 2,
-   "Good First Issue": 0,
-   "Beginner": 0,
-   "Intermediate": 0,
-   "Advanced": 1
+   "Unknown": 1,
+   "Good First Issue": 1,
+   "Beginner": 4,
+   "Intermediate": 4,
+   "Advanced": 3
   },
   {
    "repo": "hiero-sdk-tck",
-   "Unknown": 5,
+   "Unknown": 3,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -173,13 +157,21 @@
   },
   {
    "repo": "solo",
-   "Unknown": 11,
+   "Unknown": 16,
+   "Good First Issue": 0,
+   "Beginner": 0,
+   "Intermediate": 0,
+   "Advanced": 0
+  },
+  {
+   "repo": "tsc-eligibility-check",
+   "Unknown": 1,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-06T15:46:32.642859+00:00",
+ "generated_at": "2026-10-11T15:27:23.392655+00:00",
  "stale": false
 }

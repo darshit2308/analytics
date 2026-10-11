@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 365,
-  "end": "2026-10-06T15:51:43.071493+00:00"
+  "end": "2026-10-11T15:31:49.624044+00:00"
  },
  "series": [
   {
@@ -72,8 +72,8 @@
    "Unknown": 1,
    "Good First Issue": 2,
    "Beginner": 5,
-   "Intermediate": 13,
-   "Advanced": 6
+   "Intermediate": 14,
+   "Advanced": 7
   },
   {
    "repo": "hiero-checkout",
@@ -85,11 +85,11 @@
   },
   {
    "repo": "hiero-enterprise-js",
-   "Unknown": 6,
-   "Good First Issue": 0,
-   "Beginner": 0,
-   "Intermediate": 2,
-   "Advanced": 0
+   "Unknown": 7,
+   "Good First Issue": 3,
+   "Beginner": 9,
+   "Intermediate": 4,
+   "Advanced": 1
   },
   {
    "repo": "hiero-journal-rs",
@@ -180,6 +180,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-06T15:51:43.071493+00:00",
+ "generated_at": "2026-10-11T15:31:49.624044+00:00",
  "stale": false
 }

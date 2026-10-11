@@ -119,27 +119,27 @@
    "bucket": "2024",
    "general_user": 219,
    "triage": 0,
-   "committer": 54,
-   "maintainer": 57,
+   "committer": 53,
+   "maintainer": 58,
    "partial": false
   },
   {
    "bucket": "2025",
    "general_user": 312,
    "triage": 3,
-   "committer": 69,
-   "maintainer": 75,
+   "committer": 68,
+   "maintainer": 76,
    "partial": false
   },
   {
    "bucket": "2026",
-   "general_user": 463,
+   "general_user": 476,
    "triage": 7,
    "committer": 65,
    "maintainer": 80,
    "partial": true
   }
  ],
- "generated_at": "2026-10-06T15:47:34.020159+00:00",
+ "generated_at": "2026-10-11T15:28:50.258620+00:00",
  "stale": false
 }

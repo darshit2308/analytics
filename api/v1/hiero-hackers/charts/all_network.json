@@ -64,24 +64,24 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-06T15:51:57.977983+00:00"
+  "end": "2026-10-11T15:32:04.389385+00:00"
  },
  "nodes": [
   {
    "id": "analytics",
-   "active": 20,
+   "active": 21,
    "total": 28,
    "category": "Tooling / DevEx",
-   "x": 0.2017,
-   "y": -0.2093
+   "x": -0.2561,
+   "y": 0.1466
   },
   {
    "id": "hiero-enterprise-js",
-   "active": 6,
-   "total": 7,
+   "active": 8,
+   "total": 9,
    "category": "Apps / Integrations",
-   "x": -1.4871,
-   "y": -0.5927
+   "x": 1.4327,
+   "y": 0.415
   },
   {
    "id": "sdk-automations",
@@ -96,16 +96,16 @@
    "active": 5,
    "total": 5,
    "category": "Other",
-   "x": 0.7608,
-   "y": 1.6
+   "x": -0.9241,
+   "y": -1.6
   },
   {
    "id": "governance",
    "active": 4,
    "total": 15,
    "category": "Governance",
-   "x": 1.4871,
-   "y": -1.6
+   "x": -1.4327,
+   "y": 1.6
   },
   {
    "id": "hiero-x402",
@@ -116,19 +116,11 @@
    "y": -3.22
   },
   {
-   "id": "agentic-support-hiero",
-   "active": 3,
-   "total": 3,
-   "category": "Other",
-   "x": -1.35,
-   "y": -3.22
-  },
-  {
    "id": "clpr-smart-contracts",
    "active": 3,
    "total": 3,
    "category": "EVM / smart contracts",
-   "x": -0.45,
+   "x": -1.35,
    "y": -3.22
   },
   {
@@ -136,7 +128,7 @@
    "active": 3,
    "total": 3,
    "category": "Other",
-   "x": 0.45,
+   "x": -0.45,
    "y": -3.22
   },
   {
@@ -144,7 +136,7 @@
    "active": 3,
    "total": 3,
    "category": "SDKs",
-   "x": 1.35,
+   "x": 0.45,
    "y": -3.22
   },
   {
@@ -152,7 +144,7 @@
    "active": 2,
    "total": 2,
    "category": "EVM / smart contracts",
-   "x": 2.25,
+   "x": 1.35,
    "y": -3.22
   },
   {
@@ -160,7 +152,7 @@
    "active": 2,
    "total": 2,
    "category": "Other",
-   "x": 3.15,
+   "x": 2.25,
    "y": -3.22
   },
   {
@@ -168,15 +160,15 @@
    "active": 2,
    "total": 2,
    "category": "Other",
-   "x": -3.15,
-   "y": -4.12
+   "x": 3.15,
+   "y": -3.22
   },
   {
    "id": "hiero-payment-requests",
    "active": 2,
    "total": 2,
    "category": "Other",
-   "x": -2.25,
+   "x": -3.15,
    "y": -4.12
   },
   {
@@ -184,13 +176,21 @@
    "active": 2,
    "total": 2,
    "category": "Other",
-   "x": -1.35,
+   "x": -2.25,
    "y": -4.12
   },
   {
    "id": "hiero-verify-fn",
    "active": 2,
    "total": 2,
+   "category": "Other",
+   "x": -1.35,
+   "y": -4.12
+  },
+  {
+   "id": "agentic-support-hiero",
+   "active": 1,
+   "total": 3,
    "category": "Other",
    "x": -0.45,
    "y": -4.12
@@ -277,6 +277,6 @@
    "shared": 4
   }
  ],
- "generated_at": "2026-10-06T15:51:57.977983+00:00",
+ "generated_at": "2026-10-11T15:32:04.389385+00:00",
  "stale": false
 }

@@ -381,10 +381,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-06T15:52:18.267096+00:00",
+ "generated_at": "2026-10-11T15:32:22.513570+00:00",
  "provenance": {
   "git_sha": "193100a",
-  "data_as_of": "2026-10-01T16:11:53.577190+00:00"
+  "data_as_of": "2026-10-11T15:27:15.344447+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -393,7 +393,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1475,
+     "row_count": 1488,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -407,14 +407,14 @@
      "id": "understaffed",
      "macro": "Governance",
      "title": "Repos with one or fewer active maintainers",
-     "row_count": 16,
+     "row_count": 15,
      "path": "hiero-ledger/understaffed.json"
     },
     {
      "id": "loadshare",
      "macro": "Governance",
      "title": "Who carries the review load",
-     "row_count": 21,
+     "row_count": 23,
      "path": "hiero-ledger/loadshare.json"
     },
     {
@@ -442,14 +442,14 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2859,
+     "row_count": 2867,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
      "id": "tscrepo",
      "macro": "Governance",
      "title": "TSC activity by repo",
-     "row_count": 107,
+     "row_count": 108,
      "path": "hiero-ledger/tscrepo.json"
     },
     {
@@ -493,21 +493,21 @@
      "id": "hip-no-activity",
      "macro": "HIPs",
      "title": "Approved, no implementation PRs found",
-     "row_count": 4,
+     "row_count": 3,
      "path": "hiero-ledger/hip-no-activity.json"
     },
     {
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 846,
+     "row_count": 852,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
      "id": "hip-unknown",
      "macro": "HIPs",
      "title": "Unknown HIP numbers (review)",
-     "row_count": 11,
+     "row_count": 8,
      "path": "hiero-ledger/hip-unknown.json"
     },
     {
@@ -809,7 +809,7 @@
          "label": "Week",
          "file": "charts/org/hiero-ledger/maintainer_pipeline_daily.png",
          "note": "The narrowest view: the last seven days, one bar per day, same counting rule as the wider tabs. Useful for spotting whether a quiet week is quiet everywhere or just in one role; too short to read a trend from, which is what the 1 month and 1 year views are for. Today's bar covers activity so far today.",
-         "width": 2094,
+         "width": 2096,
          "height": 967,
          "interactive": {
           "kind": "timeseries",
@@ -1248,7 +1248,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-06T15:51:37.766531+00:00"
+      "generated_at": "2026-10-11T15:31:45.252149+00:00"
      }
     },
     {
@@ -1330,7 +1330,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-06T15:51:37.763032+00:00"
+      "generated_at": "2026-10-11T15:31:45.248762+00:00"
      }
     },
     {
@@ -1481,7 +1481,7 @@
           "Count the remaining open issues per repository, stacked by difficulty level."
          ],
          "width": 2094,
-         "height": 2846,
+         "height": 2908,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo.json"
@@ -1491,7 +1491,7 @@
          "label": "1 year",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_365d.png",
          "width": 2094,
-         "height": 2595,
+         "height": 2658,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_365d.json"
@@ -1501,7 +1501,7 @@
          "label": "1 month",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_30d.png",
          "width": 2091,
-         "height": 1844,
+         "height": 1969,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_30d.json"
@@ -1510,8 +1510,8 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_7d.png",
-         "width": 2091,
-         "height": 1468,
+         "width": 2092,
+         "height": 1405,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_7d.json"
@@ -1607,7 +1607,7 @@
          "label": "1 month",
          "file": "charts/org/hiero-ledger/release_timeline_30d.png",
          "width": 1790,
-         "height": 1295,
+         "height": 1170,
          "interactive": {
           "kind": "events",
           "path": "hiero-ledger/charts/release_timeline_30d.json"
@@ -1616,8 +1616,8 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/release_timeline_7d.png",
-         "width": 1792,
-         "height": 606,
+         "width": 1791,
+         "height": 603,
          "interactive": {
           "kind": "events",
           "path": "hiero-ledger/charts/release_timeline_7d.json"
@@ -1657,7 +1657,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1475,
+      "value": 1488,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1832,7 +1832,7 @@
     },
     "contributors": {
      "path": "hiero-ledger/entities/contributors.json",
-     "count": 1475
+     "count": 1488
     }
    }
   },
@@ -1842,7 +1842,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 48,
+     "row_count": 50,
      "path": "hiero-hackers/profiles.json"
     },
     {
@@ -2270,7 +2270,7 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-hackers/difficulty_by_repo_7d.png",
-         "width": 2096,
+         "width": 2095,
          "height": 901,
          "interactive": {
           "kind": "categories",
@@ -2383,7 +2383,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 48,
+      "value": 50,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -2393,7 +2393,7 @@
      },
      {
       "label": "active last month %",
-      "value": "33%",
+      "value": "40%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -2402,7 +2402,7 @@
      },
      {
       "label": "multi-repo %",
-      "value": "35%",
+      "value": "34%",
       "note": "The share of contributors active in two or more repositories \u2014 how much the contributor base spans the organisation rather than sitting in one project.",
       "methodology": [
        "For each contributor, count the distinct repositories they were active in (all-time).",
@@ -2411,7 +2411,7 @@
      },
      {
       "label": "file issues %",
-      "value": "50%",
+      "value": "48%",
       "note": "The share of contributors who have opened at least one issue.",
       "methodology": [
        "Count contributors whose all-time issues-opened total is above zero.",
@@ -2420,7 +2420,7 @@
      },
      {
       "label": "open PRs %",
-      "value": "81%",
+      "value": "82%",
       "note": "The share of contributors who have authored at least one pull request. Used as the proxy for \u201cwrites code\u201d: commits themselves are not ingested, only PRs.",
       "methodology": [
        "Count contributors whose all-time PRs-opened total is above zero.",
@@ -2438,7 +2438,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "27%",
+      "value": "28%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",
@@ -2486,7 +2486,7 @@
     },
     "contributors": {
      "path": "hiero-hackers/entities/contributors.json",
-     "count": 48
+     "count": 50
     }
    }
   }

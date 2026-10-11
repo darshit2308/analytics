@@ -33,7 +33,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-06T15:51:24.348279+00:00"
+  "end": "2026-10-11T15:31:33.191414+00:00"
  },
  "series": [
   {
@@ -46,7 +46,7 @@
  "rows": [
   {
    "repo": "analytics",
-   "contributors": 25
+   "contributors": 23
   },
   {
    "repo": "governance",
@@ -54,7 +54,7 @@
   },
   {
    "repo": "hiero-enterprise-js",
-   "contributors": 7
+   "contributors": 9
   },
   {
    "repo": "sdk-automations",
@@ -133,6 +133,6 @@
    "contributors": 1
   }
  ],
- "generated_at": "2026-10-06T15:51:24.348279+00:00",
+ "generated_at": "2026-10-11T15:31:33.191414+00:00",
  "stale": false
 }

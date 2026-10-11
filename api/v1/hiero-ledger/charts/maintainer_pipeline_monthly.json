@@ -81,16 +81,16 @@
    "bucket": "2026-01",
    "general_user": 83,
    "triage": 5,
-   "committer": 53,
-   "maintainer": 60,
+   "committer": 52,
+   "maintainer": 61,
    "partial": false
   },
   {
    "bucket": "2026-02",
    "general_user": 83,
    "triage": 5,
-   "committer": 54,
-   "maintainer": 64,
+   "committer": 53,
+   "maintainer": 65,
    "partial": false
   },
   {
@@ -151,13 +151,13 @@
   },
   {
    "bucket": "2026-10",
-   "general_user": 3,
-   "triage": 0,
-   "committer": 20,
-   "maintainer": 27,
+   "general_user": 29,
+   "triage": 2,
+   "committer": 37,
+   "maintainer": 46,
    "partial": true
   }
  ],
- "generated_at": "2026-10-06T15:47:34.023727+00:00",
+ "generated_at": "2026-10-11T15:28:50.261971+00:00",
  "stale": false
 }

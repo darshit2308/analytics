@@ -37,7 +37,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-06T15:51:59.430616+00:00"
+  "end": "2026-10-11T15:32:05.827712+00:00"
  },
  "series": [
   {
@@ -50,7 +50,7 @@
  "rows": [
   {
    "repo": "hiero-enterprise-js",
-   "score": 8.0
+   "score": 7.3
   },
   {
    "repo": "analytics",
@@ -81,6 +81,6 @@
    "score": 6.2
   }
  ],
- "generated_at": "2026-10-06T15:51:59.430616+00:00",
+ "generated_at": "2026-10-11T15:32:05.827712+00:00",
  "stale": false
 }
