@@ -101,18 +101,18 @@
   },
   {
    "bucket": "2022",
-   "general_user": 182,
+   "general_user": 183,
    "triage": 0,
    "committer": 35,
-   "maintainer": 24,
+   "maintainer": 23,
    "partial": false
   },
   {
    "bucket": "2023",
-   "general_user": 196,
+   "general_user": 197,
    "triage": 0,
    "committer": 48,
-   "maintainer": 32,
+   "maintainer": 31,
    "partial": false
   },
   {
@@ -125,21 +125,21 @@
   },
   {
    "bucket": "2025",
-   "general_user": 312,
+   "general_user": 313,
    "triage": 3,
-   "committer": 68,
+   "committer": 67,
    "maintainer": 76,
    "partial": false
   },
   {
    "bucket": "2026",
-   "general_user": 476,
+   "general_user": 484,
    "triage": 7,
-   "committer": 65,
-   "maintainer": 80,
+   "committer": 66,
+   "maintainer": 79,
    "partial": true
   }
  ],
- "generated_at": "2026-10-11T15:28:50.258620+00:00",
+ "generated_at": "2026-10-16T13:51:32.366022+00:00",
  "stale": false
 }

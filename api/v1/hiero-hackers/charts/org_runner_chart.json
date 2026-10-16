@@ -34,7 +34,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-11T15:32:19.546066+00:00"
+  "end": "2026-10-16T13:55:32.642139+00:00"
  },
  "series": [
   {
@@ -64,13 +64,13 @@
   {
    "repo": "analytics",
    "Self-Hosted": 0,
-   "Standard": 12,
+   "Standard": 13,
    "Indeterminate": 0
   },
   {
    "repo": "sdk-automations",
    "Self-Hosted": 0,
-   "Standard": 13,
+   "Standard": 14,
    "Indeterminate": 0
   },
   {
@@ -170,6 +170,6 @@
    "Indeterminate": 0
   }
  ],
- "generated_at": "2026-10-11T15:32:19.546066+00:00",
+ "generated_at": "2026-10-16T13:55:32.642139+00:00",
  "stale": false
 }

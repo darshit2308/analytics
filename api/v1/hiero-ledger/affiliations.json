@@ -467,12 +467,6 @@
    "method": "automated"
   },
   {
-   "login": "olsentorfinn",
-   "organisation": "Hashgraph",
-   "status": "affiliated",
-   "method": "automated"
-  },
-  {
    "login": "piotrswierzy",
    "organisation": "BlockyDevs",
    "status": "affiliated",
@@ -647,13 +641,13 @@
    "method": "automated"
   }
  ],
- "row_count": 104,
+ "row_count": 103,
  "label": "Maintainers",
  "action": {
   "url": "https://github.com/hiero-hackers/analytics/issues",
   "label": "Suggest a correction"
  },
- "generated_at": "2026-10-11T15:30:32.912471+00:00",
+ "generated_at": "2026-10-16T13:53:24.346713+00:00",
  "stale": false,
  "group": "Organisation diversity",
  "variants": [
@@ -1126,12 +1120,6 @@
      "method": "automated"
     },
     {
-     "login": "olsentorfinn",
-     "organisation": "Hashgraph",
-     "status": "affiliated",
-     "method": "automated"
-    },
-    {
      "login": "piotrswierzy",
      "organisation": "BlockyDevs",
      "status": "affiliated",
@@ -1306,13 +1294,13 @@
      "method": "automated"
     }
    ],
-   "row_count": 104,
+   "row_count": 103,
    "label": "Maintainers",
    "action": {
     "url": "https://github.com/hiero-hackers/analytics/issues",
     "label": "Suggest a correction"
    },
-   "generated_at": "2026-10-11T15:30:32.912471+00:00",
+   "generated_at": "2026-10-16T13:53:24.346713+00:00",
    "stale": false
   },
   {
@@ -1444,12 +1432,6 @@
     {
      "login": "bartoszsolkabd",
      "organisation": "BlockyDevs",
-     "status": "affiliated",
-     "method": "automated"
-    },
-    {
-     "login": "beeradb",
-     "organisation": "Hashgraph",
      "status": "affiliated",
      "method": "automated"
     },
@@ -1856,12 +1838,6 @@
      "method": "automated"
     },
     {
-     "login": "naydenovn",
-     "organisation": "LimeChain",
-     "status": "affiliated",
-     "method": "automated"
-    },
-    {
      "login": "nickpoorman",
      "organisation": "Independent",
      "status": "independent",
@@ -1869,6 +1845,12 @@
     },
     {
      "login": "nirbosl",
+     "organisation": "Hashgraph",
+     "status": "affiliated",
+     "method": "automated"
+    },
+    {
+     "login": "olsentorfinn",
      "organisation": "Hashgraph",
      "status": "affiliated",
      "method": "automated"
@@ -2120,13 +2102,13 @@
      "method": "automated"
     }
    ],
-   "row_count": 130,
+   "row_count": 129,
    "label": "Committers",
    "action": {
     "url": "https://github.com/hiero-hackers/analytics/issues",
     "label": "Suggest a correction"
    },
-   "generated_at": "2026-10-11T15:30:33.780099+00:00",
+   "generated_at": "2026-10-16T13:53:25.199878+00:00",
    "stale": false
   }
  ],

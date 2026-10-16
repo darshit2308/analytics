@@ -45,11 +45,11 @@
   },
   {
    "repo": "hiero-hackers/hiero-enterprise-js",
-   "latest_release": "2026-08-15 12:22:00+00:00",
-   "days_since_last_release": 57.0,
-   "median_gap_days": 3.0,
-   "staleness_ratio": 19.0,
-   "staleness_bucket": "overdue"
+   "latest_release": "2026-10-15 16:15:38+00:00",
+   "days_since_last_release": 0.0,
+   "median_gap_days": 32.0,
+   "staleness_ratio": 0.0,
+   "staleness_bucket": "on_pace"
   },
   {
    "repo": "hiero-hackers/analytics",
@@ -142,9 +142,9 @@
   {
    "repo": "hiero-hackers/vscode-hedera-transaction-viewer",
    "latest_release": "2026-08-12 23:07:14+00:00",
-   "days_since_last_release": 59.0,
+   "days_since_last_release": 64.0,
    "median_gap_days": 21.0,
-   "staleness_ratio": 2.8,
+   "staleness_ratio": 3.0,
    "staleness_bucket": "watch"
   },
   {
@@ -190,7 +190,7 @@
   {
    "repo": "hiero-hackers/hiero-streams-rs",
    "latest_release": "2026-08-02 07:52:31+00:00",
-   "days_since_last_release": 70.0,
+   "days_since_last_release": 75.0,
    "median_gap_days": 0.0,
    "staleness_ratio": null,
    "staleness_bucket": "insufficient_history"
@@ -214,7 +214,7 @@
   {
    "repo": "hiero-hackers/hiero-notifications",
    "latest_release": "2026-07-18 22:52:04+00:00",
-   "days_since_last_release": 84.0,
+   "days_since_last_release": 89.0,
    "median_gap_days": null,
    "staleness_ratio": null,
    "staleness_bucket": "insufficient_history"
@@ -222,7 +222,7 @@
   {
    "repo": "hiero-hackers/hiero-receipts",
    "latest_release": "2026-07-21 15:54:45+00:00",
-   "days_since_last_release": 81.0,
+   "days_since_last_release": 86.0,
    "median_gap_days": 0.0,
    "staleness_ratio": null,
    "staleness_bucket": "insufficient_history"
@@ -238,7 +238,7 @@
   {
    "repo": "hiero-hackers/hiero-payment-requests",
    "latest_release": "2026-07-21 13:07:07+00:00",
-   "days_since_last_release": 82.0,
+   "days_since_last_release": 87.0,
    "median_gap_days": 0.0,
    "staleness_ratio": null,
    "staleness_bucket": "insufficient_history"
@@ -246,22 +246,22 @@
   {
    "repo": "hiero-hackers/hiero-x402",
    "latest_release": "2026-07-31 15:02:38+00:00",
-   "days_since_last_release": 72.0,
+   "days_since_last_release": 76.0,
    "median_gap_days": null,
    "staleness_ratio": null,
    "staleness_bucket": "insufficient_history"
   },
   {
    "repo": "hiero-hackers/hiero-tck-action",
-   "latest_release": null,
-   "days_since_last_release": null,
+   "latest_release": "2026-10-12 17:13:27+00:00",
+   "days_since_last_release": 3.0,
    "median_gap_days": null,
    "staleness_ratio": null,
-   "staleness_bucket": "never_released"
+   "staleness_bucket": "insufficient_history"
   }
  ],
  "row_count": 28,
- "generated_at": "2026-10-11T15:32:21.786849+00:00",
+ "generated_at": "2026-10-16T13:55:35.648815+00:00",
  "stale": false,
  "group": "Release cadence & staleness",
  "macro": "Releases"
