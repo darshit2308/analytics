@@ -33,12 +33,13 @@
  ],
  "categories": [
   "hiero-enterprise-js",
+  "sdk-automations",
   "hiero-tck-action"
  ],
  "window": {
   "kind": "trailing",
   "days": 30,
-  "end": "2026-10-16T13:55:35.638032+00:00"
+  "end": "2026-10-21T14:30:27.161314+00:00"
  },
  "rows": [
   {
@@ -52,8 +53,26 @@
    "time": "2026-10-15T16:15:38Z",
    "tag_name": "v0.4.0",
    "type": "release"
+  },
+  {
+   "repo": "hiero-enterprise-js",
+   "time": "2026-10-17T20:28:13Z",
+   "tag_name": "v0.5.0",
+   "type": "release"
+  },
+  {
+   "repo": "sdk-automations",
+   "time": "2026-10-18T15:07:09Z",
+   "tag_name": "v0.1.0",
+   "type": "prerelease"
+  },
+  {
+   "repo": "sdk-automations",
+   "time": "2026-10-19T20:04:32Z",
+   "tag_name": "v0.1.1",
+   "type": "prerelease"
   }
  ],
- "generated_at": "2026-10-16T13:55:35.638032+00:00",
+ "generated_at": "2026-10-21T14:30:27.161314+00:00",
  "stale": false
 }

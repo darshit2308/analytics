@@ -33,7 +33,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-16T13:54:39.157725+00:00"
+  "end": "2026-10-21T14:29:23.946197+00:00"
  },
  "series": [
   {
@@ -46,7 +46,7 @@
  "rows": [
   {
    "repo": "analytics",
-   "contributors": 23
+   "contributors": 24
   },
   {
    "repo": "governance",
@@ -58,7 +58,7 @@
   },
   {
    "repo": "sdk-automations",
-   "contributors": 6
+   "contributors": 7
   },
   {
    "repo": "hiero-streams-rs",
@@ -70,7 +70,7 @@
   },
   {
    "repo": "hiero-sdk-v3-prototyping",
-   "contributors": 3
+   "contributors": 4
   },
   {
    "repo": "agentic-support-hiero",
@@ -133,6 +133,6 @@
    "contributors": 1
   }
  ],
- "generated_at": "2026-10-16T13:54:39.157725+00:00",
+ "generated_at": "2026-10-21T14:29:23.946197+00:00",
  "stale": false
 }

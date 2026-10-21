@@ -35,7 +35,7 @@
  "window": {
   "kind": "all",
   "days": null,
-  "end": "2026-10-16T13:54:56.686095+00:00"
+  "end": "2026-10-21T14:29:44.172012+00:00"
  },
  "series": [
   {
@@ -76,10 +76,10 @@
   },
   {
    "repo": "analytics",
-   "Unknown": 3,
+   "Unknown": 5,
    "Good First Issue": 2,
    "Beginner": 6,
-   "Intermediate": 15,
+   "Intermediate": 16,
    "Advanced": 6
   },
   {
@@ -92,11 +92,11 @@
   },
   {
    "repo": "hiero-enterprise-js",
-   "Unknown": 7,
+   "Unknown": 9,
    "Good First Issue": 3,
    "Beginner": 9,
-   "Intermediate": 5,
-   "Advanced": 1
+   "Intermediate": 12,
+   "Advanced": 5
   },
   {
    "repo": "hiero-journal-rs",
@@ -187,6 +187,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-16T13:54:56.686095+00:00",
+ "generated_at": "2026-10-21T14:29:44.172012+00:00",
  "stale": false
 }

@@ -25,8 +25,8 @@
  "rank": true,
  "top_n": 15,
  "reference": {
-  "value": 6.65,
-  "label": "Org median 6.65"
+  "value": 7.05,
+  "label": "Org median 7.05"
  },
  "value_max": 10,
  "group": null,
@@ -37,7 +37,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-16T13:55:13.882588+00:00"
+  "end": "2026-10-21T14:30:05.415202+00:00"
  },
  "series": [
   {
@@ -50,15 +50,15 @@
  "rows": [
   {
    "repo": "hiero-enterprise-js",
-   "score": 7.6
+   "score": 7.8
   },
   {
    "repo": "analytics",
-   "score": 9.2
+   "score": 9.1
   },
   {
    "repo": "sdk-automations",
-   "score": 9.0
+   "score": 8.5
   },
   {
    "repo": "hiero-verify-fn",
@@ -66,21 +66,21 @@
   },
   {
    "repo": "hiero-notifications",
-   "score": 5.8
+   "score": 6.0
   },
   {
    "repo": "hiero-receipts",
-   "score": 6.2
+   "score": 6.6
   },
   {
    "repo": "hiero-payment-requests",
-   "score": 6.3
+   "score": 7.1
   },
   {
    "repo": "hiero-x402",
-   "score": 6.2
+   "score": 6.1
   }
  ],
- "generated_at": "2026-10-16T13:55:13.882588+00:00",
+ "generated_at": "2026-10-21T14:30:05.415202+00:00",
  "stale": false
 }

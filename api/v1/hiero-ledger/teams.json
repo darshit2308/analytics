@@ -87,187 +87,43 @@
    "members": 2,
    "active_members": 2,
    "status": "active",
-   "days_since_active": 15.0,
+   "days_since_active": 20.0,
    "prs_opened": 650,
    "reviews_given": 2500,
    "merges_done": 1122,
    "issues_opened": 959,
-   "labels_applied": 1851
+   "labels_applied": 1859
   },
   {
    "team": "hiero-sdk-swift-committers",
    "members": 2,
    "active_members": 1,
    "status": "active",
-   "days_since_active": 15.0,
+   "days_since_active": 20.0,
    "prs_opened": 465,
    "reviews_given": 1635,
    "merges_done": 726,
    "issues_opened": 829,
-   "labels_applied": 1701
-  },
-  {
-   "team": "hiero-did-sdk-committers",
-   "members": 4,
-   "active_members": 4,
-   "status": "active",
-   "days_since_active": 9.0,
-   "prs_opened": 62,
-   "reviews_given": 315,
-   "merges_done": 11,
-   "issues_opened": 216,
-   "labels_applied": 306
-  },
-  {
-   "team": "hiero-did-sdk-js-committers",
-   "members": 3,
-   "active_members": 3,
-   "status": "active",
-   "days_since_active": 9.0,
-   "prs_opened": 62,
-   "reviews_given": 311,
-   "merges_done": 11,
-   "issues_opened": 216,
-   "labels_applied": 306
-  },
-  {
-   "team": "hiero-did-sdk-python-committers",
-   "members": 3,
-   "active_members": 3,
-   "status": "active",
-   "days_since_active": 9.0,
-   "prs_opened": 54,
-   "reviews_given": 258,
-   "merges_done": 3,
-   "issues_opened": 216,
-   "labels_applied": 306
-  },
-  {
-   "team": "hiero-cli-committers",
-   "members": 7,
-   "active_members": 7,
-   "status": "active",
-   "days_since_active": 8.0,
-   "prs_opened": 459,
-   "reviews_given": 1426,
-   "merges_done": 318,
-   "issues_opened": 633,
-   "labels_applied": 83
-  },
-  {
-   "team": "hiero-cli-maintainers",
-   "members": 6,
-   "active_members": 6,
-   "status": "active",
-   "days_since_active": 8.0,
-   "prs_opened": 195,
-   "reviews_given": 817,
-   "merges_done": 140,
-   "issues_opened": 343,
-   "labels_applied": 82
-  },
-  {
-   "team": "lf-staff",
-   "members": 9,
-   "active_members": 2,
-   "status": "active",
-   "days_since_active": 8.0,
-   "prs_opened": 455,
-   "reviews_given": 584,
-   "merges_done": 360,
-   "issues_opened": 36,
-   "labels_applied": 28
-  },
-  {
-   "team": "tsc-eligibility-check-admins",
-   "members": 2,
-   "active_members": 2,
-   "status": "active",
-   "days_since_active": 8.0,
-   "prs_opened": 455,
-   "reviews_given": 584,
-   "merges_done": 360,
-   "issues_opened": 36,
-   "labels_applied": 28
-  },
-  {
-   "team": "heka-identity-platform-committers",
-   "members": 4,
-   "active_members": 4,
-   "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 103,
-   "reviews_given": 299,
-   "merges_done": 185,
-   "issues_opened": 15,
-   "labels_applied": 20
-  },
-  {
-   "team": "heka-identity-platform-maintainers",
-   "members": 4,
-   "active_members": 2,
-   "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 88,
-   "reviews_given": 199,
-   "merges_done": 177,
-   "issues_opened": 14,
-   "labels_applied": 19
+   "labels_applied": 1709
   },
   {
    "team": "hiero-consensus-node-devops-codeowners",
    "members": 8,
    "active_members": 8,
    "status": "active",
-   "days_since_active": 2.0,
+   "days_since_active": 7.0,
    "prs_opened": 131,
    "reviews_given": 295,
    "merges_done": 33,
    "issues_opened": 72,
-   "labels_applied": 68
-  },
-  {
-   "team": "hiero-did-sdk-js-maintainers",
-   "members": 9,
-   "active_members": 6,
-   "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 148,
-   "reviews_given": 474,
-   "merges_done": 188,
-   "issues_opened": 230,
-   "labels_applied": 325
-  },
-  {
-   "team": "hiero-did-sdk-maintainers",
-   "members": 9,
-   "active_members": 6,
-   "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 148,
-   "reviews_given": 474,
-   "merges_done": 188,
-   "issues_opened": 230,
-   "labels_applied": 325
-  },
-  {
-   "team": "hiero-did-sdk-python-maintainers",
-   "members": 6,
-   "active_members": 4,
-   "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 139,
-   "reviews_given": 417,
-   "merges_done": 180,
-   "issues_opened": 229,
-   "labels_applied": 324
+   "labels_applied": 70
   },
   {
    "team": "hiero-sdk-rust-committers",
    "members": 3,
    "active_members": 3,
    "status": "active",
-   "days_since_active": 2.0,
+   "days_since_active": 7.0,
    "prs_opened": 345,
    "reviews_given": 1435,
    "merges_done": 704,
@@ -275,28 +131,40 @@
    "labels_applied": 179
   },
   {
-   "team": "identity-collaboration-hub-committers",
-   "members": 4,
-   "active_members": 4,
-   "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 142,
-   "reviews_given": 437,
-   "merges_done": 180,
-   "issues_opened": 230,
-   "labels_applied": 325
-  },
-  {
-   "team": "identity-collaboration-hub-maintainers",
-   "members": 8,
+   "team": "sdk-collaboration-hub-committers",
+   "members": 5,
    "active_members": 5,
    "status": "active",
-   "days_since_active": 2.0,
-   "prs_opened": 140,
-   "reviews_given": 417,
-   "merges_done": 180,
-   "issues_opened": 229,
-   "labels_applied": 324
+   "days_since_active": 6.0,
+   "prs_opened": 1172,
+   "reviews_given": 6961,
+   "merges_done": 2421,
+   "issues_opened": 1408,
+   "labels_applied": 2241
+  },
+  {
+   "team": "hiero-cli-committers",
+   "members": 7,
+   "active_members": 7,
+   "status": "active",
+   "days_since_active": 4.0,
+   "prs_opened": 459,
+   "reviews_given": 1426,
+   "merges_done": 318,
+   "issues_opened": 634,
+   "labels_applied": 85
+  },
+  {
+   "team": "hiero-cli-maintainers",
+   "members": 6,
+   "active_members": 6,
+   "status": "active",
+   "days_since_active": 4.0,
+   "prs_opened": 195,
+   "reviews_given": 817,
+   "merges_done": 140,
+   "issues_opened": 344,
+   "labels_applied": 84
   },
   {
    "team": "hashgraph-online-standards-sdk-js-committers",
@@ -304,7 +172,7 @@
    "active_members": 1,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 35,
+   "prs_opened": 36,
    "reviews_given": 93,
    "merges_done": 26,
    "issues_opened": 9,
@@ -316,11 +184,35 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 43,
+   "prs_opened": 44,
    "reviews_given": 127,
    "merges_done": 26,
    "issues_opened": 13,
    "labels_applied": 11
+  },
+  {
+   "team": "heka-identity-platform-committers",
+   "members": 4,
+   "active_members": 4,
+   "status": "active",
+   "days_since_active": 1.0,
+   "prs_opened": 103,
+   "reviews_given": 311,
+   "merges_done": 190,
+   "issues_opened": 15,
+   "labels_applied": 20
+  },
+  {
+   "team": "heka-identity-platform-maintainers",
+   "members": 4,
+   "active_members": 2,
+   "status": "active",
+   "days_since_active": 1.0,
+   "prs_opened": 88,
+   "reviews_given": 211,
+   "merges_done": 182,
+   "issues_opened": 14,
+   "labels_applied": 19
   },
   {
    "team": "hiero-consensus-specifications-committers",
@@ -328,7 +220,7 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 113,
+   "prs_opened": 114,
    "reviews_given": 154,
    "merges_done": 31,
    "issues_opened": 36,
@@ -340,131 +232,83 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 113,
+   "prs_opened": 114,
    "reviews_given": 153,
    "merges_done": 31,
    "issues_opened": 14,
    "labels_applied": 12
   },
   {
-   "team": "hiero-docs-committers",
-   "members": 3,
-   "active_members": 3,
+   "team": "hiero-enterprise-java-committers",
+   "members": 2,
+   "active_members": 2,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 385,
-   "reviews_given": 779,
-   "merges_done": 457,
-   "issues_opened": 1555,
-   "labels_applied": 2602
+   "prs_opened": 122,
+   "reviews_given": 722,
+   "merges_done": 146,
+   "issues_opened": 156,
+   "labels_applied": 222
   },
   {
-   "team": "hiero-docs-maintainers",
-   "members": 3,
-   "active_members": 3,
+   "team": "hiero-enterprise-java-triage",
+   "members": 2,
+   "active_members": 2,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 385,
-   "reviews_given": 779,
-   "merges_done": 457,
-   "issues_opened": 1555,
-   "labels_applied": 2602
+   "prs_opened": 200,
+   "reviews_given": 912,
+   "merges_done": 261,
+   "issues_opened": 194,
+   "labels_applied": 258
   },
   {
-   "team": "hiero-improvement-proposals-maintainers",
-   "members": 4,
+   "team": "hiero-hederium-maintainers",
+   "members": 2,
+   "active_members": 2,
+   "status": "active",
+   "days_since_active": 1.0,
+   "prs_opened": 525,
+   "reviews_given": 1649,
+   "merges_done": 589,
+   "issues_opened": 475,
+   "labels_applied": 674
+  },
+  {
+   "team": "security-maintainers",
+   "members": 8,
    "active_members": 4,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 625,
-   "reviews_given": 1198,
-   "merges_done": 819,
-   "issues_opened": 273,
-   "labels_applied": 338
+   "prs_opened": 379,
+   "reviews_given": 1427,
+   "merges_done": 584,
+   "issues_opened": 303,
+   "labels_applied": 628
   },
   {
-   "team": "hiero-sdk-cpp-maintainers",
+   "team": "solo-admins",
    "members": 3,
    "active_members": 3,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 778,
-   "reviews_given": 3024,
-   "merges_done": 1310,
-   "issues_opened": 2119,
-   "labels_applied": 3979
+   "prs_opened": 851,
+   "reviews_given": 5813,
+   "merges_done": 2474,
+   "issues_opened": 1200,
+   "labels_applied": 2742
   },
   {
-   "team": "hiero-sdk-go-committers",
-   "members": 5,
-   "active_members": 5,
+   "team": "solo-docs-admins",
+   "members": 2,
+   "active_members": 2,
    "status": "active",
    "days_since_active": 1.0,
-   "prs_opened": 757,
-   "reviews_given": 4081,
-   "merges_done": 1274,
-   "issues_opened": 1648,
-   "labels_applied": 2701
-  },
-  {
-   "team": "hiero-sdk-java-committers",
-   "members": 3,
-   "active_members": 3,
-   "status": "active",
-   "days_since_active": 1.0,
-   "prs_opened": 565,
-   "reviews_given": 3198,
-   "merges_done": 878,
-   "issues_opened": 1518,
-   "labels_applied": 2551
-  },
-  {
-   "team": "hiero-sdk-rust-maintainers",
-   "members": 4,
-   "active_members": 4,
-   "status": "active",
-   "days_since_active": 1.0,
-   "prs_opened": 428,
-   "reviews_given": 1543,
-   "merges_done": 707,
-   "issues_opened": 1364,
-   "labels_applied": 2332
-  },
-  {
-   "team": "roadmap-committers",
-   "members": 6,
-   "active_members": 6,
-   "status": "active",
-   "days_since_active": 1.0,
-   "prs_opened": 1902,
-   "reviews_given": 14399,
-   "merges_done": 5784,
-   "issues_opened": 2352,
-   "labels_applied": 6097
-  },
-  {
-   "team": "roadmap-maintainers",
-   "members": 3,
-   "active_members": 3,
-   "status": "active",
-   "days_since_active": 1.0,
-   "prs_opened": 1632,
-   "reviews_given": 12743,
-   "merges_done": 5403,
-   "issues_opened": 1690,
-   "labels_applied": 4788
-  },
-  {
-   "team": "sdk-collaboration-hub-committers",
-   "members": 5,
-   "active_members": 5,
-   "status": "active",
-   "days_since_active": 1.0,
-   "prs_opened": 1172,
-   "reviews_given": 6961,
-   "merges_done": 2421,
-   "issues_opened": 1408,
-   "labels_applied": 2235
+   "prs_opened": 802,
+   "reviews_given": 5637,
+   "merges_done": 2452,
+   "issues_opened": 1136,
+   "labels_applied": 2651
   },
   {
    "team": "github-maintainers",
@@ -472,11 +316,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2092,
-   "reviews_given": 13558,
-   "merges_done": 4964,
-   "issues_opened": 3128,
-   "labels_applied": 5538
+   "prs_opened": 2095,
+   "reviews_given": 13578,
+   "merges_done": 4966,
+   "issues_opened": 3130,
+   "labels_applied": 5565
   },
   {
    "team": "governance-write",
@@ -484,11 +328,11 @@
    "active_members": 66,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 17358,
-   "reviews_given": 99171,
-   "merges_done": 28163,
-   "issues_opened": 17808,
-   "labels_applied": 28625
+   "prs_opened": 17397,
+   "reviews_given": 99407,
+   "merges_done": 28213,
+   "issues_opened": 17874,
+   "labels_applied": 28754
   },
   {
    "team": "hiero-block-node-committers",
@@ -496,11 +340,11 @@
    "active_members": 12,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2542,
-   "reviews_given": 25372,
-   "merges_done": 3240,
-   "issues_opened": 3331,
-   "labels_applied": 5073
+   "prs_opened": 2558,
+   "reviews_given": 25503,
+   "merges_done": 3255,
+   "issues_opened": 3356,
+   "labels_applied": 5124
   },
   {
    "team": "hiero-block-node-internal-contributors",
@@ -508,11 +352,11 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1738,
-   "reviews_given": 19054,
-   "merges_done": 2301,
-   "issues_opened": 3104,
-   "labels_applied": 5470
+   "prs_opened": 1749,
+   "reviews_given": 19140,
+   "merges_done": 2307,
+   "issues_opened": 3126,
+   "labels_applied": 5517
   },
   {
    "team": "hiero-block-node-maintainers",
@@ -520,11 +364,11 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1436,
-   "reviews_given": 18733,
-   "merges_done": 2022,
-   "issues_opened": 1860,
-   "labels_applied": 3194
+   "prs_opened": 1446,
+   "reviews_given": 18817,
+   "merges_done": 2028,
+   "issues_opened": 1882,
+   "labels_applied": 3231
   },
   {
    "team": "hiero-consensus-node-ci-codeowners",
@@ -532,11 +376,11 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2001,
-   "reviews_given": 9207,
-   "merges_done": 2794,
-   "issues_opened": 1904,
-   "labels_applied": 2244
+   "prs_opened": 2031,
+   "reviews_given": 9240,
+   "merges_done": 2798,
+   "issues_opened": 1908,
+   "labels_applied": 2258
   },
   {
    "team": "hiero-consensus-node-committers",
@@ -544,11 +388,11 @@
    "active_members": 46,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 10046,
-   "reviews_given": 65953,
-   "merges_done": 8762,
-   "issues_opened": 10818,
-   "labels_applied": 11599
+   "prs_opened": 10109,
+   "reviews_given": 66218,
+   "merges_done": 8802,
+   "issues_opened": 10874,
+   "labels_applied": 11651
   },
   {
    "team": "hiero-consensus-node-consensus-codeowners",
@@ -556,11 +400,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1886,
-   "reviews_given": 11437,
-   "merges_done": 1724,
-   "issues_opened": 2562,
-   "labels_applied": 1965
+   "prs_opened": 1897,
+   "reviews_given": 11464,
+   "merges_done": 1733,
+   "issues_opened": 2599,
+   "labels_applied": 1975
   },
   {
    "team": "hiero-consensus-node-execution-codeowners",
@@ -568,11 +412,11 @@
    "active_members": 18,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 5414,
-   "reviews_given": 25054,
-   "merges_done": 4768,
-   "issues_opened": 4793,
-   "labels_applied": 3770
+   "prs_opened": 5459,
+   "reviews_given": 25154,
+   "merges_done": 4787,
+   "issues_opened": 4838,
+   "labels_applied": 3782
   },
   {
    "team": "hiero-consensus-node-foundation-codeowners",
@@ -580,11 +424,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1287,
-   "reviews_given": 8815,
-   "merges_done": 1036,
-   "issues_opened": 1562,
-   "labels_applied": 2261
+   "prs_opened": 1295,
+   "reviews_given": 8861,
+   "merges_done": 1041,
+   "issues_opened": 1571,
+   "labels_applied": 2284
   },
   {
    "team": "hiero-consensus-node-internal-contributors",
@@ -592,11 +436,11 @@
    "active_members": 11,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1804,
-   "reviews_given": 7967,
-   "merges_done": 1517,
-   "issues_opened": 3269,
-   "labels_applied": 5392
+   "prs_opened": 1811,
+   "reviews_given": 8009,
+   "merges_done": 1523,
+   "issues_opened": 3310,
+   "labels_applied": 5424
   },
   {
    "team": "hiero-consensus-node-maintainers",
@@ -604,11 +448,11 @@
    "active_members": 16,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 6154,
-   "reviews_given": 38037,
-   "merges_done": 6367,
-   "issues_opened": 7003,
-   "labels_applied": 9071
+   "prs_opened": 6165,
+   "reviews_given": 38140,
+   "merges_done": 6375,
+   "issues_opened": 7042,
+   "labels_applied": 9108
   },
   {
    "team": "hiero-consensus-node-release-engineers",
@@ -616,11 +460,11 @@
    "active_members": 9,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 4326,
-   "reviews_given": 21674,
-   "merges_done": 4561,
-   "issues_opened": 4027,
-   "labels_applied": 3607
+   "prs_opened": 4335,
+   "reviews_given": 21712,
+   "merges_done": 4566,
+   "issues_opened": 4033,
+   "labels_applied": 3615
   },
   {
    "team": "hiero-consensus-node-release-managers",
@@ -628,11 +472,11 @@
    "active_members": 18,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 4497,
-   "reviews_given": 31541,
-   "merges_done": 8785,
-   "issues_opened": 6794,
-   "labels_applied": 12901
+   "prs_opened": 4507,
+   "reviews_given": 31638,
+   "merges_done": 8810,
+   "issues_opened": 6832,
+   "labels_applied": 12940
   },
   {
    "team": "hiero-consensus-node-smart-contract-codeowners",
@@ -640,11 +484,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1281,
-   "reviews_given": 12989,
-   "merges_done": 1228,
+   "prs_opened": 1284,
+   "reviews_given": 13050,
+   "merges_done": 1230,
    "issues_opened": 1616,
-   "labels_applied": 2770
+   "labels_applied": 2781
   },
   {
    "team": "hiero-contracts-committers",
@@ -652,11 +496,11 @@
    "active_members": 31,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 7377,
-   "reviews_given": 33194,
-   "merges_done": 7111,
-   "issues_opened": 6554,
-   "labels_applied": 6263
+   "prs_opened": 7433,
+   "reviews_given": 33342,
+   "merges_done": 7133,
+   "issues_opened": 6624,
+   "labels_applied": 6310
   },
   {
    "team": "hiero-contracts-internal-contributors",
@@ -665,7 +509,7 @@
    "status": "active",
    "days_since_active": 0.0,
    "prs_opened": 161,
-   "reviews_given": 885,
+   "reviews_given": 892,
    "merges_done": 210,
    "issues_opened": 1336,
    "labels_applied": 2289
@@ -676,11 +520,11 @@
    "active_members": 12,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2198,
-   "reviews_given": 18925,
-   "merges_done": 2422,
+   "prs_opened": 2203,
+   "reviews_given": 18989,
+   "merges_done": 2427,
    "issues_opened": 2404,
-   "labels_applied": 3728
+   "labels_applied": 3740
   },
   {
    "team": "hiero-cryptography-committers",
@@ -688,11 +532,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1340,
-   "reviews_given": 8297,
-   "merges_done": 1100,
-   "issues_opened": 1306,
-   "labels_applied": 842
+   "prs_opened": 1348,
+   "reviews_given": 8331,
+   "merges_done": 1105,
+   "issues_opened": 1315,
+   "labels_applied": 856
   },
   {
    "team": "hiero-cryptography-maintainers",
@@ -700,23 +544,107 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 321,
-   "reviews_given": 1984,
-   "merges_done": 263,
-   "issues_opened": 395,
+   "prs_opened": 323,
+   "reviews_given": 1997,
+   "merges_done": 266,
+   "issues_opened": 397,
    "labels_applied": 100
   },
   {
-   "team": "hiero-enterprise-java-committers",
-   "members": 2,
-   "active_members": 2,
+   "team": "hiero-did-sdk-committers",
+   "members": 4,
+   "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 122,
-   "reviews_given": 714,
-   "merges_done": 146,
-   "issues_opened": 156,
-   "labels_applied": 222
+   "prs_opened": 65,
+   "reviews_given": 317,
+   "merges_done": 11,
+   "issues_opened": 216,
+   "labels_applied": 306
+  },
+  {
+   "team": "hiero-did-sdk-js-committers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 65,
+   "reviews_given": 313,
+   "merges_done": 11,
+   "issues_opened": 216,
+   "labels_applied": 306
+  },
+  {
+   "team": "hiero-did-sdk-js-maintainers",
+   "members": 9,
+   "active_members": 6,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 151,
+   "reviews_given": 488,
+   "merges_done": 193,
+   "issues_opened": 230,
+   "labels_applied": 325
+  },
+  {
+   "team": "hiero-did-sdk-maintainers",
+   "members": 9,
+   "active_members": 6,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 151,
+   "reviews_given": 488,
+   "merges_done": 193,
+   "issues_opened": 230,
+   "labels_applied": 325
+  },
+  {
+   "team": "hiero-did-sdk-python-committers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 57,
+   "reviews_given": 260,
+   "merges_done": 3,
+   "issues_opened": 216,
+   "labels_applied": 306
+  },
+  {
+   "team": "hiero-did-sdk-python-maintainers",
+   "members": 6,
+   "active_members": 4,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 142,
+   "reviews_given": 431,
+   "merges_done": 185,
+   "issues_opened": 229,
+   "labels_applied": 324
+  },
+  {
+   "team": "hiero-docs-committers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 386,
+   "reviews_given": 782,
+   "merges_done": 457,
+   "issues_opened": 1555,
+   "labels_applied": 2612
+  },
+  {
+   "team": "hiero-docs-maintainers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 386,
+   "reviews_given": 782,
+   "merges_done": 457,
+   "issues_opened": 1555,
+   "labels_applied": 2612
   },
   {
    "team": "hiero-enterprise-java-maintainers",
@@ -724,23 +652,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 739,
-   "reviews_given": 2888,
-   "merges_done": 850,
-   "issues_opened": 545,
-   "labels_applied": 770
-  },
-  {
-   "team": "hiero-enterprise-java-triage",
-   "members": 2,
-   "active_members": 2,
-   "status": "active",
-   "days_since_active": 0.0,
-   "prs_opened": 197,
-   "reviews_given": 901,
-   "merges_done": 259,
-   "issues_opened": 191,
-   "labels_applied": 254
+   "prs_opened": 744,
+   "reviews_given": 2913,
+   "merges_done": 861,
+   "issues_opened": 551,
+   "labels_applied": 782
   },
   {
    "team": "hiero-ethereum-execution-spec-tests-committers",
@@ -748,11 +664,11 @@
    "active_members": 14,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1983,
-   "reviews_given": 8253,
-   "merges_done": 2350,
-   "issues_opened": 1763,
-   "labels_applied": 2494
+   "prs_opened": 1996,
+   "reviews_given": 8305,
+   "merges_done": 2355,
+   "issues_opened": 1788,
+   "labels_applied": 2529
   },
   {
    "team": "hiero-ethereum-execution-spec-tests-internal-contributors",
@@ -761,7 +677,7 @@
    "status": "active",
    "days_since_active": 0.0,
    "prs_opened": 33,
-   "reviews_given": 361,
+   "reviews_given": 365,
    "merges_done": 22,
    "issues_opened": 176,
    "labels_applied": 161
@@ -772,11 +688,11 @@
    "active_members": 12,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2198,
-   "reviews_given": 18925,
-   "merges_done": 2422,
+   "prs_opened": 2203,
+   "reviews_given": 18989,
+   "merges_done": 2427,
    "issues_opened": 2404,
-   "labels_applied": 3728
+   "labels_applied": 3740
   },
   {
    "team": "hiero-gradle-conventions-committers",
@@ -784,11 +700,11 @@
    "active_members": 2,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1019,
-   "reviews_given": 4806,
-   "merges_done": 1729,
-   "issues_opened": 1100,
-   "labels_applied": 1221
+   "prs_opened": 1021,
+   "reviews_given": 4822,
+   "merges_done": 1731,
+   "issues_opened": 1101,
+   "labels_applied": 1234
   },
   {
    "team": "hiero-gradle-conventions-maintainers",
@@ -796,23 +712,11 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1749,
-   "reviews_given": 6979,
-   "merges_done": 2933,
-   "issues_opened": 1481,
-   "labels_applied": 1879
-  },
-  {
-   "team": "hiero-hederium-maintainers",
-   "members": 2,
-   "active_members": 2,
-   "status": "active",
-   "days_since_active": 0.0,
-   "prs_opened": 524,
-   "reviews_given": 1649,
-   "merges_done": 589,
-   "issues_opened": 475,
-   "labels_applied": 674
+   "prs_opened": 1751,
+   "reviews_given": 6996,
+   "merges_done": 2935,
+   "issues_opened": 1482,
+   "labels_applied": 1892
   },
   {
    "team": "hiero-improvement-proposals-committers",
@@ -820,11 +724,23 @@
    "active_members": 79,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 12032,
-   "reviews_given": 71061,
-   "merges_done": 16728,
-   "issues_opened": 12803,
-   "labels_applied": 18250
+   "prs_opened": 12056,
+   "reviews_given": 71253,
+   "merges_done": 16769,
+   "issues_opened": 12850,
+   "labels_applied": 18310
+  },
+  {
+   "team": "hiero-improvement-proposals-maintainers",
+   "members": 4,
+   "active_members": 4,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 628,
+   "reviews_given": 1200,
+   "merges_done": 819,
+   "issues_opened": 273,
+   "labels_applied": 338
   },
   {
    "team": "hiero-json-rpc-relay-committers",
@@ -832,11 +748,11 @@
    "active_members": 21,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 3837,
-   "reviews_given": 25189,
-   "merges_done": 4554,
-   "issues_opened": 3713,
-   "labels_applied": 5839
+   "prs_opened": 3852,
+   "reviews_given": 25281,
+   "merges_done": 4563,
+   "issues_opened": 3738,
+   "labels_applied": 5884
   },
   {
    "team": "hiero-json-rpc-relay-internal-contributors",
@@ -845,10 +761,10 @@
    "status": "active",
    "days_since_active": 0.0,
    "prs_opened": 808,
-   "reviews_given": 10332,
-   "merges_done": 1005,
+   "reviews_given": 10376,
+   "merges_done": 1006,
    "issues_opened": 2307,
-   "labels_applied": 4556
+   "labels_applied": 4565
   },
   {
    "team": "hiero-json-rpc-relay-maintainers",
@@ -856,11 +772,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1597,
-   "reviews_given": 15744,
-   "merges_done": 2011,
+   "prs_opened": 1599,
+   "reviews_given": 15788,
+   "merges_done": 2015,
    "issues_opened": 1935,
-   "labels_applied": 3386
+   "labels_applied": 3396
   },
   {
    "team": "hiero-local-node-committers",
@@ -868,11 +784,11 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2716,
-   "reviews_given": 20131,
-   "merges_done": 2774,
-   "issues_opened": 2440,
-   "labels_applied": 4170
+   "prs_opened": 2722,
+   "reviews_given": 20184,
+   "merges_done": 2779,
+   "issues_opened": 2443,
+   "labels_applied": 4183
   },
   {
    "team": "hiero-local-node-maintainers",
@@ -880,11 +796,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1424,
-   "reviews_given": 11469,
-   "merges_done": 1304,
-   "issues_opened": 1358,
-   "labels_applied": 2834
+   "prs_opened": 1428,
+   "reviews_given": 11512,
+   "merges_done": 1308,
+   "issues_opened": 1359,
+   "labels_applied": 2847
   },
   {
    "team": "hiero-mirror-node-committers",
@@ -892,11 +808,11 @@
    "active_members": 9,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 3822,
-   "reviews_given": 27473,
-   "merges_done": 8400,
-   "issues_opened": 2780,
-   "labels_applied": 7558
+   "prs_opened": 3835,
+   "reviews_given": 27576,
+   "merges_done": 8429,
+   "issues_opened": 2783,
+   "labels_applied": 7597
   },
   {
    "team": "hiero-mirror-node-explorer-committers",
@@ -904,9 +820,9 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1044,
-   "reviews_given": 2367,
-   "merges_done": 1868,
+   "prs_opened": 1046,
+   "reviews_given": 2373,
+   "merges_done": 1871,
    "issues_opened": 1453,
    "labels_applied": 2472
   },
@@ -916,9 +832,9 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1044,
-   "reviews_given": 2367,
-   "merges_done": 1868,
+   "prs_opened": 1046,
+   "reviews_given": 2373,
+   "merges_done": 1871,
    "issues_opened": 1453,
    "labels_applied": 2472
   },
@@ -928,11 +844,11 @@
    "active_members": 2,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2566,
-   "reviews_given": 19847,
-   "merges_done": 7782,
-   "issues_opened": 2010,
-   "labels_applied": 6018
+   "prs_opened": 2570,
+   "reviews_given": 19892,
+   "merges_done": 7805,
+   "issues_opened": 2012,
+   "labels_applied": 6040
   },
   {
    "team": "hiero-performance-engineers",
@@ -940,11 +856,11 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1894,
-   "reviews_given": 6280,
-   "merges_done": 1848,
-   "issues_opened": 1945,
-   "labels_applied": 2417
+   "prs_opened": 1897,
+   "reviews_given": 6294,
+   "merges_done": 1849,
+   "issues_opened": 1949,
+   "labels_applied": 2444
   },
   {
    "team": "hiero-protobufs-committers",
@@ -952,11 +868,11 @@
    "active_members": 15,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 5033,
-   "reviews_given": 23624,
-   "merges_done": 4481,
-   "issues_opened": 4664,
-   "labels_applied": 3760
+   "prs_opened": 5051,
+   "reviews_given": 23710,
+   "merges_done": 4496,
+   "issues_opened": 4708,
+   "labels_applied": 3772
   },
   {
    "team": "hiero-protobufs-maintainers",
@@ -964,11 +880,35 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2985,
-   "reviews_given": 13330,
-   "merges_done": 2789,
-   "issues_opened": 2698,
-   "labels_applied": 2284
+   "prs_opened": 2994,
+   "reviews_given": 13358,
+   "merges_done": 2796,
+   "issues_opened": 2737,
+   "labels_applied": 2296
+  },
+  {
+   "team": "hiero-sdk-cpp-maintainers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 778,
+   "reviews_given": 3027,
+   "merges_done": 1310,
+   "issues_opened": 2119,
+   "labels_applied": 3987
+  },
+  {
+   "team": "hiero-sdk-go-committers",
+   "members": 5,
+   "active_members": 5,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 757,
+   "reviews_given": 4084,
+   "merges_done": 1274,
+   "issues_opened": 1648,
+   "labels_applied": 2701
   },
   {
    "team": "hiero-sdk-go-maintainers",
@@ -976,8 +916,8 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 917,
-   "reviews_given": 4409,
+   "prs_opened": 918,
+   "reviews_given": 4412,
    "merges_done": 1435,
    "issues_opened": 1735,
    "labels_applied": 2768
@@ -989,10 +929,22 @@
    "status": "active",
    "days_since_active": 0.0,
    "prs_opened": 1417,
-   "reviews_given": 7099,
-   "merges_done": 2175,
+   "reviews_given": 7115,
+   "merges_done": 2179,
    "issues_opened": 2226,
-   "labels_applied": 4062
+   "labels_applied": 4077
+  },
+  {
+   "team": "hiero-sdk-java-committers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 565,
+   "reviews_given": 3201,
+   "merges_done": 878,
+   "issues_opened": 1518,
+   "labels_applied": 2551
   },
   {
    "team": "hiero-sdk-java-maintainers",
@@ -1000,9 +952,9 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 824,
-   "reviews_given": 4337,
-   "merges_done": 1196,
+   "prs_opened": 825,
+   "reviews_given": 4352,
+   "merges_done": 1204,
    "issues_opened": 1753,
    "labels_applied": 2792
   },
@@ -1012,11 +964,11 @@
    "active_members": 8,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1317,
-   "reviews_given": 4967,
-   "merges_done": 1816,
-   "issues_opened": 1864,
-   "labels_applied": 2857
+   "prs_opened": 1321,
+   "reviews_given": 5007,
+   "merges_done": 1847,
+   "issues_opened": 1876,
+   "labels_applied": 2928
   },
   {
    "team": "hiero-sdk-js-maintainers",
@@ -1024,11 +976,11 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 819,
-   "reviews_given": 2863,
-   "merges_done": 1163,
-   "issues_opened": 1558,
-   "labels_applied": 2517
+   "prs_opened": 823,
+   "reviews_given": 2903,
+   "merges_done": 1194,
+   "issues_opened": 1570,
+   "labels_applied": 2588
   },
   {
    "team": "hiero-sdk-python-committers",
@@ -1036,11 +988,11 @@
    "active_members": 8,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 682,
-   "reviews_given": 5018,
-   "merges_done": 1164,
-   "issues_opened": 1124,
-   "labels_applied": 1989
+   "prs_opened": 685,
+   "reviews_given": 5038,
+   "merges_done": 1172,
+   "issues_opened": 1127,
+   "labels_applied": 2002
   },
   {
    "team": "hiero-sdk-python-maintainers",
@@ -1048,11 +1000,11 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 608,
-   "reviews_given": 5547,
-   "merges_done": 1348,
-   "issues_opened": 1196,
-   "labels_applied": 2183
+   "prs_opened": 611,
+   "reviews_given": 5589,
+   "merges_done": 1362,
+   "issues_opened": 1199,
+   "labels_applied": 2198
   },
   {
    "team": "hiero-sdk-python-triage",
@@ -1060,11 +1012,23 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 426,
-   "reviews_given": 4368,
-   "merges_done": 995,
-   "issues_opened": 1013,
-   "labels_applied": 1884
+   "prs_opened": 428,
+   "reviews_given": 4388,
+   "merges_done": 1003,
+   "issues_opened": 1016,
+   "labels_applied": 1897
+  },
+  {
+   "team": "hiero-sdk-rust-maintainers",
+   "members": 4,
+   "active_members": 4,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 428,
+   "reviews_given": 1546,
+   "merges_done": 707,
+   "issues_opened": 1364,
+   "labels_applied": 2332
   },
   {
    "team": "hiero-sdk-swift-maintainers",
@@ -1072,11 +1036,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 746,
-   "reviews_given": 2354,
+   "prs_opened": 747,
+   "reviews_given": 2361,
    "merges_done": 955,
-   "issues_opened": 2087,
-   "labels_applied": 3872
+   "issues_opened": 2088,
+   "labels_applied": 3888
   },
   {
    "team": "hiero-sdk-tck-committers",
@@ -1084,11 +1048,11 @@
    "active_members": 8,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1700,
-   "reviews_given": 6535,
-   "merges_done": 2610,
-   "issues_opened": 1535,
-   "labels_applied": 2430
+   "prs_opened": 1704,
+   "reviews_given": 6572,
+   "merges_done": 2641,
+   "issues_opened": 1547,
+   "labels_applied": 2509
   },
   {
    "team": "hiero-sdk-tck-maintainers",
@@ -1096,11 +1060,11 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 899,
-   "reviews_given": 2748,
-   "merges_done": 1168,
-   "issues_opened": 2148,
-   "labels_applied": 3938
+   "prs_opened": 903,
+   "reviews_given": 2788,
+   "merges_done": 1199,
+   "issues_opened": 2160,
+   "labels_applied": 4017
   },
   {
    "team": "hiero-sdk-triage",
@@ -1108,11 +1072,11 @@
    "active_members": 14,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 3019,
-   "reviews_given": 12555,
-   "merges_done": 4353,
-   "issues_opened": 3264,
-   "labels_applied": 5017
+   "prs_opened": 3022,
+   "reviews_given": 12581,
+   "merges_done": 4362,
+   "issues_opened": 3265,
+   "labels_applied": 5040
   },
   {
    "team": "hiero-solo-action-committers",
@@ -1120,11 +1084,11 @@
    "active_members": 2,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 605,
-   "reviews_given": 1593,
-   "merges_done": 615,
-   "issues_opened": 395,
-   "labels_applied": 504
+   "prs_opened": 608,
+   "reviews_given": 1598,
+   "merges_done": 618,
+   "issues_opened": 398,
+   "labels_applied": 509
   },
   {
    "team": "hiero-solo-action-maintainers",
@@ -1132,11 +1096,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 790,
-   "reviews_given": 2458,
-   "merges_done": 1011,
-   "issues_opened": 525,
-   "labels_applied": 654
+   "prs_opened": 793,
+   "reviews_given": 2463,
+   "merges_done": 1014,
+   "issues_opened": 528,
+   "labels_applied": 659
   },
   {
    "team": "hiero-triage",
@@ -1144,11 +1108,11 @@
    "active_members": 16,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 3099,
-   "reviews_given": 25869,
-   "merges_done": 7169,
-   "issues_opened": 4866,
-   "labels_applied": 10634
+   "prs_opened": 3103,
+   "reviews_given": 25955,
+   "merges_done": 7189,
+   "issues_opened": 4867,
+   "labels_applied": 10657
   },
   {
    "team": "hiero-website-committers",
@@ -1156,11 +1120,11 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 995,
-   "reviews_given": 5436,
-   "merges_done": 1580,
-   "issues_opened": 1380,
-   "labels_applied": 2341
+   "prs_opened": 998,
+   "reviews_given": 5456,
+   "merges_done": 1584,
+   "issues_opened": 1381,
+   "labels_applied": 2350
   },
   {
    "team": "hiero-website-maintainers",
@@ -1168,11 +1132,11 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 961,
-   "reviews_given": 5387,
-   "merges_done": 1575,
+   "prs_opened": 962,
+   "reviews_given": 5405,
+   "merges_done": 1579,
    "issues_opened": 1377,
-   "labels_applied": 2338
+   "labels_applied": 2347
   },
   {
    "team": "hiero-website-triage",
@@ -1181,10 +1145,10 @@
    "status": "active",
    "days_since_active": 0.0,
    "prs_opened": 549,
-   "reviews_given": 1413,
-   "merges_done": 502,
+   "reviews_given": 1415,
+   "merges_done": 503,
    "issues_opened": 362,
-   "labels_applied": 473
+   "labels_applied": 474
   },
   {
    "team": "homebrew-tools-committers",
@@ -1192,11 +1156,11 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 3060,
-   "reviews_given": 10097,
-   "merges_done": 3243,
-   "issues_opened": 2488,
-   "labels_applied": 3481
+   "prs_opened": 3066,
+   "reviews_given": 10130,
+   "merges_done": 3246,
+   "issues_opened": 2493,
+   "labels_applied": 3519
   },
   {
    "team": "homebrew-tools-maintainers",
@@ -1204,11 +1168,71 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2055,
-   "reviews_given": 11787,
-   "merges_done": 4474,
-   "issues_opened": 2360,
-   "labels_applied": 4103
+   "prs_opened": 2059,
+   "reviews_given": 11831,
+   "merges_done": 4494,
+   "issues_opened": 2361,
+   "labels_applied": 4127
+  },
+  {
+   "team": "identity-collaboration-hub-committers",
+   "members": 4,
+   "active_members": 4,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 145,
+   "reviews_given": 451,
+   "merges_done": 185,
+   "issues_opened": 230,
+   "labels_applied": 325
+  },
+  {
+   "team": "identity-collaboration-hub-maintainers",
+   "members": 8,
+   "active_members": 5,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 143,
+   "reviews_given": 431,
+   "merges_done": 185,
+   "issues_opened": 229,
+   "labels_applied": 324
+  },
+  {
+   "team": "lf-staff",
+   "members": 9,
+   "active_members": 2,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 456,
+   "reviews_given": 584,
+   "merges_done": 360,
+   "issues_opened": 36,
+   "labels_applied": 28
+  },
+  {
+   "team": "roadmap-committers",
+   "members": 6,
+   "active_members": 6,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 1903,
+   "reviews_given": 14434,
+   "merges_done": 5803,
+   "issues_opened": 2353,
+   "labels_applied": 6111
+  },
+  {
+   "team": "roadmap-maintainers",
+   "members": 3,
+   "active_members": 3,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 1633,
+   "reviews_given": 12772,
+   "merges_done": 5422,
+   "issues_opened": 1691,
+   "labels_applied": 4802
   },
   {
    "team": "roadmap-viewers",
@@ -1216,11 +1240,11 @@
    "active_members": 29,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 6885,
-   "reviews_given": 40569,
-   "merges_done": 11154,
-   "issues_opened": 6928,
-   "labels_applied": 12067
+   "prs_opened": 6917,
+   "reviews_given": 40717,
+   "merges_done": 11210,
+   "issues_opened": 6983,
+   "labels_applied": 12153
   },
   {
    "team": "sdk-collaboration-hub-maintainers",
@@ -1228,35 +1252,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1146,
-   "reviews_given": 3231,
-   "merges_done": 1269,
-   "issues_opened": 1287,
-   "labels_applied": 2216
-  },
-  {
-   "team": "security-maintainers",
-   "members": 8,
-   "active_members": 4,
-   "status": "active",
-   "days_since_active": 0.0,
-   "prs_opened": 379,
-   "reviews_given": 1426,
-   "merges_done": 584,
-   "issues_opened": 303,
-   "labels_applied": 628
-  },
-  {
-   "team": "solo-admins",
-   "members": 3,
-   "active_members": 3,
-   "status": "active",
-   "days_since_active": 0.0,
-   "prs_opened": 850,
-   "reviews_given": 5809,
-   "merges_done": 2474,
-   "issues_opened": 1199,
-   "labels_applied": 2735
+   "prs_opened": 1147,
+   "reviews_given": 3237,
+   "merges_done": 1270,
+   "issues_opened": 1288,
+   "labels_applied": 2233
   },
   {
    "team": "solo-build-actions-committers",
@@ -1264,11 +1264,11 @@
    "active_members": 8,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2520,
-   "reviews_given": 10082,
-   "merges_done": 3427,
-   "issues_opened": 2168,
-   "labels_applied": 4187
+   "prs_opened": 2530,
+   "reviews_given": 10161,
+   "merges_done": 3476,
+   "issues_opened": 2184,
+   "labels_applied": 4294
   },
   {
    "team": "solo-build-actions-maintainers",
@@ -1276,11 +1276,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1036,
-   "reviews_given": 6981,
-   "merges_done": 2745,
+   "prs_opened": 1038,
+   "reviews_given": 7009,
+   "merges_done": 2763,
    "issues_opened": 1260,
-   "labels_applied": 2882
+   "labels_applied": 2893
   },
   {
    "team": "solo-charts-committers",
@@ -1288,11 +1288,11 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1370,
-   "reviews_given": 7613,
-   "merges_done": 2999,
-   "issues_opened": 1443,
-   "labels_applied": 3027
+   "prs_opened": 1376,
+   "reviews_given": 7678,
+   "merges_done": 3048,
+   "issues_opened": 1455,
+   "labels_applied": 3110
   },
   {
    "team": "solo-charts-maintainers",
@@ -1300,11 +1300,11 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2186,
-   "reviews_given": 9450,
-   "merges_done": 3173,
-   "issues_opened": 1985,
-   "labels_applied": 4042
+   "prs_opened": 2192,
+   "reviews_given": 9492,
+   "merges_done": 3191,
+   "issues_opened": 1989,
+   "labels_applied": 4077
   },
   {
    "team": "solo-committers",
@@ -1312,11 +1312,11 @@
    "active_members": 13,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2891,
-   "reviews_given": 10642,
-   "merges_done": 3667,
-   "issues_opened": 2747,
-   "labels_applied": 4616
+   "prs_opened": 2903,
+   "reviews_given": 10721,
+   "merges_done": 3716,
+   "issues_opened": 2764,
+   "labels_applied": 4733
   },
   {
    "team": "solo-containers-committers",
@@ -1324,11 +1324,11 @@
    "active_members": 6,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1370,
-   "reviews_given": 7613,
-   "merges_done": 2999,
-   "issues_opened": 1443,
-   "labels_applied": 3027
+   "prs_opened": 1376,
+   "reviews_given": 7678,
+   "merges_done": 3048,
+   "issues_opened": 1455,
+   "labels_applied": 3110
   },
   {
    "team": "solo-containers-maintainers",
@@ -1336,23 +1336,11 @@
    "active_members": 5,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2186,
-   "reviews_given": 9450,
-   "merges_done": 3173,
-   "issues_opened": 1985,
-   "labels_applied": 4042
-  },
-  {
-   "team": "solo-docs-admins",
-   "members": 2,
-   "active_members": 2,
-   "status": "active",
-   "days_since_active": 0.0,
-   "prs_opened": 802,
-   "reviews_given": 5633,
-   "merges_done": 2452,
-   "issues_opened": 1136,
-   "labels_applied": 2644
+   "prs_opened": 2192,
+   "reviews_given": 9492,
+   "merges_done": 3191,
+   "issues_opened": 1989,
+   "labels_applied": 4077
   },
   {
    "team": "solo-docs-committers",
@@ -1360,11 +1348,11 @@
    "active_members": 7,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1392,
-   "reviews_given": 6578,
-   "merges_done": 2854,
-   "issues_opened": 1658,
-   "labels_applied": 3247
+   "prs_opened": 1400,
+   "reviews_given": 6621,
+   "merges_done": 2885,
+   "issues_opened": 1670,
+   "labels_applied": 3336
   },
   {
    "team": "solo-docs-maintainers",
@@ -1372,11 +1360,11 @@
    "active_members": 8,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 2570,
-   "reviews_given": 10287,
-   "merges_done": 3509,
-   "issues_opened": 3484,
-   "labels_applied": 6628
+   "prs_opened": 2580,
+   "reviews_given": 10334,
+   "merges_done": 3527,
+   "issues_opened": 3488,
+   "labels_applied": 6673
   },
   {
    "team": "solo-internal-contributors",
@@ -1384,11 +1372,11 @@
    "active_members": 12,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 3002,
-   "reviews_given": 11148,
-   "merges_done": 3851,
-   "issues_opened": 3848,
-   "labels_applied": 6682
+   "prs_opened": 3014,
+   "reviews_given": 11230,
+   "merges_done": 3900,
+   "issues_opened": 3865,
+   "labels_applied": 6799
   },
   {
    "team": "solo-maintainers",
@@ -1396,11 +1384,11 @@
    "active_members": 4,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1084,
-   "reviews_given": 7157,
-   "merges_done": 2767,
-   "issues_opened": 1323,
-   "labels_applied": 2973
+   "prs_opened": 1087,
+   "reviews_given": 7185,
+   "merges_done": 2785,
+   "issues_opened": 1324,
+   "labels_applied": 2984
   },
   {
    "team": "tsc",
@@ -1408,11 +1396,23 @@
    "active_members": 9,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 1221,
-   "reviews_given": 4269,
-   "merges_done": 1215,
+   "prs_opened": 1222,
+   "reviews_given": 4271,
+   "merges_done": 1216,
    "issues_opened": 1158,
-   "labels_applied": 1442
+   "labels_applied": 1443
+  },
+  {
+   "team": "tsc-eligibility-check-admins",
+   "members": 2,
+   "active_members": 2,
+   "status": "active",
+   "days_since_active": 0.0,
+   "prs_opened": 456,
+   "reviews_given": 584,
+   "merges_done": 360,
+   "issues_opened": 36,
+   "labels_applied": 28
   },
   {
    "team": "tsc-eligibility-check-committers",
@@ -1420,11 +1420,11 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 983,
-   "reviews_given": 1985,
-   "merges_done": 862,
+   "prs_opened": 984,
+   "reviews_given": 1987,
+   "merges_done": 863,
    "issues_opened": 396,
-   "labels_applied": 500
+   "labels_applied": 501
   },
   {
    "team": "tsc-eligibility-check-maintainers",
@@ -1432,15 +1432,15 @@
    "active_members": 3,
    "status": "active",
    "days_since_active": 0.0,
-   "prs_opened": 983,
-   "reviews_given": 1985,
-   "merges_done": 862,
+   "prs_opened": 984,
+   "reviews_given": 1987,
+   "merges_done": 863,
    "issues_opened": 396,
-   "labels_applied": 500
+   "labels_applied": 501
   }
  ],
  "row_count": 116,
- "generated_at": "2026-10-16T13:53:24.099392+00:00",
+ "generated_at": "2026-10-21T14:28:05.554258+00:00",
  "stale": false,
  "periods": {
   "7d": [
@@ -1485,7 +1485,7 @@
     "members": 2,
     "active_members": 0,
     "status": "quiet",
-    "days_since_active": 15.0,
+    "days_since_active": 20.0,
     "prs_opened": 0,
     "reviews_given": 0,
     "merges_done": 0,
@@ -1497,118 +1497,10 @@
     "members": 2,
     "active_members": 0,
     "status": "quiet",
-    "days_since_active": 15.0,
+    "days_since_active": 20.0,
     "prs_opened": 0,
     "reviews_given": 0,
     "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-did-sdk-committers",
-    "members": 4,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 9.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-did-sdk-js-committers",
-    "members": 3,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 9.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-did-sdk-python-committers",
-    "members": 3,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 9.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-cli-committers",
-    "members": 7,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 8.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-cli-maintainers",
-    "members": 6,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 8.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "lf-staff",
-    "members": 9,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 8.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "tsc-eligibility-check-admins",
-    "members": 2,
-    "active_members": 0,
-    "status": "quiet",
-    "days_since_active": 8.0,
-    "prs_opened": 0,
-    "reviews_given": 0,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "heka-identity-platform-committers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "heka-identity-platform-maintainers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -1617,46 +1509,10 @@
     "members": 8,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 2,
-    "reviews_given": 6,
-    "merges_done": 1,
-    "issues_opened": 1,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-did-sdk-js-maintainers",
-    "members": 9,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 7.0,
     "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-did-sdk-maintainers",
-    "members": 9,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-did-sdk-python-maintainers",
-    "members": 6,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
+    "reviews_given": 0,
+    "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -1665,35 +1521,47 @@
     "members": 3,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 7.0,
     "prs_opened": 0,
-    "reviews_given": 2,
+    "reviews_given": 0,
     "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
    },
    {
-    "team": "identity-collaboration-hub-committers",
-    "members": 4,
+    "team": "sdk-collaboration-hub-committers",
+    "members": 5,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 6.0,
     "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
+    "reviews_given": 1,
+    "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
    },
    {
-    "team": "identity-collaboration-hub-maintainers",
-    "members": 8,
+    "team": "hiero-cli-committers",
+    "members": 7,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 4.0,
     "prs_opened": 0,
-    "reviews_given": 5,
-    "merges_done": 2,
-    "issues_opened": 0,
+    "reviews_given": 0,
+    "merges_done": 0,
+    "issues_opened": 1,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-cli-maintainers",
+    "members": 6,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 4.0,
+    "prs_opened": 0,
+    "reviews_given": 0,
+    "merges_done": 0,
+    "issues_opened": 1,
     "labels_applied": 0
    },
    {
@@ -1702,7 +1570,7 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 2,
     "merges_done": 0,
     "issues_opened": 0,
@@ -1714,9 +1582,33 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 2,
     "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "heka-identity-platform-committers",
+    "members": 4,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 0,
+    "reviews_given": 12,
+    "merges_done": 5,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "heka-identity-platform-maintainers",
+    "members": 4,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 0,
+    "reviews_given": 12,
+    "merges_done": 5,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -1726,7 +1618,7 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 2,
     "merges_done": 0,
     "issues_opened": 0,
@@ -1738,6 +1630,54 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
+    "prs_opened": 1,
+    "reviews_given": 2,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-enterprise-java-committers",
+    "members": 2,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 1,
+    "reviews_given": 8,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-enterprise-java-triage",
+    "members": 2,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 5,
+    "reviews_given": 19,
+    "merges_done": 10,
+    "issues_opened": 4,
+    "labels_applied": 4
+   },
+   {
+    "team": "hiero-hederium-maintainers",
+    "members": 2,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 1,
+    "reviews_given": 2,
+    "merges_done": 2,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "security-maintainers",
+    "members": 8,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
     "prs_opened": 0,
     "reviews_given": 2,
     "merges_done": 0,
@@ -1745,160 +1685,64 @@
     "labels_applied": 0
    },
    {
-    "team": "hiero-docs-committers",
+    "team": "solo-admins",
     "members": 3,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 2,
-    "reviews_given": 4,
-    "merges_done": 3,
-    "issues_opened": 1,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-docs-maintainers",
-    "members": 3,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 2,
-    "reviews_given": 4,
-    "merges_done": 3,
-    "issues_opened": 1,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-improvement-proposals-maintainers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 1,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-sdk-cpp-maintainers",
-    "members": 3,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-sdk-go-committers",
-    "members": 5,
     "active_members": 3,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 3,
+    "prs_opened": 1,
+    "reviews_given": 5,
     "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-sdk-java-committers",
-    "members": 3,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 3,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-sdk-rust-maintainers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "roadmap-committers",
-    "members": 6,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 8,
-    "reviews_given": 33,
-    "merges_done": 26,
     "issues_opened": 1,
     "labels_applied": 0
    },
    {
-    "team": "roadmap-maintainers",
-    "members": 3,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 6,
-    "reviews_given": 32,
-    "merges_done": 25,
-    "issues_opened": 1,
-    "labels_applied": 0
-   },
-   {
-    "team": "sdk-collaboration-hub-committers",
-    "members": 5,
-    "active_members": 1,
+    "team": "solo-docs-admins",
+    "members": 2,
+    "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
     "prs_opened": 0,
-    "reviews_given": 6,
-    "merges_done": 2,
+    "reviews_given": 5,
+    "merges_done": 0,
     "issues_opened": 0,
-    "labels_applied": 1
+    "labels_applied": 0
    },
    {
     "team": "github-maintainers",
     "members": 7,
-    "active_members": 5,
+    "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 9,
-    "reviews_given": 57,
-    "merges_done": 17,
-    "issues_opened": 10,
-    "labels_applied": 1
+    "prs_opened": 3,
+    "reviews_given": 34,
+    "merges_done": 3,
+    "issues_opened": 3,
+    "labels_applied": 2
    },
    {
     "team": "governance-write",
     "members": 68,
-    "active_members": 28,
+    "active_members": 34,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 43,
-    "reviews_given": 352,
-    "merges_done": 107,
-    "issues_opened": 56,
-    "labels_applied": 1
+    "prs_opened": 53,
+    "reviews_given": 406,
+    "merges_done": 91,
+    "issues_opened": 88,
+    "labels_applied": 49
    },
    {
     "team": "hiero-block-node-committers",
     "members": 12,
-    "active_members": 8,
+    "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 12,
-    "reviews_given": 236,
-    "merges_done": 24,
-    "issues_opened": 29,
-    "labels_applied": 0
+    "prs_opened": 20,
+    "reviews_given": 238,
+    "merges_done": 30,
+    "issues_opened": 39,
+    "labels_applied": 18
    },
    {
     "team": "hiero-block-node-internal-contributors",
@@ -1906,23 +1750,23 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 3,
-    "reviews_given": 128,
-    "merges_done": 19,
-    "issues_opened": 25,
-    "labels_applied": 0
+    "prs_opened": 11,
+    "reviews_given": 158,
+    "merges_done": 18,
+    "issues_opened": 35,
+    "labels_applied": 16
    },
    {
     "team": "hiero-block-node-maintainers",
     "members": 4,
-    "active_members": 3,
+    "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 124,
-    "merges_done": 16,
-    "issues_opened": 24,
-    "labels_applied": 0
+    "prs_opened": 10,
+    "reviews_given": 155,
+    "merges_done": 18,
+    "issues_opened": 35,
+    "labels_applied": 16
    },
    {
     "team": "hiero-consensus-node-ci-codeowners",
@@ -1930,23 +1774,23 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 13,
-    "reviews_given": 77,
-    "merges_done": 17,
-    "issues_opened": 9,
-    "labels_applied": 0
+    "prs_opened": 32,
+    "reviews_given": 67,
+    "merges_done": 8,
+    "issues_opened": 4,
+    "labels_applied": 2
    },
    {
     "team": "hiero-consensus-node-committers",
     "members": 46,
-    "active_members": 29,
+    "active_members": 30,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 53,
-    "reviews_given": 312,
-    "merges_done": 60,
-    "issues_opened": 51,
-    "labels_applied": 0
+    "prs_opened": 90,
+    "reviews_given": 448,
+    "merges_done": 68,
+    "issues_opened": 83,
+    "labels_applied": 34
    },
    {
     "team": "hiero-consensus-node-consensus-codeowners",
@@ -1954,23 +1798,23 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 17,
-    "reviews_given": 44,
-    "merges_done": 17,
-    "issues_opened": 12,
-    "labels_applied": 0
+    "prs_opened": 21,
+    "reviews_given": 50,
+    "merges_done": 18,
+    "issues_opened": 42,
+    "labels_applied": 9
    },
    {
     "team": "hiero-consensus-node-execution-codeowners",
     "members": 18,
-    "active_members": 10,
+    "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 21,
-    "reviews_given": 93,
-    "merges_done": 24,
-    "issues_opened": 15,
-    "labels_applied": 0
+    "prs_opened": 58,
+    "reviews_given": 153,
+    "merges_done": 34,
+    "issues_opened": 53,
+    "labels_applied": 11
    },
    {
     "team": "hiero-consensus-node-foundation-codeowners",
@@ -1978,11 +1822,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 81,
-    "merges_done": 14,
-    "issues_opened": 23,
-    "labels_applied": 0
+    "prs_opened": 17,
+    "reviews_given": 106,
+    "merges_done": 12,
+    "issues_opened": 26,
+    "labels_applied": 20
    },
    {
     "team": "hiero-consensus-node-internal-contributors",
@@ -1990,23 +1834,23 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 21,
-    "reviews_given": 61,
-    "merges_done": 15,
-    "issues_opened": 27,
-    "labels_applied": 0
+    "prs_opened": 20,
+    "reviews_given": 86,
+    "merges_done": 14,
+    "issues_opened": 59,
+    "labels_applied": 28
    },
    {
     "team": "hiero-consensus-node-maintainers",
     "members": 16,
-    "active_members": 11,
+    "active_members": 12,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 19,
-    "reviews_given": 108,
-    "merges_done": 23,
-    "issues_opened": 27,
-    "labels_applied": 0
+    "prs_opened": 20,
+    "reviews_given": 171,
+    "merges_done": 18,
+    "issues_opened": 49,
+    "labels_applied": 18
    },
    {
     "team": "hiero-consensus-node-release-engineers",
@@ -2014,23 +1858,23 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 7,
-    "reviews_given": 41,
+    "prs_opened": 11,
+    "reviews_given": 57,
     "merges_done": 7,
-    "issues_opened": 6,
-    "labels_applied": 0
+    "issues_opened": 9,
+    "labels_applied": 2
    },
    {
     "team": "hiero-consensus-node-release-managers",
     "members": 18,
-    "active_members": 10,
+    "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 23,
-    "reviews_given": 107,
-    "merges_done": 44,
-    "issues_opened": 22,
-    "labels_applied": 0
+    "prs_opened": 20,
+    "reviews_given": 148,
+    "merges_done": 39,
+    "issues_opened": 45,
+    "labels_applied": 19
    },
    {
     "team": "hiero-consensus-node-smart-contract-codeowners",
@@ -2038,23 +1882,23 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 49,
-    "merges_done": 6,
-    "issues_opened": 10,
-    "labels_applied": 0
+    "prs_opened": 3,
+    "reviews_given": 91,
+    "merges_done": 4,
+    "issues_opened": 2,
+    "labels_applied": 1
    },
    {
     "team": "hiero-contracts-committers",
     "members": 31,
-    "active_members": 14,
+    "active_members": 15,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 29,
-    "reviews_given": 185,
-    "merges_done": 42,
-    "issues_opened": 36,
-    "labels_applied": 0
+    "prs_opened": 71,
+    "reviews_given": 243,
+    "merges_done": 44,
+    "issues_opened": 90,
+    "labels_applied": 30
    },
    {
     "team": "hiero-contracts-internal-contributors",
@@ -2063,7 +1907,7 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 0,
-    "reviews_given": 3,
+    "reviews_given": 9,
     "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
@@ -2074,11 +1918,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 3,
-    "reviews_given": 66,
-    "merges_done": 10,
-    "issues_opened": 11,
-    "labels_applied": 0
+    "prs_opened": 6,
+    "reviews_given": 95,
+    "merges_done": 7,
+    "issues_opened": 3,
+    "labels_applied": 2
    },
    {
     "team": "hiero-cryptography-committers",
@@ -2086,11 +1930,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 61,
-    "merges_done": 15,
-    "issues_opened": 19,
-    "labels_applied": 0
+    "prs_opened": 17,
+    "reviews_given": 76,
+    "merges_done": 12,
+    "issues_opened": 24,
+    "labels_applied": 14
    },
    {
     "team": "hiero-cryptography-maintainers",
@@ -2098,21 +1942,105 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 12,
-    "reviews_given": 28,
-    "merges_done": 10,
-    "issues_opened": 8,
+    "prs_opened": 9,
+    "reviews_given": 30,
+    "merges_done": 8,
+    "issues_opened": 6,
     "labels_applied": 0
    },
    {
-    "team": "hiero-enterprise-java-committers",
-    "members": 2,
+    "team": "hiero-did-sdk-committers",
+    "members": 4,
     "active_members": 1,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 5,
+    "prs_opened": 3,
+    "reviews_given": 2,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-did-sdk-js-committers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 2,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-did-sdk-js-maintainers",
+    "members": 9,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 14,
     "merges_done": 5,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-did-sdk-maintainers",
+    "members": 9,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 14,
+    "merges_done": 5,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-did-sdk-python-committers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 2,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-did-sdk-python-maintainers",
+    "members": 6,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 14,
+    "merges_done": 5,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-docs-committers",
+    "members": 3,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 1,
+    "reviews_given": 4,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-docs-maintainers",
+    "members": 3,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 1,
+    "reviews_given": 4,
+    "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -2122,23 +2050,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 5,
-    "reviews_given": 56,
-    "merges_done": 24,
-    "issues_opened": 4,
-    "labels_applied": 6
-   },
-   {
-    "team": "hiero-enterprise-java-triage",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 2,
-    "reviews_given": 22,
-    "merges_done": 16,
-    "issues_opened": 1,
-    "labels_applied": 0
+    "prs_opened": 6,
+    "reviews_given": 36,
+    "merges_done": 19,
+    "issues_opened": 8,
+    "labels_applied": 12
    },
    {
     "team": "hiero-ethereum-execution-spec-tests-committers",
@@ -2146,11 +2062,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 9,
-    "reviews_given": 101,
-    "merges_done": 20,
-    "issues_opened": 21,
-    "labels_applied": 0
+    "prs_opened": 16,
+    "reviews_given": 100,
+    "merges_done": 14,
+    "issues_opened": 37,
+    "labels_applied": 19
    },
    {
     "team": "hiero-ethereum-execution-spec-tests-internal-contributors",
@@ -2159,7 +2075,7 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 0,
-    "reviews_given": 2,
+    "reviews_given": 5,
     "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
@@ -2170,11 +2086,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 3,
-    "reviews_given": 66,
-    "merges_done": 10,
-    "issues_opened": 11,
-    "labels_applied": 0
+    "prs_opened": 6,
+    "reviews_given": 95,
+    "merges_done": 7,
+    "issues_opened": 3,
+    "labels_applied": 2
    },
    {
     "team": "hiero-gradle-conventions-committers",
@@ -2182,46 +2098,46 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 9,
-    "reviews_given": 49,
-    "merges_done": 14,
-    "issues_opened": 9,
-    "labels_applied": 0
+    "prs_opened": 2,
+    "reviews_given": 28,
+    "merges_done": 3,
+    "issues_opened": 1,
+    "labels_applied": 1
    },
    {
     "team": "hiero-gradle-conventions-maintainers",
     "members": 4,
-    "active_members": 4,
+    "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 10,
-    "reviews_given": 50,
-    "merges_done": 14,
-    "issues_opened": 9,
-    "labels_applied": 0
-   },
-   {
-    "team": "hiero-hederium-maintainers",
-    "members": 2,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 8,
-    "merges_done": 6,
-    "issues_opened": 0,
-    "labels_applied": 0
+    "prs_opened": 2,
+    "reviews_given": 30,
+    "merges_done": 3,
+    "issues_opened": 1,
+    "labels_applied": 1
    },
    {
     "team": "hiero-improvement-proposals-committers",
     "members": 81,
-    "active_members": 18,
+    "active_members": 19,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 41,
-    "reviews_given": 235,
-    "merges_done": 70,
-    "issues_opened": 39,
+    "prs_opened": 38,
+    "reviews_given": 295,
+    "merges_done": 61,
+    "issues_opened": 58,
+    "labels_applied": 25
+   },
+   {
+    "team": "hiero-improvement-proposals-maintainers",
+    "members": 4,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 2,
+    "merges_done": 0,
+    "issues_opened": 0,
     "labels_applied": 0
    },
    {
@@ -2230,11 +2146,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 12,
-    "reviews_given": 153,
-    "merges_done": 29,
-    "issues_opened": 28,
-    "labels_applied": 0
+    "prs_opened": 19,
+    "reviews_given": 164,
+    "merges_done": 20,
+    "issues_opened": 40,
+    "labels_applied": 21
    },
    {
     "team": "hiero-json-rpc-relay-internal-contributors",
@@ -2242,11 +2158,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 38,
-    "merges_done": 5,
-    "issues_opened": 6,
-    "labels_applied": 0
+    "prs_opened": 0,
+    "reviews_given": 69,
+    "merges_done": 3,
+    "issues_opened": 2,
+    "labels_applied": 1
    },
    {
     "team": "hiero-json-rpc-relay-maintainers",
@@ -2255,10 +2171,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 3,
-    "reviews_given": 54,
-    "merges_done": 9,
-    "issues_opened": 7,
-    "labels_applied": 0
+    "reviews_given": 69,
+    "merges_done": 6,
+    "issues_opened": 3,
+    "labels_applied": 2
    },
    {
     "team": "hiero-local-node-committers",
@@ -2266,11 +2182,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 10,
-    "reviews_given": 70,
-    "merges_done": 10,
-    "issues_opened": 9,
-    "labels_applied": 0
+    "prs_opened": 9,
+    "reviews_given": 89,
+    "merges_done": 8,
+    "issues_opened": 7,
+    "labels_applied": 3
    },
    {
     "team": "hiero-local-node-maintainers",
@@ -2278,11 +2194,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 9,
-    "reviews_given": 60,
-    "merges_done": 9,
-    "issues_opened": 9,
-    "labels_applied": 0
+    "prs_opened": 7,
+    "reviews_given": 69,
+    "merges_done": 6,
+    "issues_opened": 5,
+    "labels_applied": 3
    },
    {
     "team": "hiero-mirror-node-committers",
@@ -2290,33 +2206,33 @@
     "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 34,
-    "reviews_given": 138,
-    "merges_done": 41,
-    "issues_opened": 13,
-    "labels_applied": 0
+    "prs_opened": 27,
+    "reviews_given": 171,
+    "merges_done": 46,
+    "issues_opened": 3,
+    "labels_applied": 15
    },
    {
     "team": "hiero-mirror-node-explorer-committers",
     "members": 3,
-    "active_members": 2,
+    "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 11,
-    "merges_done": 9,
+    "prs_opened": 2,
+    "reviews_given": 17,
+    "merges_done": 12,
     "issues_opened": 0,
     "labels_applied": 0
    },
    {
     "team": "hiero-mirror-node-explorer-maintainers",
     "members": 3,
-    "active_members": 2,
+    "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 11,
-    "merges_done": 9,
+    "prs_opened": 2,
+    "reviews_given": 17,
+    "merges_done": 12,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -2326,11 +2242,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 12,
-    "reviews_given": 61,
+    "prs_opened": 8,
+    "reviews_given": 69,
     "merges_done": 32,
-    "issues_opened": 3,
-    "labels_applied": 0
+    "issues_opened": 2,
+    "labels_applied": 13
    },
    {
     "team": "hiero-performance-engineers",
@@ -2338,11 +2254,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 14,
-    "reviews_given": 40,
-    "merges_done": 5,
-    "issues_opened": 12,
-    "labels_applied": 0
+    "prs_opened": 11,
+    "reviews_given": 23,
+    "merges_done": 2,
+    "issues_opened": 7,
+    "labels_applied": 1
    },
    {
     "team": "hiero-protobufs-committers",
@@ -2350,11 +2266,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 72,
-    "merges_done": 20,
-    "issues_opened": 15,
-    "labels_applied": 0
+    "prs_opened": 29,
+    "reviews_given": 126,
+    "merges_done": 26,
+    "issues_opened": 52,
+    "labels_applied": 11
    },
    {
     "team": "hiero-protobufs-maintainers",
@@ -2362,10 +2278,34 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 13,
-    "reviews_given": 32,
-    "merges_done": 13,
-    "issues_opened": 13,
+    "prs_opened": 18,
+    "reviews_given": 52,
+    "merges_done": 15,
+    "issues_opened": 45,
+    "labels_applied": 11
+   },
+   {
+    "team": "hiero-sdk-cpp-maintainers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 4,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "hiero-sdk-go-committers",
+    "members": 5,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 4,
+    "merges_done": 0,
+    "issues_opened": 0,
     "labels_applied": 0
    },
    {
@@ -2374,9 +2314,9 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 11,
-    "merges_done": 6,
+    "prs_opened": 1,
+    "reviews_given": 6,
+    "merges_done": 2,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -2387,10 +2327,22 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 1,
-    "reviews_given": 21,
-    "merges_done": 12,
+    "reviews_given": 19,
+    "merges_done": 4,
     "issues_opened": 0,
     "labels_applied": 1
+   },
+   {
+    "team": "hiero-sdk-java-committers",
+    "members": 3,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 4,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
    },
    {
     "team": "hiero-sdk-java-maintainers",
@@ -2398,10 +2350,10 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 2,
-    "reviews_given": 12,
-    "merges_done": 8,
-    "issues_opened": 1,
+    "prs_opened": 1,
+    "reviews_given": 18,
+    "merges_done": 9,
+    "issues_opened": 0,
     "labels_applied": 0
    },
    {
@@ -2410,11 +2362,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 93,
-    "merges_done": 59,
-    "issues_opened": 41,
-    "labels_applied": 28
+    "prs_opened": 14,
+    "reviews_given": 68,
+    "merges_done": 50,
+    "issues_opened": 27,
+    "labels_applied": 42
    },
    {
     "team": "hiero-sdk-js-maintainers",
@@ -2422,11 +2374,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 93,
-    "merges_done": 59,
-    "issues_opened": 41,
-    "labels_applied": 28
+    "prs_opened": 14,
+    "reviews_given": 68,
+    "merges_done": 50,
+    "issues_opened": 27,
+    "labels_applied": 42
    },
    {
     "team": "hiero-sdk-python-committers",
@@ -2434,9 +2386,9 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 6,
-    "reviews_given": 49,
-    "merges_done": 17,
+    "prs_opened": 4,
+    "reviews_given": 25,
+    "merges_done": 10,
     "issues_opened": 5,
     "labels_applied": 7
    },
@@ -2446,11 +2398,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 8,
-    "reviews_given": 79,
-    "merges_done": 31,
-    "issues_opened": 9,
-    "labels_applied": 22
+    "prs_opened": 5,
+    "reviews_given": 54,
+    "merges_done": 23,
+    "issues_opened": 5,
+    "labels_applied": 9
    },
    {
     "team": "hiero-sdk-python-triage",
@@ -2458,11 +2410,23 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 4,
-    "reviews_given": 41,
-    "merges_done": 11,
-    "issues_opened": 3,
+    "prs_opened": 2,
+    "reviews_given": 23,
+    "merges_done": 8,
+    "issues_opened": 4,
     "labels_applied": 7
+   },
+   {
+    "team": "hiero-sdk-rust-maintainers",
+    "members": 4,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 4,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
    },
    {
     "team": "hiero-sdk-swift-maintainers",
@@ -2470,11 +2434,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 7,
-    "reviews_given": 26,
-    "merges_done": 1,
+    "prs_opened": 6,
+    "reviews_given": 16,
+    "merges_done": 0,
     "issues_opened": 10,
-    "labels_applied": 0
+    "labels_applied": 6
    },
    {
     "team": "hiero-sdk-tck-committers",
@@ -2482,11 +2446,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 92,
-    "merges_done": 59,
-    "issues_opened": 41,
-    "labels_applied": 28
+    "prs_opened": 14,
+    "reviews_given": 64,
+    "merges_done": 50,
+    "issues_opened": 27,
+    "labels_applied": 42
    },
    {
     "team": "hiero-sdk-tck-maintainers",
@@ -2494,11 +2458,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 18,
-    "reviews_given": 91,
-    "merges_done": 59,
-    "issues_opened": 41,
-    "labels_applied": 28
+    "prs_opened": 14,
+    "reviews_given": 68,
+    "merges_done": 50,
+    "issues_opened": 27,
+    "labels_applied": 42
    },
    {
     "team": "hiero-sdk-triage",
@@ -2506,11 +2470,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 12,
-    "reviews_given": 57,
-    "merges_done": 26,
-    "issues_opened": 13,
-    "labels_applied": 1
+    "prs_opened": 10,
+    "reviews_given": 40,
+    "merges_done": 12,
+    "issues_opened": 11,
+    "labels_applied": 7
    },
    {
     "team": "hiero-solo-action-committers",
@@ -2518,11 +2482,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 21,
-    "merges_done": 15,
-    "issues_opened": 1,
-    "labels_applied": 0
+    "prs_opened": 4,
+    "reviews_given": 14,
+    "merges_done": 11,
+    "issues_opened": 4,
+    "labels_applied": 5
    },
    {
     "team": "hiero-solo-action-maintainers",
@@ -2530,23 +2494,23 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 21,
-    "merges_done": 15,
-    "issues_opened": 1,
-    "labels_applied": 0
+    "prs_opened": 4,
+    "reviews_given": 14,
+    "merges_done": 11,
+    "issues_opened": 4,
+    "labels_applied": 5
    },
    {
     "team": "hiero-triage",
     "members": 16,
-    "active_members": 8,
+    "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 9,
-    "reviews_given": 81,
-    "merges_done": 35,
-    "issues_opened": 7,
-    "labels_applied": 0
+    "prs_opened": 8,
+    "reviews_given": 127,
+    "merges_done": 28,
+    "issues_opened": 3,
+    "labels_applied": 10
    },
    {
     "team": "hiero-website-committers",
@@ -2554,11 +2518,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 7,
-    "reviews_given": 43,
-    "merges_done": 25,
-    "issues_opened": 6,
-    "labels_applied": 16
+    "prs_opened": 6,
+    "reviews_given": 31,
+    "merges_done": 13,
+    "issues_opened": 2,
+    "labels_applied": 3
    },
    {
     "team": "hiero-website-maintainers",
@@ -2566,11 +2530,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 4,
-    "reviews_given": 42,
-    "merges_done": 25,
-    "issues_opened": 6,
-    "labels_applied": 16
+    "prs_opened": 3,
+    "reviews_given": 28,
+    "merges_done": 13,
+    "issues_opened": 1,
+    "labels_applied": 3
    },
    {
     "team": "hiero-website-triage",
@@ -2579,10 +2543,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 0,
-    "reviews_given": 4,
-    "merges_done": 4,
+    "reviews_given": 3,
+    "merges_done": 1,
     "issues_opened": 0,
-    "labels_applied": 0
+    "labels_applied": 1
    },
    {
     "team": "homebrew-tools-committers",
@@ -2590,35 +2554,95 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 24,
-    "reviews_given": 79,
-    "merges_done": 18,
-    "issues_opened": 17,
-    "labels_applied": 0
+    "prs_opened": 14,
+    "reviews_given": 55,
+    "merges_done": 4,
+    "issues_opened": 7,
+    "labels_applied": 4
    },
    {
     "team": "homebrew-tools-maintainers",
     "members": 5,
-    "active_members": 4,
+    "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 10,
-    "reviews_given": 110,
-    "merges_done": 49,
-    "issues_opened": 10,
+    "prs_opened": 5,
+    "reviews_given": 73,
+    "merges_done": 37,
+    "issues_opened": 2,
+    "labels_applied": 2
+   },
+   {
+    "team": "identity-collaboration-hub-committers",
+    "members": 4,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 14,
+    "merges_done": 5,
+    "issues_opened": 0,
     "labels_applied": 0
+   },
+   {
+    "team": "identity-collaboration-hub-maintainers",
+    "members": 8,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 14,
+    "merges_done": 5,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "lf-staff",
+    "members": 9,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 1,
+    "reviews_given": 0,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "roadmap-committers",
+    "members": 6,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 46,
+    "merges_done": 25,
+    "issues_opened": 1,
+    "labels_applied": 9
+   },
+   {
+    "team": "roadmap-maintainers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 3,
+    "reviews_given": 40,
+    "merges_done": 25,
+    "issues_opened": 1,
+    "labels_applied": 9
    },
    {
     "team": "roadmap-viewers",
     "members": 30,
-    "active_members": 19,
+    "active_members": 22,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 56,
-    "reviews_given": 275,
-    "merges_done": 96,
-    "issues_opened": 52,
-    "labels_applied": 0
+    "prs_opened": 63,
+    "reviews_given": 285,
+    "merges_done": 98,
+    "issues_opened": 84,
+    "labels_applied": 42
    },
    {
     "team": "sdk-collaboration-hub-maintainers",
@@ -2626,179 +2650,143 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 7,
-    "reviews_given": 29,
-    "merges_done": 5,
+    "prs_opened": 6,
+    "reviews_given": 15,
+    "merges_done": 1,
     "issues_opened": 10,
-    "labels_applied": 0
-   },
-   {
-    "team": "security-maintainers",
-    "members": 8,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "solo-admins",
-    "members": 3,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
+    "labels_applied": 7
    },
    {
     "team": "solo-build-actions-committers",
     "members": 8,
-    "active_members": 6,
+    "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 34,
-    "reviews_given": 176,
-    "merges_done": 94,
-    "issues_opened": 50,
-    "labels_applied": 28
+    "prs_opened": 29,
+    "reviews_given": 131,
+    "merges_done": 84,
+    "issues_opened": 34,
+    "labels_applied": 45
    },
    {
     "team": "solo-build-actions-maintainers",
     "members": 3,
-    "active_members": 2,
+    "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 61,
-    "merges_done": 35,
+    "prs_opened": 3,
+    "reviews_given": 45,
+    "merges_done": 34,
     "issues_opened": 1,
-    "labels_applied": 0
+    "labels_applied": 1
    },
    {
     "team": "solo-charts-committers",
     "members": 6,
-    "active_members": 4,
+    "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 19,
-    "reviews_given": 151,
-    "merges_done": 94,
-    "issues_opened": 42,
-    "labels_applied": 28
+    "prs_opened": 17,
+    "reviews_given": 109,
+    "merges_done": 84,
+    "issues_opened": 28,
+    "labels_applied": 43
    },
    {
     "team": "solo-charts-maintainers",
     "members": 5,
-    "active_members": 4,
+    "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 16,
-    "reviews_given": 86,
-    "merges_done": 35,
-    "issues_opened": 9,
-    "labels_applied": 0
+    "prs_opened": 15,
+    "reviews_given": 67,
+    "merges_done": 34,
+    "issues_opened": 7,
+    "labels_applied": 3
    },
    {
     "team": "solo-committers",
     "members": 13,
-    "active_members": 8,
+    "active_members": 10,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 38,
-    "reviews_given": 182,
-    "merges_done": 98,
-    "issues_opened": 54,
-    "labels_applied": 28
+    "prs_opened": 33,
+    "reviews_given": 131,
+    "merges_done": 85,
+    "issues_opened": 37,
+    "labels_applied": 45
    },
    {
     "team": "solo-containers-committers",
     "members": 6,
-    "active_members": 4,
+    "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 19,
-    "reviews_given": 151,
-    "merges_done": 94,
-    "issues_opened": 42,
-    "labels_applied": 28
+    "prs_opened": 17,
+    "reviews_given": 109,
+    "merges_done": 84,
+    "issues_opened": 28,
+    "labels_applied": 43
    },
    {
     "team": "solo-containers-maintainers",
     "members": 5,
-    "active_members": 4,
+    "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 16,
-    "reviews_given": 86,
-    "merges_done": 35,
-    "issues_opened": 9,
-    "labels_applied": 0
-   },
-   {
-    "team": "solo-docs-admins",
-    "members": 2,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
+    "prs_opened": 15,
+    "reviews_given": 67,
+    "merges_done": 34,
+    "issues_opened": 7,
+    "labels_applied": 3
    },
    {
     "team": "solo-docs-committers",
     "members": 7,
-    "active_members": 4,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 20,
-    "reviews_given": 94,
-    "merges_done": 62,
-    "issues_opened": 42,
-    "labels_applied": 28
-   },
-   {
-    "team": "solo-docs-maintainers",
-    "members": 8,
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 18,
-    "reviews_given": 90,
-    "merges_done": 38,
-    "issues_opened": 10,
-    "labels_applied": 0
+    "reviews_given": 71,
+    "merges_done": 50,
+    "issues_opened": 27,
+    "labels_applied": 42
+   },
+   {
+    "team": "solo-docs-maintainers",
+    "members": 8,
+    "active_members": 8,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 19,
+    "reviews_given": 73,
+    "merges_done": 34,
+    "issues_opened": 7,
+    "labels_applied": 3
    },
    {
     "team": "solo-internal-contributors",
     "members": 12,
-    "active_members": 9,
+    "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 38,
-    "reviews_given": 183,
-    "merges_done": 98,
-    "issues_opened": 54,
-    "labels_applied": 28
+    "prs_opened": 33,
+    "reviews_given": 135,
+    "merges_done": 85,
+    "issues_opened": 37,
+    "labels_applied": 45
    },
    {
     "team": "solo-maintainers",
     "members": 4,
-    "active_members": 2,
+    "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 61,
-    "merges_done": 35,
-    "issues_opened": 1,
-    "labels_applied": 0
+    "prs_opened": 4,
+    "reviews_given": 45,
+    "merges_done": 34,
+    "issues_opened": 2,
+    "labels_applied": 1
    },
    {
     "team": "tsc",
@@ -2806,35 +2794,47 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 6,
-    "merges_done": 4,
+    "prs_opened": 1,
+    "reviews_given": 5,
+    "merges_done": 1,
+    "issues_opened": 0,
+    "labels_applied": 1
+   },
+   {
+    "team": "tsc-eligibility-check-admins",
+    "members": 2,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 1,
+    "reviews_given": 0,
+    "merges_done": 0,
     "issues_opened": 0,
     "labels_applied": 0
    },
    {
     "team": "tsc-eligibility-check-committers",
     "members": 3,
-    "active_members": 1,
+    "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 4,
-    "merges_done": 4,
+    "prs_opened": 1,
+    "reviews_given": 3,
+    "merges_done": 1,
     "issues_opened": 0,
-    "labels_applied": 0
+    "labels_applied": 1
    },
    {
     "team": "tsc-eligibility-check-maintainers",
     "members": 3,
-    "active_members": 1,
+    "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 0,
-    "reviews_given": 4,
-    "merges_done": 4,
+    "prs_opened": 1,
+    "reviews_given": 3,
+    "merges_done": 1,
     "issues_opened": 0,
-    "labels_applied": 0
+    "labels_applied": 1
    }
   ],
   "30d": [
@@ -2879,7 +2879,7 @@
     "members": 2,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 15.0,
+    "days_since_active": 20.0,
     "prs_opened": 0,
     "reviews_given": 1,
     "merges_done": 0,
@@ -2891,7 +2891,7 @@
     "members": 2,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 15.0,
+    "days_since_active": 20.0,
     "prs_opened": 0,
     "reviews_given": 1,
     "merges_done": 0,
@@ -2899,167 +2899,23 @@
     "labels_applied": 2
    },
    {
-    "team": "hiero-did-sdk-committers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 9.0,
-    "prs_opened": 3,
-    "reviews_given": 0,
-    "merges_done": 1,
-    "issues_opened": 1,
-    "labels_applied": 1
-   },
-   {
-    "team": "hiero-did-sdk-js-committers",
-    "members": 3,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 9.0,
-    "prs_opened": 3,
-    "reviews_given": 0,
-    "merges_done": 1,
-    "issues_opened": 1,
-    "labels_applied": 1
-   },
-   {
-    "team": "hiero-did-sdk-python-committers",
-    "members": 3,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 9.0,
-    "prs_opened": 3,
-    "reviews_given": 0,
-    "merges_done": 1,
-    "issues_opened": 1,
-    "labels_applied": 1
-   },
-   {
-    "team": "hiero-cli-committers",
-    "members": 7,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 5,
-    "reviews_given": 12,
-    "merges_done": 0,
-    "issues_opened": 2,
-    "labels_applied": 1
-   },
-   {
-    "team": "hiero-cli-maintainers",
-    "members": 6,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 5,
-    "reviews_given": 12,
-    "merges_done": 0,
-    "issues_opened": 2,
-    "labels_applied": 1
-   },
-   {
-    "team": "lf-staff",
-    "members": 9,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 17,
-    "issues_opened": 3,
-    "labels_applied": 1
-   },
-   {
-    "team": "tsc-eligibility-check-admins",
-    "members": 2,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 17,
-    "issues_opened": 3,
-    "labels_applied": 1
-   },
-   {
-    "team": "heka-identity-platform-committers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 1,
-    "reviews_given": 17,
-    "merges_done": 12,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "heka-identity-platform-maintainers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 1,
-    "reviews_given": 17,
-    "merges_done": 12,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
     "team": "hiero-consensus-node-devops-codeowners",
     "members": 8,
     "active_members": 4,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 7.0,
     "prs_opened": 4,
     "reviews_given": 17,
     "merges_done": 2,
-    "issues_opened": 5,
+    "issues_opened": 4,
     "labels_applied": 9
-   },
-   {
-    "team": "hiero-did-sdk-js-maintainers",
-    "members": 9,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 13,
-    "issues_opened": 1,
-    "labels_applied": 1
-   },
-   {
-    "team": "hiero-did-sdk-maintainers",
-    "members": 9,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 13,
-    "issues_opened": 1,
-    "labels_applied": 1
-   },
-   {
-    "team": "hiero-did-sdk-python-maintainers",
-    "members": 6,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 13,
-    "issues_opened": 1,
-    "labels_applied": 1
    },
    {
     "team": "hiero-sdk-rust-committers",
     "members": 3,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 7.0,
     "prs_opened": 0,
     "reviews_given": 8,
     "merges_done": 0,
@@ -3067,28 +2923,40 @@
     "labels_applied": 0
    },
    {
-    "team": "identity-collaboration-hub-committers",
-    "members": 4,
-    "active_members": 2,
+    "team": "sdk-collaboration-hub-committers",
+    "members": 5,
+    "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 13,
-    "issues_opened": 1,
-    "labels_applied": 1
+    "days_since_active": 6.0,
+    "prs_opened": 0,
+    "reviews_given": 18,
+    "merges_done": 6,
+    "issues_opened": 0,
+    "labels_applied": 4
    },
    {
-    "team": "identity-collaboration-hub-maintainers",
-    "members": 8,
-    "active_members": 2,
+    "team": "hiero-cli-committers",
+    "members": 7,
+    "active_members": 1,
     "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 4,
-    "reviews_given": 17,
-    "merges_done": 13,
-    "issues_opened": 1,
-    "labels_applied": 1
+    "days_since_active": 4.0,
+    "prs_opened": 5,
+    "reviews_given": 12,
+    "merges_done": 0,
+    "issues_opened": 3,
+    "labels_applied": 3
+   },
+   {
+    "team": "hiero-cli-maintainers",
+    "members": 6,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 4.0,
+    "prs_opened": 5,
+    "reviews_given": 12,
+    "merges_done": 0,
+    "issues_opened": 3,
+    "labels_applied": 3
    },
    {
     "team": "hashgraph-online-standards-sdk-js-committers",
@@ -3096,7 +2964,7 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 3,
     "merges_done": 1,
     "issues_opened": 0,
@@ -3108,9 +2976,33 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 3,
     "merges_done": 1,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "heka-identity-platform-committers",
+    "members": 4,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 1,
+    "reviews_given": 28,
+    "merges_done": 16,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "heka-identity-platform-maintainers",
+    "members": 4,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 1,
+    "reviews_given": 28,
+    "merges_done": 16,
     "issues_opened": 0,
     "labels_applied": 0
    },
@@ -3120,7 +3012,7 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 4,
     "merges_done": 1,
     "issues_opened": 0,
@@ -3132,155 +3024,107 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "reviews_given": 4,
     "merges_done": 1,
     "issues_opened": 0,
     "labels_applied": 0
    },
    {
-    "team": "hiero-docs-committers",
-    "members": 3,
-    "active_members": 3,
+    "team": "hiero-enterprise-java-committers",
+    "members": 2,
+    "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 20,
-    "reviews_given": 11,
-    "merges_done": 8,
-    "issues_opened": 31,
-    "labels_applied": 17
-   },
-   {
-    "team": "hiero-docs-maintainers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 20,
-    "reviews_given": 11,
-    "merges_done": 8,
-    "issues_opened": 31,
-    "labels_applied": 17
-   },
-   {
-    "team": "hiero-improvement-proposals-maintainers",
-    "members": 4,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 11,
-    "reviews_given": 28,
-    "merges_done": 26,
+    "prs_opened": 4,
+    "reviews_given": 32,
+    "merges_done": 19,
     "issues_opened": 1,
     "labels_applied": 1
    },
    {
-    "team": "hiero-sdk-cpp-maintainers",
-    "members": 3,
+    "team": "hiero-enterprise-java-triage",
+    "members": 2,
     "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 2,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 2
+    "prs_opened": 18,
+    "reviews_given": 86,
+    "merges_done": 46,
+    "issues_opened": 10,
+    "labels_applied": 9
    },
    {
-    "team": "hiero-sdk-go-committers",
-    "members": 5,
+    "team": "hiero-hederium-maintainers",
+    "members": 2,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 8,
+    "reviews_given": 25,
+    "merges_done": 29,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "security-maintainers",
+    "members": 8,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 1,
+    "reviews_given": 7,
+    "merges_done": 1,
+    "issues_opened": 0,
+    "labels_applied": 0
+   },
+   {
+    "team": "solo-admins",
+    "members": 3,
     "active_members": 3,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 21,
-    "merges_done": 0,
-    "issues_opened": 0,
+    "prs_opened": 4,
+    "reviews_given": 16,
+    "merges_done": 3,
+    "issues_opened": 1,
     "labels_applied": 0
    },
    {
-    "team": "hiero-sdk-java-committers",
-    "members": 3,
+    "team": "solo-docs-admins",
+    "members": 2,
     "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 9,
-    "merges_done": 0,
+    "prs_opened": 3,
+    "reviews_given": 16,
+    "merges_done": 3,
     "issues_opened": 0,
     "labels_applied": 0
-   },
-   {
-    "team": "hiero-sdk-rust-maintainers",
-    "members": 4,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 1,
-    "merges_done": 0,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "roadmap-committers",
-    "members": 6,
-    "active_members": 4,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 30,
-    "reviews_given": 177,
-    "merges_done": 97,
-    "issues_opened": 16,
-    "labels_applied": 12
-   },
-   {
-    "team": "roadmap-maintainers",
-    "members": 3,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 19,
-    "reviews_given": 124,
-    "merges_done": 86,
-    "issues_opened": 6,
-    "labels_applied": 12
-   },
-   {
-    "team": "sdk-collaboration-hub-committers",
-    "members": 5,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 0,
-    "reviews_given": 18,
-    "merges_done": 6,
-    "issues_opened": 0,
-    "labels_applied": 4
    },
    {
     "team": "github-maintainers",
     "members": 7,
-    "active_members": 6,
+    "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 24,
-    "reviews_given": 160,
-    "merges_done": 47,
-    "issues_opened": 28,
-    "labels_applied": 50
+    "prs_opened": 27,
+    "reviews_given": 176,
+    "merges_done": 48,
+    "issues_opened": 30,
+    "labels_applied": 64
    },
    {
     "team": "governance-write",
     "members": 68,
-    "active_members": 40,
+    "active_members": 41,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 207,
-    "reviews_given": 1258,
-    "merges_done": 456,
-    "issues_opened": 218,
-    "labels_applied": 166
+    "prs_opened": 238,
+    "reviews_given": 1420,
+    "merges_done": 452,
+    "issues_opened": 280,
+    "labels_applied": 271
    },
    {
     "team": "hiero-block-node-committers",
@@ -3288,11 +3132,11 @@
     "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 52,
-    "reviews_given": 638,
-    "merges_done": 78,
-    "issues_opened": 92,
-    "labels_applied": 103
+    "prs_opened": 65,
+    "reviews_given": 745,
+    "merges_done": 90,
+    "issues_opened": 116,
+    "labels_applied": 154
    },
    {
     "team": "hiero-block-node-internal-contributors",
@@ -3300,11 +3144,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 36,
-    "reviews_given": 297,
-    "merges_done": 50,
-    "issues_opened": 79,
-    "labels_applied": 28
+    "prs_opened": 46,
+    "reviews_given": 382,
+    "merges_done": 55,
+    "issues_opened": 100,
+    "labels_applied": 75
    },
    {
     "team": "hiero-block-node-maintainers",
@@ -3312,11 +3156,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 16,
-    "reviews_given": 288,
-    "merges_done": 42,
-    "issues_opened": 48,
-    "labels_applied": 11
+    "prs_opened": 25,
+    "reviews_given": 371,
+    "merges_done": 47,
+    "issues_opened": 69,
+    "labels_applied": 48
    },
    {
     "team": "hiero-consensus-node-ci-codeowners",
@@ -3324,11 +3168,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 43,
-    "reviews_given": 222,
-    "merges_done": 54,
-    "issues_opened": 36,
-    "labels_applied": 52
+    "prs_opened": 73,
+    "reviews_given": 249,
+    "merges_done": 57,
+    "issues_opened": 40,
+    "labels_applied": 66
    },
    {
     "team": "hiero-consensus-node-committers",
@@ -3336,11 +3180,11 @@
     "active_members": 32,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 212,
-    "reviews_given": 1178,
-    "merges_done": 209,
-    "issues_opened": 197,
-    "labels_applied": 74
+    "prs_opened": 258,
+    "reviews_given": 1400,
+    "merges_done": 237,
+    "issues_opened": 252,
+    "labels_applied": 126
    },
    {
     "team": "hiero-consensus-node-consensus-codeowners",
@@ -3348,11 +3192,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 53,
-    "reviews_given": 164,
-    "merges_done": 49,
-    "issues_opened": 64,
-    "labels_applied": 3
+    "prs_opened": 61,
+    "reviews_given": 191,
+    "merges_done": 58,
+    "issues_opened": 101,
+    "labels_applied": 13
    },
    {
     "team": "hiero-consensus-node-execution-codeowners",
@@ -3360,11 +3204,11 @@
     "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 99,
-    "reviews_given": 289,
-    "merges_done": 83,
-    "issues_opened": 65,
-    "labels_applied": 8
+    "prs_opened": 135,
+    "reviews_given": 378,
+    "merges_done": 95,
+    "issues_opened": 110,
+    "labels_applied": 20
    },
    {
     "team": "hiero-consensus-node-foundation-codeowners",
@@ -3372,11 +3216,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 55,
-    "reviews_given": 392,
-    "merges_done": 50,
-    "issues_opened": 62,
-    "labels_applied": 55
+    "prs_opened": 63,
+    "reviews_given": 432,
+    "merges_done": 55,
+    "issues_opened": 71,
+    "labels_applied": 78
    },
    {
     "team": "hiero-consensus-node-internal-contributors",
@@ -3384,11 +3228,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 66,
-    "reviews_given": 294,
-    "merges_done": 52,
-    "issues_opened": 93,
-    "labels_applied": 52
+    "prs_opened": 72,
+    "reviews_given": 330,
+    "merges_done": 58,
+    "issues_opened": 134,
+    "labels_applied": 84
    },
    {
     "team": "hiero-consensus-node-maintainers",
@@ -3396,11 +3240,11 @@
     "active_members": 13,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 68,
-    "reviews_given": 404,
-    "merges_done": 68,
-    "issues_opened": 108,
-    "labels_applied": 74
+    "prs_opened": 76,
+    "reviews_given": 504,
+    "merges_done": 74,
+    "issues_opened": 147,
+    "labels_applied": 111
    },
    {
     "team": "hiero-consensus-node-release-engineers",
@@ -3408,11 +3252,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 25,
-    "reviews_given": 131,
-    "merges_done": 19,
-    "issues_opened": 19,
-    "labels_applied": 27
+    "prs_opened": 34,
+    "reviews_given": 167,
+    "merges_done": 23,
+    "issues_opened": 25,
+    "labels_applied": 35
    },
    {
     "team": "hiero-consensus-node-release-managers",
@@ -3420,11 +3264,11 @@
     "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 74,
-    "reviews_given": 360,
-    "merges_done": 141,
-    "issues_opened": 94,
-    "labels_applied": 46
+    "prs_opened": 82,
+    "reviews_given": 441,
+    "merges_done": 154,
+    "issues_opened": 131,
+    "labels_applied": 82
    },
    {
     "team": "hiero-consensus-node-smart-contract-codeowners",
@@ -3432,23 +3276,23 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 12,
-    "reviews_given": 146,
-    "merges_done": 15,
+    "prs_opened": 13,
+    "reviews_given": 206,
+    "merges_done": 16,
     "issues_opened": 24,
-    "labels_applied": 3
+    "labels_applied": 14
    },
    {
     "team": "hiero-contracts-committers",
     "members": 31,
-    "active_members": 16,
+    "active_members": 15,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 146,
-    "reviews_given": 536,
-    "merges_done": 161,
-    "issues_opened": 113,
-    "labels_applied": 48
+    "prs_opened": 186,
+    "reviews_given": 643,
+    "merges_done": 176,
+    "issues_opened": 182,
+    "labels_applied": 94
    },
    {
     "team": "hiero-contracts-internal-contributors",
@@ -3457,7 +3301,7 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 0,
-    "reviews_given": 14,
+    "reviews_given": 20,
     "merges_done": 0,
     "issues_opened": 2,
     "labels_applied": 0
@@ -3468,11 +3312,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 21,
-    "reviews_given": 242,
-    "merges_done": 43,
+    "prs_opened": 23,
+    "reviews_given": 283,
+    "merges_done": 32,
     "issues_opened": 28,
-    "labels_applied": 9
+    "labels_applied": 21
    },
    {
     "team": "hiero-cryptography-committers",
@@ -3480,11 +3324,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 53,
-    "reviews_given": 278,
-    "merges_done": 47,
-    "issues_opened": 43,
-    "labels_applied": 11
+    "prs_opened": 60,
+    "reviews_given": 306,
+    "merges_done": 52,
+    "issues_opened": 52,
+    "labels_applied": 25
    },
    {
     "team": "hiero-cryptography-maintainers",
@@ -3492,23 +3336,107 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 32,
-    "reviews_given": 99,
-    "merges_done": 30,
-    "issues_opened": 21,
+    "prs_opened": 33,
+    "reviews_given": 105,
+    "merges_done": 33,
+    "issues_opened": 23,
     "labels_applied": 3
    },
    {
-    "team": "hiero-enterprise-java-committers",
-    "members": 2,
+    "team": "hiero-did-sdk-committers",
+    "members": 4,
     "active_members": 1,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 5,
-    "reviews_given": 27,
-    "merges_done": 21,
+    "prs_opened": 6,
+    "reviews_given": 2,
+    "merges_done": 1,
     "issues_opened": 1,
     "labels_applied": 1
+   },
+   {
+    "team": "hiero-did-sdk-js-committers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 6,
+    "reviews_given": 2,
+    "merges_done": 1,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "hiero-did-sdk-js-maintainers",
+    "members": 9,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 7,
+    "reviews_given": 30,
+    "merges_done": 17,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "hiero-did-sdk-maintainers",
+    "members": 9,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 7,
+    "reviews_given": 30,
+    "merges_done": 17,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "hiero-did-sdk-python-committers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 6,
+    "reviews_given": 2,
+    "merges_done": 1,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "hiero-did-sdk-python-maintainers",
+    "members": 6,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 7,
+    "reviews_given": 30,
+    "merges_done": 17,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "hiero-docs-committers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 21,
+    "reviews_given": 14,
+    "merges_done": 8,
+    "issues_opened": 31,
+    "labels_applied": 27
+   },
+   {
+    "team": "hiero-docs-maintainers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 21,
+    "reviews_given": 14,
+    "merges_done": 8,
+    "issues_opened": 31,
+    "labels_applied": 27
    },
    {
     "team": "hiero-enterprise-java-maintainers",
@@ -3516,35 +3444,23 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 29,
-    "reviews_given": 195,
-    "merges_done": 73,
-    "issues_opened": 22,
-    "labels_applied": 34
-   },
-   {
-    "team": "hiero-enterprise-java-triage",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 16,
-    "reviews_given": 78,
-    "merges_done": 46,
-    "issues_opened": 7,
-    "labels_applied": 5
+    "prs_opened": 32,
+    "reviews_given": 203,
+    "merges_done": 79,
+    "issues_opened": 26,
+    "labels_applied": 46
    },
    {
     "team": "hiero-ethereum-execution-spec-tests-committers",
     "members": 14,
-    "active_members": 6,
+    "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 53,
-    "reviews_given": 287,
-    "merges_done": 84,
-    "issues_opened": 48,
-    "labels_applied": 40
+    "prs_opened": 59,
+    "reviews_given": 309,
+    "merges_done": 89,
+    "issues_opened": 72,
+    "labels_applied": 74
    },
    {
     "team": "hiero-ethereum-execution-spec-tests-internal-contributors",
@@ -3553,7 +3469,7 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 0,
-    "reviews_given": 13,
+    "reviews_given": 16,
     "merges_done": 0,
     "issues_opened": 2,
     "labels_applied": 0
@@ -3564,11 +3480,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 21,
-    "reviews_given": 242,
-    "merges_done": 43,
+    "prs_opened": 23,
+    "reviews_given": 283,
+    "merges_done": 32,
     "issues_opened": 28,
-    "labels_applied": 9
+    "labels_applied": 21
    },
    {
     "team": "hiero-gradle-conventions-committers",
@@ -3576,11 +3492,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 21,
-    "reviews_given": 122,
-    "merges_done": 37,
-    "issues_opened": 27,
-    "labels_applied": 46
+    "prs_opened": 23,
+    "reviews_given": 134,
+    "merges_done": 38,
+    "issues_opened": 28,
+    "labels_applied": 59
    },
    {
     "team": "hiero-gradle-conventions-maintainers",
@@ -3588,23 +3504,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 27,
-    "reviews_given": 144,
-    "merges_done": 50,
-    "issues_opened": 27,
-    "labels_applied": 46
-   },
-   {
-    "team": "hiero-hederium-maintainers",
-    "members": 2,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 7,
-    "reviews_given": 31,
-    "merges_done": 29,
-    "issues_opened": 0,
-    "labels_applied": 0
+    "prs_opened": 29,
+    "reviews_given": 153,
+    "merges_done": 48,
+    "issues_opened": 28,
+    "labels_applied": 59
    },
    {
     "team": "hiero-improvement-proposals-committers",
@@ -3612,23 +3516,35 @@
     "active_members": 22,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 156,
-    "reviews_given": 821,
-    "merges_done": 251,
-    "issues_opened": 142,
-    "labels_applied": 85
+    "prs_opened": 172,
+    "reviews_given": 969,
+    "merges_done": 267,
+    "issues_opened": 187,
+    "labels_applied": 142
+   },
+   {
+    "team": "hiero-improvement-proposals-maintainers",
+    "members": 4,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 14,
+    "reviews_given": 25,
+    "merges_done": 18,
+    "issues_opened": 1,
+    "labels_applied": 1
    },
    {
     "team": "hiero-json-rpc-relay-committers",
     "members": 21,
-    "active_members": 8,
+    "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 68,
-    "reviews_given": 459,
-    "merges_done": 124,
-    "issues_opened": 70,
-    "labels_applied": 49
+    "prs_opened": 74,
+    "reviews_given": 499,
+    "merges_done": 117,
+    "issues_opened": 94,
+    "labels_applied": 93
    },
    {
     "team": "hiero-json-rpc-relay-internal-contributors",
@@ -3636,11 +3552,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 6,
-    "reviews_given": 90,
+    "prs_opened": 5,
+    "reviews_given": 133,
     "merges_done": 12,
     "issues_opened": 20,
-    "labels_applied": 3
+    "labels_applied": 12
    },
    {
     "team": "hiero-json-rpc-relay-maintainers",
@@ -3649,10 +3565,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 15,
-    "reviews_given": 185,
-    "merges_done": 40,
+    "reviews_given": 206,
+    "merges_done": 28,
     "issues_opened": 24,
-    "labels_applied": 9
+    "labels_applied": 19
    },
    {
     "team": "hiero-local-node-committers",
@@ -3660,11 +3576,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 47,
-    "reviews_given": 258,
-    "merges_done": 57,
-    "issues_opened": 29,
-    "labels_applied": 22
+    "prs_opened": 49,
+    "reviews_given": 288,
+    "merges_done": 46,
+    "issues_opened": 32,
+    "labels_applied": 35
    },
    {
     "team": "hiero-local-node-maintainers",
@@ -3673,10 +3589,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 41,
-    "reviews_given": 218,
-    "merges_done": 50,
-    "issues_opened": 28,
-    "labels_applied": 21
+    "reviews_given": 238,
+    "merges_done": 38,
+    "issues_opened": 29,
+    "labels_applied": 34
    },
    {
     "team": "hiero-mirror-node-committers",
@@ -3685,10 +3601,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 96,
-    "reviews_given": 457,
-    "merges_done": 124,
-    "issues_opened": 34,
-    "labels_applied": 45
+    "reviews_given": 488,
+    "merges_done": 137,
+    "issues_opened": 35,
+    "labels_applied": 79
    },
    {
     "team": "hiero-mirror-node-explorer-committers",
@@ -3697,8 +3613,8 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 5,
-    "reviews_given": 60,
-    "merges_done": 57,
+    "reviews_given": 56,
+    "merges_done": 51,
     "issues_opened": 1,
     "labels_applied": 1
    },
@@ -3709,8 +3625,8 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 5,
-    "reviews_given": 60,
-    "merges_done": 57,
+    "reviews_given": 56,
+    "merges_done": 51,
     "issues_opened": 1,
     "labels_applied": 1
    },
@@ -3720,11 +3636,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 39,
-    "reviews_given": 204,
-    "merges_done": 114,
-    "issues_opened": 15,
-    "labels_applied": 28
+    "prs_opened": 42,
+    "reviews_given": 231,
+    "merges_done": 121,
+    "issues_opened": 16,
+    "labels_applied": 47
    },
    {
     "team": "hiero-performance-engineers",
@@ -3732,11 +3648,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 63,
-    "reviews_given": 160,
+    "prs_opened": 66,
+    "reviews_given": 157,
     "merges_done": 10,
-    "issues_opened": 52,
-    "labels_applied": 47
+    "issues_opened": 54,
+    "labels_applied": 73
    },
    {
     "team": "hiero-protobufs-committers",
@@ -3744,11 +3660,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 83,
-    "reviews_given": 226,
-    "merges_done": 69,
-    "issues_opened": 61,
-    "labels_applied": 8
+    "prs_opened": 93,
+    "reviews_given": 304,
+    "merges_done": 77,
+    "issues_opened": 105,
+    "labels_applied": 20
    },
    {
     "team": "hiero-protobufs-maintainers",
@@ -3756,11 +3672,35 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 37,
-    "reviews_given": 111,
-    "merges_done": 33,
-    "issues_opened": 51,
-    "labels_applied": 4
+    "prs_opened": 46,
+    "reviews_given": 138,
+    "merges_done": 40,
+    "issues_opened": 90,
+    "labels_applied": 16
+   },
+   {
+    "team": "hiero-sdk-cpp-maintainers",
+    "members": 3,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 5,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 2
+   },
+   {
+    "team": "hiero-sdk-go-committers",
+    "members": 5,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 22,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
    },
    {
     "team": "hiero-sdk-go-maintainers",
@@ -3768,8 +3708,8 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 7,
-    "reviews_given": 40,
+    "prs_opened": 8,
+    "reviews_given": 37,
     "merges_done": 29,
     "issues_opened": 0,
     "labels_applied": 0
@@ -3780,11 +3720,23 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 11,
-    "reviews_given": 94,
-    "merges_done": 45,
-    "issues_opened": 5,
-    "labels_applied": 9
+    "prs_opened": 9,
+    "reviews_given": 105,
+    "merges_done": 47,
+    "issues_opened": 4,
+    "labels_applied": 10
+   },
+   {
+    "team": "hiero-sdk-java-committers",
+    "members": 3,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 12,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
    },
    {
     "team": "hiero-sdk-java-maintainers",
@@ -3792,9 +3744,9 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 8,
-    "reviews_given": 46,
-    "merges_done": 35,
+    "prs_opened": 9,
+    "reviews_given": 58,
+    "merges_done": 39,
     "issues_opened": 15,
     "labels_applied": 2
    },
@@ -3804,11 +3756,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 104,
-    "reviews_given": 324,
-    "merges_done": 144,
-    "issues_opened": 87,
-    "labels_applied": 63
+    "prs_opened": 106,
+    "reviews_given": 352,
+    "merges_done": 172,
+    "issues_opened": 99,
+    "labels_applied": 134
    },
    {
     "team": "hiero-sdk-js-maintainers",
@@ -3816,11 +3768,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 104,
-    "reviews_given": 324,
-    "merges_done": 144,
-    "issues_opened": 87,
-    "labels_applied": 63
+    "prs_opened": 106,
+    "reviews_given": 352,
+    "merges_done": 172,
+    "issues_opened": 99,
+    "labels_applied": 134
    },
    {
     "team": "hiero-sdk-python-committers",
@@ -3828,11 +3780,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 23,
-    "reviews_given": 175,
-    "merges_done": 70,
-    "issues_opened": 17,
-    "labels_applied": 34
+    "prs_opened": 25,
+    "reviews_given": 173,
+    "merges_done": 73,
+    "issues_opened": 19,
+    "labels_applied": 41
    },
    {
     "team": "hiero-sdk-python-maintainers",
@@ -3841,10 +3793,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 37,
-    "reviews_given": 258,
-    "merges_done": 101,
-    "issues_opened": 30,
-    "labels_applied": 58
+    "reviews_given": 274,
+    "merges_done": 102,
+    "issues_opened": 32,
+    "labels_applied": 67
    },
    {
     "team": "hiero-sdk-python-triage",
@@ -3852,11 +3804,23 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 14,
-    "reviews_given": 140,
-    "merges_done": 41,
-    "issues_opened": 14,
-    "labels_applied": 34
+    "prs_opened": 15,
+    "reviews_given": 144,
+    "merges_done": 44,
+    "issues_opened": 16,
+    "labels_applied": 41
+   },
+   {
+    "team": "hiero-sdk-rust-maintainers",
+    "members": 4,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 0,
+    "reviews_given": 4,
+    "merges_done": 0,
+    "issues_opened": 0,
+    "labels_applied": 0
    },
    {
     "team": "hiero-sdk-swift-maintainers",
@@ -3864,11 +3828,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 56,
-    "reviews_given": 90,
+    "prs_opened": 55,
+    "reviews_given": 92,
     "merges_done": 20,
-    "issues_opened": 38,
-    "labels_applied": 18
+    "issues_opened": 39,
+    "labels_applied": 26
    },
    {
     "team": "hiero-sdk-tck-committers",
@@ -3876,11 +3840,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 104,
-    "reviews_given": 324,
-    "merges_done": 144,
-    "issues_opened": 87,
-    "labels_applied": 65
+    "prs_opened": 106,
+    "reviews_given": 349,
+    "merges_done": 172,
+    "issues_opened": 99,
+    "labels_applied": 136
    },
    {
     "team": "hiero-sdk-tck-maintainers",
@@ -3888,11 +3852,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 104,
-    "reviews_given": 317,
-    "merges_done": 144,
-    "issues_opened": 87,
-    "labels_applied": 65
+    "prs_opened": 106,
+    "reviews_given": 345,
+    "merges_done": 172,
+    "issues_opened": 99,
+    "labels_applied": 136
    },
    {
     "team": "hiero-sdk-triage",
@@ -3900,11 +3864,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 82,
-    "reviews_given": 224,
-    "merges_done": 124,
+    "prs_opened": 81,
+    "reviews_given": 232,
+    "merges_done": 127,
     "issues_opened": 59,
-    "labels_applied": 25
+    "labels_applied": 34
    },
    {
     "team": "hiero-solo-action-committers",
@@ -3912,11 +3876,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 15,
-    "reviews_given": 73,
-    "merges_done": 38,
-    "issues_opened": 8,
-    "labels_applied": 4
+    "prs_opened": 17,
+    "reviews_given": 77,
+    "merges_done": 41,
+    "issues_opened": 10,
+    "labels_applied": 9
    },
    {
     "team": "hiero-solo-action-maintainers",
@@ -3924,11 +3888,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 15,
-    "reviews_given": 73,
-    "merges_done": 38,
-    "issues_opened": 8,
-    "labels_applied": 4
+    "prs_opened": 17,
+    "reviews_given": 77,
+    "merges_done": 41,
+    "issues_opened": 10,
+    "labels_applied": 9
    },
    {
     "team": "hiero-triage",
@@ -3936,11 +3900,11 @@
     "active_members": 10,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 36,
-    "reviews_given": 263,
-    "merges_done": 122,
+    "prs_opened": 38,
+    "reviews_given": 331,
+    "merges_done": 129,
     "issues_opened": 33,
-    "labels_applied": 21
+    "labels_applied": 41
    },
    {
     "team": "hiero-website-committers",
@@ -3949,10 +3913,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 30,
-    "reviews_given": 140,
-    "merges_done": 75,
+    "reviews_given": 149,
+    "merges_done": 71,
     "issues_opened": 17,
-    "labels_applied": 27
+    "labels_applied": 30
    },
    {
     "team": "hiero-website-maintainers",
@@ -3960,11 +3924,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 25,
-    "reviews_given": 132,
-    "merges_done": 74,
-    "issues_opened": 16,
-    "labels_applied": 26
+    "prs_opened": 23,
+    "reviews_given": 140,
+    "merges_done": 70,
+    "issues_opened": 15,
+    "labels_applied": 29
    },
    {
     "team": "hiero-website-triage",
@@ -3972,11 +3936,11 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 4,
-    "reviews_given": 22,
-    "merges_done": 13,
-    "issues_opened": 2,
-    "labels_applied": 0
+    "prs_opened": 3,
+    "reviews_given": 23,
+    "merges_done": 14,
+    "issues_opened": 1,
+    "labels_applied": 1
    },
    {
     "team": "homebrew-tools-committers",
@@ -3984,11 +3948,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 104,
-    "reviews_given": 303,
-    "merges_done": 62,
-    "issues_opened": 70,
-    "labels_applied": 80
+    "prs_opened": 107,
+    "reviews_given": 314,
+    "merges_done": 64,
+    "issues_opened": 74,
+    "labels_applied": 118
    },
    {
     "team": "homebrew-tools-maintainers",
@@ -3996,23 +3960,83 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 27,
-    "reviews_given": 311,
-    "merges_done": 180,
+    "prs_opened": 30,
+    "reviews_given": 344,
+    "merges_done": 189,
     "issues_opened": 34,
-    "labels_applied": 56
+    "labels_applied": 71
+   },
+   {
+    "team": "identity-collaboration-hub-committers",
+    "members": 4,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 7,
+    "reviews_given": 30,
+    "merges_done": 17,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "identity-collaboration-hub-maintainers",
+    "members": 8,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 7,
+    "reviews_given": 30,
+    "merges_done": 17,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "lf-staff",
+    "members": 9,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 5,
+    "reviews_given": 17,
+    "merges_done": 17,
+    "issues_opened": 2,
+    "labels_applied": 1
+   },
+   {
+    "team": "roadmap-committers",
+    "members": 6,
+    "active_members": 4,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 30,
+    "reviews_given": 199,
+    "merges_done": 106,
+    "issues_opened": 16,
+    "labels_applied": 23
+   },
+   {
+    "team": "roadmap-maintainers",
+    "members": 3,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 20,
+    "reviews_given": 140,
+    "merges_done": 95,
+    "issues_opened": 6,
+    "labels_applied": 23
    },
    {
     "team": "roadmap-viewers",
     "members": 30,
-    "active_members": 24,
+    "active_members": 25,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 211,
-    "reviews_given": 1109,
-    "merges_done": 345,
-    "issues_opened": 191,
-    "labels_applied": 120
+    "prs_opened": 237,
+    "reviews_given": 1197,
+    "merges_done": 381,
+    "issues_opened": 244,
+    "labels_applied": 194
    },
    {
     "team": "sdk-collaboration-hub-maintainers",
@@ -4020,35 +4044,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 60,
+    "prs_opened": 58,
     "reviews_given": 111,
-    "merges_done": 33,
+    "merges_done": 34,
     "issues_opened": 40,
-    "labels_applied": 18
-   },
-   {
-    "team": "security-maintainers",
-    "members": 8,
-    "active_members": 1,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 1,
-    "reviews_given": 6,
-    "merges_done": 1,
-    "issues_opened": 0,
-    "labels_applied": 0
-   },
-   {
-    "team": "solo-admins",
-    "members": 3,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 3,
-    "reviews_given": 12,
-    "merges_done": 3,
-    "issues_opened": 0,
-    "labels_applied": 0
+    "labels_applied": 27
    },
    {
     "team": "solo-build-actions-committers",
@@ -4056,11 +4056,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 189,
-    "reviews_given": 658,
-    "merges_done": 298,
-    "issues_opened": 135,
-    "labels_applied": 107
+    "prs_opened": 194,
+    "reviews_given": 701,
+    "merges_done": 334,
+    "issues_opened": 150,
+    "labels_applied": 205
    },
    {
     "team": "solo-build-actions-maintainers",
@@ -4068,11 +4068,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 6,
-    "reviews_given": 189,
-    "merges_done": 143,
-    "issues_opened": 7,
-    "labels_applied": 10
+    "prs_opened": 7,
+    "reviews_given": 210,
+    "merges_done": 151,
+    "issues_opened": 6,
+    "labels_applied": 12
    },
    {
     "team": "solo-charts-committers",
@@ -4080,11 +4080,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 111,
-    "reviews_given": 505,
-    "merges_done": 287,
-    "issues_opened": 94,
-    "labels_applied": 73
+    "prs_opened": 114,
+    "reviews_given": 551,
+    "merges_done": 323,
+    "issues_opened": 105,
+    "labels_applied": 147
    },
    {
     "team": "solo-charts-maintainers",
@@ -4092,23 +4092,23 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 84,
-    "reviews_given": 342,
-    "merges_done": 154,
-    "issues_opened": 48,
-    "labels_applied": 44
+    "prs_opened": 87,
+    "reviews_given": 360,
+    "merges_done": 162,
+    "issues_opened": 51,
+    "labels_applied": 70
    },
    {
     "team": "solo-committers",
     "members": 13,
-    "active_members": 10,
+    "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 213,
-    "reviews_given": 673,
-    "merges_done": 309,
-    "issues_opened": 174,
-    "labels_applied": 125
+    "prs_opened": 220,
+    "reviews_given": 716,
+    "merges_done": 345,
+    "issues_opened": 188,
+    "labels_applied": 232
    },
    {
     "team": "solo-containers-committers",
@@ -4116,11 +4116,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 111,
-    "reviews_given": 505,
-    "merges_done": 287,
-    "issues_opened": 94,
-    "labels_applied": 73
+    "prs_opened": 114,
+    "reviews_given": 551,
+    "merges_done": 323,
+    "issues_opened": 105,
+    "labels_applied": 147
    },
    {
     "team": "solo-containers-maintainers",
@@ -4128,23 +4128,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 84,
-    "reviews_given": 342,
-    "merges_done": 154,
-    "issues_opened": 48,
-    "labels_applied": 44
-   },
-   {
-    "team": "solo-docs-admins",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 3,
-    "reviews_given": 12,
-    "merges_done": 3,
-    "issues_opened": 0,
-    "labels_applied": 0
+    "prs_opened": 87,
+    "reviews_given": 360,
+    "merges_done": 162,
+    "issues_opened": 51,
+    "labels_applied": 70
    },
    {
     "team": "solo-docs-committers",
@@ -4152,11 +4140,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 131,
-    "reviews_given": 337,
-    "merges_done": 156,
-    "issues_opened": 119,
-    "labels_applied": 81
+    "prs_opened": 137,
+    "reviews_given": 368,
+    "merges_done": 184,
+    "issues_opened": 131,
+    "labels_applied": 163
    },
    {
     "team": "solo-docs-maintainers",
@@ -4164,35 +4152,35 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 107,
-    "reviews_given": 352,
-    "merges_done": 163,
-    "issues_opened": 80,
-    "labels_applied": 62
+    "prs_opened": 114,
+    "reviews_given": 375,
+    "merges_done": 171,
+    "issues_opened": 83,
+    "labels_applied": 98
    },
    {
     "team": "solo-internal-contributors",
     "members": 12,
-    "active_members": 11,
+    "active_members": 12,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 213,
-    "reviews_given": 674,
-    "merges_done": 309,
-    "issues_opened": 174,
-    "labels_applied": 125
+    "prs_opened": 220,
+    "reviews_given": 720,
+    "merges_done": 345,
+    "issues_opened": 188,
+    "labels_applied": 232
    },
    {
     "team": "solo-maintainers",
     "members": 4,
-    "active_members": 3,
+    "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 6,
-    "reviews_given": 189,
-    "merges_done": 143,
+    "prs_opened": 8,
+    "reviews_given": 210,
+    "merges_done": 151,
     "issues_opened": 7,
-    "labels_applied": 10
+    "labels_applied": 12
    },
    {
     "team": "tsc",
@@ -4201,10 +4189,22 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 4,
-    "reviews_given": 27,
-    "merges_done": 14,
+    "reviews_given": 28,
+    "merges_done": 15,
+    "issues_opened": 1,
+    "labels_applied": 1
+   },
+   {
+    "team": "tsc-eligibility-check-admins",
+    "members": 2,
+    "active_members": 1,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 5,
+    "reviews_given": 17,
+    "merges_done": 17,
     "issues_opened": 2,
-    "labels_applied": 0
+    "labels_applied": 1
    },
    {
     "team": "tsc-eligibility-check-committers",
@@ -4213,10 +4213,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 8,
-    "reviews_given": 39,
-    "merges_done": 30,
-    "issues_opened": 5,
-    "labels_applied": 1
+    "reviews_given": 40,
+    "merges_done": 31,
+    "issues_opened": 3,
+    "labels_applied": 2
    },
    {
     "team": "tsc-eligibility-check-maintainers",
@@ -4225,10 +4225,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 8,
-    "reviews_given": 39,
-    "merges_done": 30,
-    "issues_opened": 5,
-    "labels_applied": 1
+    "reviews_given": 40,
+    "merges_done": 31,
+    "issues_opened": 3,
+    "labels_applied": 2
    }
   ],
   "365d": [
@@ -4273,216 +4273,84 @@
     "members": 2,
     "active_members": 2,
     "status": "active",
-    "days_since_active": 15.0,
-    "prs_opened": 139,
-    "reviews_given": 1049,
-    "merges_done": 509,
-    "issues_opened": 327,
-    "labels_applied": 1228
+    "days_since_active": 20.0,
+    "prs_opened": 138,
+    "reviews_given": 1042,
+    "merges_done": 505,
+    "issues_opened": 326,
+    "labels_applied": 1235
    },
    {
     "team": "hiero-sdk-swift-committers",
     "members": 2,
     "active_members": 1,
     "status": "active",
-    "days_since_active": 15.0,
+    "days_since_active": 20.0,
     "prs_opened": 97,
-    "reviews_given": 862,
+    "reviews_given": 861,
     "merges_done": 391,
     "issues_opened": 300,
-    "labels_applied": 1185
-   },
-   {
-    "team": "hiero-did-sdk-committers",
-    "members": 4,
-    "active_members": 4,
-    "status": "active",
-    "days_since_active": 9.0,
-    "prs_opened": 46,
-    "reviews_given": 217,
-    "merges_done": 1,
-    "issues_opened": 168,
-    "labels_applied": 269
-   },
-   {
-    "team": "hiero-did-sdk-js-committers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 9.0,
-    "prs_opened": 46,
-    "reviews_given": 213,
-    "merges_done": 1,
-    "issues_opened": 168,
-    "labels_applied": 269
-   },
-   {
-    "team": "hiero-did-sdk-python-committers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 9.0,
-    "prs_opened": 46,
-    "reviews_given": 210,
-    "merges_done": 1,
-    "issues_opened": 168,
-    "labels_applied": 269
-   },
-   {
-    "team": "hiero-cli-committers",
-    "members": 7,
-    "active_members": 7,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 393,
-    "reviews_given": 1325,
-    "merges_done": 316,
-    "issues_opened": 581,
-    "labels_applied": 34
-   },
-   {
-    "team": "hiero-cli-maintainers",
-    "members": 6,
-    "active_members": 5,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 129,
-    "reviews_given": 713,
-    "merges_done": 138,
-    "issues_opened": 284,
-    "labels_applied": 27
-   },
-   {
-    "team": "lf-staff",
-    "members": 9,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 161,
-    "reviews_given": 237,
-    "merges_done": 173,
-    "issues_opened": 24,
-    "labels_applied": 21
-   },
-   {
-    "team": "tsc-eligibility-check-admins",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 8.0,
-    "prs_opened": 161,
-    "reviews_given": 237,
-    "merges_done": 173,
-    "issues_opened": 24,
-    "labels_applied": 21
-   },
-   {
-    "team": "heka-identity-platform-committers",
-    "members": 4,
-    "active_members": 4,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 62,
-    "reviews_given": 203,
-    "merges_done": 141,
-    "issues_opened": 5,
-    "labels_applied": 3
-   },
-   {
-    "team": "heka-identity-platform-maintainers",
-    "members": 4,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 55,
-    "reviews_given": 153,
-    "merges_done": 141,
-    "issues_opened": 4,
-    "labels_applied": 2
+    "labels_applied": 1193
    },
    {
     "team": "hiero-consensus-node-devops-codeowners",
     "members": 8,
     "active_members": 8,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 7.0,
     "prs_opened": 63,
     "reviews_given": 81,
     "merges_done": 24,
     "issues_opened": 39,
-    "labels_applied": 52
-   },
-   {
-    "team": "hiero-did-sdk-js-maintainers",
-    "members": 9,
-    "active_members": 5,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 93,
-    "reviews_given": 317,
-    "merges_done": 142,
-    "issues_opened": 171,
-    "labels_applied": 270
-   },
-   {
-    "team": "hiero-did-sdk-maintainers",
-    "members": 9,
-    "active_members": 5,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 93,
-    "reviews_given": 317,
-    "merges_done": 142,
-    "issues_opened": 171,
-    "labels_applied": 270
-   },
-   {
-    "team": "hiero-did-sdk-python-maintainers",
-    "members": 6,
-    "active_members": 4,
-    "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 93,
-    "reviews_given": 310,
-    "merges_done": 142,
-    "issues_opened": 171,
-    "labels_applied": 270
+    "labels_applied": 54
    },
    {
     "team": "hiero-sdk-rust-committers",
     "members": 3,
     "active_members": 2,
     "status": "active",
-    "days_since_active": 2.0,
+    "days_since_active": 7.0,
     "prs_opened": 54,
-    "reviews_given": 355,
-    "merges_done": 230,
+    "reviews_given": 345,
+    "merges_done": 229,
     "issues_opened": 5,
     "labels_applied": 3
    },
    {
-    "team": "identity-collaboration-hub-committers",
-    "members": 4,
-    "active_members": 3,
+    "team": "sdk-collaboration-hub-committers",
+    "members": 5,
+    "active_members": 5,
     "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 100,
-    "reviews_given": 343,
-    "merges_done": 142,
-    "issues_opened": 172,
-    "labels_applied": 271
+    "days_since_active": 6.0,
+    "prs_opened": 368,
+    "reviews_given": 3165,
+    "merges_done": 1194,
+    "issues_opened": 834,
+    "labels_applied": 1586
    },
    {
-    "team": "identity-collaboration-hub-maintainers",
-    "members": 8,
-    "active_members": 4,
+    "team": "hiero-cli-committers",
+    "members": 7,
+    "active_members": 7,
     "status": "active",
-    "days_since_active": 2.0,
-    "prs_opened": 93,
-    "reviews_given": 310,
-    "merges_done": 142,
-    "issues_opened": 171,
-    "labels_applied": 270
+    "days_since_active": 4.0,
+    "prs_opened": 393,
+    "reviews_given": 1325,
+    "merges_done": 316,
+    "issues_opened": 581,
+    "labels_applied": 35
+   },
+   {
+    "team": "hiero-cli-maintainers",
+    "members": 6,
+    "active_members": 5,
+    "status": "active",
+    "days_since_active": 4.0,
+    "prs_opened": 129,
+    "reviews_given": 713,
+    "merges_done": 138,
+    "issues_opened": 284,
+    "labels_applied": 28
    },
    {
     "team": "hashgraph-online-standards-sdk-js-committers",
@@ -4490,7 +4358,7 @@
     "active_members": 1,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 20,
+    "prs_opened": 21,
     "reviews_given": 65,
     "merges_done": 24,
     "issues_opened": 2,
@@ -4502,10 +4370,34 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 20,
+    "prs_opened": 21,
     "reviews_given": 76,
     "merges_done": 24,
     "issues_opened": 2,
+    "labels_applied": 2
+   },
+   {
+    "team": "heka-identity-platform-committers",
+    "members": 4,
+    "active_members": 4,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 62,
+    "reviews_given": 215,
+    "merges_done": 146,
+    "issues_opened": 5,
+    "labels_applied": 3
+   },
+   {
+    "team": "heka-identity-platform-maintainers",
+    "members": 4,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 55,
+    "reviews_given": 165,
+    "merges_done": 146,
+    "issues_opened": 4,
     "labels_applied": 2
    },
    {
@@ -4516,7 +4408,7 @@
     "days_since_active": 1.0,
     "prs_opened": 30,
     "reviews_given": 80,
-    "merges_done": 26,
+    "merges_done": 25,
     "issues_opened": 2,
     "labels_applied": 2
    },
@@ -4528,129 +4420,81 @@
     "days_since_active": 1.0,
     "prs_opened": 30,
     "reviews_given": 80,
-    "merges_done": 26,
+    "merges_done": 25,
     "issues_opened": 2,
     "labels_applied": 2
    },
    {
-    "team": "hiero-docs-committers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 224,
-    "reviews_given": 178,
-    "merges_done": 145,
-    "issues_opened": 176,
-    "labels_applied": 201
-   },
-   {
-    "team": "hiero-docs-maintainers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 224,
-    "reviews_given": 178,
-    "merges_done": 145,
-    "issues_opened": 176,
-    "labels_applied": 201
-   },
-   {
-    "team": "hiero-improvement-proposals-maintainers",
-    "members": 4,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 158,
-    "reviews_given": 357,
-    "merges_done": 172,
-    "issues_opened": 182,
-    "labels_applied": 268
-   },
-   {
-    "team": "hiero-sdk-cpp-maintainers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 157,
-    "reviews_given": 1113,
-    "merges_done": 509,
-    "issues_opened": 395,
-    "labels_applied": 1277
-   },
-   {
-    "team": "hiero-sdk-go-committers",
-    "members": 5,
-    "active_members": 5,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 103,
-    "reviews_given": 530,
-    "merges_done": 241,
-    "issues_opened": 111,
-    "labels_applied": 110
-   },
-   {
-    "team": "hiero-sdk-java-committers",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 1.0,
-    "prs_opened": 54,
-    "reviews_given": 325,
-    "merges_done": 123,
-    "issues_opened": 84,
-    "labels_applied": 67
-   },
-   {
-    "team": "hiero-sdk-rust-maintainers",
-    "members": 4,
+    "team": "hiero-enterprise-java-committers",
+    "members": 2,
     "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 60,
-    "reviews_given": 251,
-    "merges_done": 118,
-    "issues_opened": 95,
-    "labels_applied": 92
+    "prs_opened": 118,
+    "reviews_given": 709,
+    "merges_done": 146,
+    "issues_opened": 156,
+    "labels_applied": 222
    },
    {
-    "team": "roadmap-committers",
-    "members": 6,
-    "active_members": 6,
+    "team": "hiero-enterprise-java-triage",
+    "members": 2,
+    "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 424,
-    "reviews_given": 2698,
-    "merges_done": 1205,
-    "issues_opened": 336,
-    "labels_applied": 528
+    "prs_opened": 163,
+    "reviews_given": 875,
+    "merges_done": 245,
+    "issues_opened": 186,
+    "labels_applied": 254
    },
    {
-    "team": "roadmap-maintainers",
+    "team": "hiero-hederium-maintainers",
+    "members": 2,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 59,
+    "reviews_given": 197,
+    "merges_done": 143,
+    "issues_opened": 29,
+    "labels_applied": 11
+   },
+   {
+    "team": "security-maintainers",
+    "members": 8,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 1.0,
+    "prs_opened": 56,
+    "reviews_given": 129,
+    "merges_done": 43,
+    "issues_opened": 8,
+    "labels_applied": 9
+   },
+   {
+    "team": "solo-admins",
     "members": 3,
     "active_members": 3,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 235,
-    "reviews_given": 1799,
-    "merges_done": 1037,
-    "issues_opened": 179,
-    "labels_applied": 417
+    "prs_opened": 166,
+    "reviews_given": 1432,
+    "merges_done": 621,
+    "issues_opened": 288,
+    "labels_applied": 924
    },
    {
-    "team": "sdk-collaboration-hub-committers",
-    "members": 5,
-    "active_members": 5,
+    "team": "solo-docs-admins",
+    "members": 2,
+    "active_members": 2,
     "status": "active",
     "days_since_active": 1.0,
-    "prs_opened": 376,
-    "reviews_given": 3263,
-    "merges_done": 1219,
-    "issues_opened": 865,
-    "labels_applied": 1659
+    "prs_opened": 158,
+    "reviews_given": 1423,
+    "merges_done": 620,
+    "issues_opened": 285,
+    "labels_applied": 923
    },
    {
     "team": "github-maintainers",
@@ -4658,11 +4502,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 780,
-    "reviews_given": 6033,
-    "merges_done": 2108,
-    "issues_opened": 1396,
-    "labels_applied": 2855
+    "prs_opened": 768,
+    "reviews_given": 5925,
+    "merges_done": 2069,
+    "issues_opened": 1355,
+    "labels_applied": 2781
    },
    {
     "team": "governance-write",
@@ -4670,11 +4514,11 @@
     "active_members": 58,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 3948,
-    "reviews_given": 24441,
-    "merges_done": 7787,
-    "issues_opened": 4268,
-    "labels_applied": 6800
+    "prs_opened": 3924,
+    "reviews_given": 24186,
+    "merges_done": 7708,
+    "issues_opened": 4256,
+    "labels_applied": 6777
    },
    {
     "team": "hiero-block-node-committers",
@@ -4683,10 +4527,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 845,
-    "reviews_given": 8260,
-    "merges_done": 1145,
-    "issues_opened": 1131,
-    "labels_applied": 1349
+    "reviews_given": 8264,
+    "merges_done": 1139,
+    "issues_opened": 1142,
+    "labels_applied": 1376
    },
    {
     "team": "hiero-block-node-internal-contributors",
@@ -4694,11 +4538,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 542,
-    "reviews_given": 5200,
+    "prs_opened": 547,
+    "reviews_given": 5182,
     "merges_done": 805,
-    "issues_opened": 674,
-    "labels_applied": 647
+    "issues_opened": 690,
+    "labels_applied": 685
    },
    {
     "team": "hiero-block-node-maintainers",
@@ -4706,11 +4550,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 335,
-    "reviews_given": 5123,
+    "prs_opened": 338,
+    "reviews_given": 5103,
     "merges_done": 674,
-    "issues_opened": 516,
-    "labels_applied": 446
+    "issues_opened": 533,
+    "labels_applied": 476
    },
    {
     "team": "hiero-consensus-node-ci-codeowners",
@@ -4718,11 +4562,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 865,
-    "reviews_given": 3643,
-    "merges_done": 1151,
-    "issues_opened": 591,
-    "labels_applied": 630
+    "prs_opened": 880,
+    "reviews_given": 3612,
+    "merges_done": 1133,
+    "issues_opened": 577,
+    "labels_applied": 619
    },
    {
     "team": "hiero-consensus-node-committers",
@@ -4730,11 +4574,11 @@
     "active_members": 37,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 2966,
-    "reviews_given": 16009,
-    "merges_done": 2482,
-    "issues_opened": 2551,
-    "labels_applied": 1530
+    "prs_opened": 2999,
+    "reviews_given": 16003,
+    "merges_done": 2487,
+    "issues_opened": 2571,
+    "labels_applied": 1545
    },
    {
     "team": "hiero-consensus-node-consensus-codeowners",
@@ -4742,11 +4586,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 644,
-    "reviews_given": 2395,
-    "merges_done": 545,
-    "issues_opened": 669,
-    "labels_applied": 163
+    "prs_opened": 645,
+    "reviews_given": 2336,
+    "merges_done": 538,
+    "issues_opened": 692,
+    "labels_applied": 160
    },
    {
     "team": "hiero-consensus-node-execution-codeowners",
@@ -4754,11 +4598,11 @@
     "active_members": 12,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1406,
-    "reviews_given": 4882,
-    "merges_done": 1058,
-    "issues_opened": 838,
-    "labels_applied": 176
+    "prs_opened": 1440,
+    "reviews_given": 4889,
+    "merges_done": 1065,
+    "issues_opened": 872,
+    "labels_applied": 183
    },
    {
     "team": "hiero-consensus-node-foundation-codeowners",
@@ -4766,10 +4610,10 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 463,
+    "prs_opened": 461,
     "reviews_given": 3385,
-    "merges_done": 407,
-    "issues_opened": 543,
+    "merges_done": 402,
+    "issues_opened": 540,
     "labels_applied": 679
    },
    {
@@ -4778,11 +4622,11 @@
     "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 934,
-    "reviews_given": 3136,
-    "merges_done": 642,
-    "issues_opened": 852,
-    "labels_applied": 714
+    "prs_opened": 928,
+    "reviews_given": 3112,
+    "merges_done": 633,
+    "issues_opened": 877,
+    "labels_applied": 722
    },
    {
     "team": "hiero-consensus-node-maintainers",
@@ -4790,10 +4634,10 @@
     "active_members": 15,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1212,
-    "reviews_given": 6479,
-    "merges_done": 1181,
-    "issues_opened": 1398,
+    "prs_opened": 1196,
+    "reviews_given": 6467,
+    "merges_done": 1154,
+    "issues_opened": 1410,
     "labels_applied": 1097
    },
    {
@@ -4802,11 +4646,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 692,
-    "reviews_given": 3142,
-    "merges_done": 595,
-    "issues_opened": 546,
-    "labels_applied": 315
+    "prs_opened": 687,
+    "reviews_given": 3138,
+    "merges_done": 581,
+    "issues_opened": 537,
+    "labels_applied": 308
    },
    {
     "team": "hiero-consensus-node-release-managers",
@@ -4814,11 +4658,11 @@
     "active_members": 17,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1159,
-    "reviews_given": 5943,
-    "merges_done": 1937,
-    "issues_opened": 1532,
-    "labels_applied": 1479
+    "prs_opened": 1145,
+    "reviews_given": 5906,
+    "merges_done": 1911,
+    "issues_opened": 1545,
+    "labels_applied": 1487
    },
    {
     "team": "hiero-consensus-node-smart-contract-codeowners",
@@ -4826,11 +4670,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 270,
-    "reviews_given": 2238,
-    "merges_done": 276,
-    "issues_opened": 442,
-    "labels_applied": 367
+    "prs_opened": 272,
+    "reviews_given": 2279,
+    "merges_done": 274,
+    "issues_opened": 439,
+    "labels_applied": 377
    },
    {
     "team": "hiero-contracts-committers",
@@ -4838,11 +4682,11 @@
     "active_members": 20,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1921,
-    "reviews_given": 7588,
-    "merges_done": 1723,
-    "issues_opened": 1309,
-    "labels_applied": 693
+    "prs_opened": 1961,
+    "reviews_given": 7610,
+    "merges_done": 1729,
+    "issues_opened": 1364,
+    "labels_applied": 726
    },
    {
     "team": "hiero-contracts-internal-contributors",
@@ -4851,10 +4695,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 41,
-    "reviews_given": 319,
+    "reviews_given": 325,
     "merges_done": 21,
-    "issues_opened": 178,
-    "labels_applied": 88
+    "issues_opened": 177,
+    "labels_applied": 86
    },
    {
     "team": "hiero-contracts-maintainers",
@@ -4862,11 +4706,11 @@
     "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 456,
-    "reviews_given": 4241,
-    "merges_done": 671,
-    "issues_opened": 622,
-    "labels_applied": 600
+    "prs_opened": 459,
+    "reviews_given": 4224,
+    "merges_done": 664,
+    "issues_opened": 615,
+    "labels_applied": 606
    },
    {
     "team": "hiero-cryptography-committers",
@@ -4874,10 +4718,10 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 490,
-    "reviews_given": 2836,
-    "merges_done": 416,
-    "issues_opened": 476,
+    "prs_opened": 491,
+    "reviews_given": 2815,
+    "merges_done": 413,
+    "issues_opened": 475,
     "labels_applied": 290
    },
    {
@@ -4886,23 +4730,107 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 178,
-    "reviews_given": 701,
-    "merges_done": 149,
-    "issues_opened": 195,
+    "prs_opened": 180,
+    "reviews_given": 700,
+    "merges_done": 152,
+    "issues_opened": 197,
     "labels_applied": 18
    },
    {
-    "team": "hiero-enterprise-java-committers",
-    "members": 2,
-    "active_members": 2,
+    "team": "hiero-did-sdk-committers",
+    "members": 4,
+    "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 118,
-    "reviews_given": 701,
-    "merges_done": 146,
-    "issues_opened": 156,
-    "labels_applied": 222
+    "prs_opened": 48,
+    "reviews_given": 216,
+    "merges_done": 1,
+    "issues_opened": 168,
+    "labels_applied": 269
+   },
+   {
+    "team": "hiero-did-sdk-js-committers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 48,
+    "reviews_given": 212,
+    "merges_done": 1,
+    "issues_opened": 168,
+    "labels_applied": 269
+   },
+   {
+    "team": "hiero-did-sdk-js-maintainers",
+    "members": 9,
+    "active_members": 5,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 95,
+    "reviews_given": 328,
+    "merges_done": 147,
+    "issues_opened": 171,
+    "labels_applied": 270
+   },
+   {
+    "team": "hiero-did-sdk-maintainers",
+    "members": 9,
+    "active_members": 5,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 95,
+    "reviews_given": 328,
+    "merges_done": 147,
+    "issues_opened": 171,
+    "labels_applied": 270
+   },
+   {
+    "team": "hiero-did-sdk-python-committers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 48,
+    "reviews_given": 209,
+    "merges_done": 1,
+    "issues_opened": 168,
+    "labels_applied": 269
+   },
+   {
+    "team": "hiero-did-sdk-python-maintainers",
+    "members": 6,
+    "active_members": 4,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 95,
+    "reviews_given": 321,
+    "merges_done": 147,
+    "issues_opened": 171,
+    "labels_applied": 270
+   },
+   {
+    "team": "hiero-docs-committers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 225,
+    "reviews_given": 181,
+    "merges_done": 145,
+    "issues_opened": 175,
+    "labels_applied": 209
+   },
+   {
+    "team": "hiero-docs-maintainers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 225,
+    "reviews_given": 181,
+    "merges_done": 145,
+    "issues_opened": 175,
+    "labels_applied": 209
    },
    {
     "team": "hiero-enterprise-java-maintainers",
@@ -4910,23 +4838,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 290,
-    "reviews_given": 1752,
-    "merges_done": 460,
-    "issues_opened": 198,
-    "labels_applied": 306
-   },
-   {
-    "team": "hiero-enterprise-java-triage",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 160,
-    "reviews_given": 864,
-    "merges_done": 243,
-    "issues_opened": 183,
-    "labels_applied": 250
+    "prs_opened": 292,
+    "reviews_given": 1768,
+    "merges_done": 469,
+    "issues_opened": 204,
+    "labels_applied": 311
    },
    {
     "team": "hiero-ethereum-execution-spec-tests-committers",
@@ -4934,11 +4850,11 @@
     "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 535,
-    "reviews_given": 2819,
-    "merges_done": 672,
-    "issues_opened": 473,
-    "labels_applied": 518
+    "prs_opened": 543,
+    "reviews_given": 2838,
+    "merges_done": 673,
+    "issues_opened": 494,
+    "labels_applied": 544
    },
    {
     "team": "hiero-ethereum-execution-spec-tests-internal-contributors",
@@ -4947,7 +4863,7 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 23,
-    "reviews_given": 255,
+    "reviews_given": 258,
     "merges_done": 21,
     "issues_opened": 110,
     "labels_applied": 39
@@ -4958,11 +4874,11 @@
     "active_members": 11,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 456,
-    "reviews_given": 4241,
-    "merges_done": 671,
-    "issues_opened": 622,
-    "labels_applied": 600
+    "prs_opened": 459,
+    "reviews_given": 4224,
+    "merges_done": 664,
+    "issues_opened": 615,
+    "labels_applied": 606
    },
    {
     "team": "hiero-gradle-conventions-committers",
@@ -4970,11 +4886,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 434,
-    "reviews_given": 2127,
-    "merges_done": 774,
-    "issues_opened": 389,
-    "labels_applied": 468
+    "prs_opened": 424,
+    "reviews_given": 2094,
+    "merges_done": 759,
+    "issues_opened": 377,
+    "labels_applied": 460
    },
    {
     "team": "hiero-gradle-conventions-maintainers",
@@ -4982,23 +4898,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 569,
-    "reviews_given": 2479,
-    "merges_done": 1025,
-    "issues_opened": 422,
-    "labels_applied": 499
-   },
-   {
-    "team": "hiero-hederium-maintainers",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 58,
-    "reviews_given": 197,
-    "merges_done": 143,
-    "issues_opened": 29,
-    "labels_applied": 11
+    "prs_opened": 558,
+    "reviews_given": 2442,
+    "merges_done": 1006,
+    "issues_opened": 407,
+    "labels_applied": 491
    },
    {
     "team": "hiero-improvement-proposals-committers",
@@ -5006,11 +4910,23 @@
     "active_members": 33,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 2298,
-    "reviews_given": 12655,
-    "merges_done": 3272,
-    "issues_opened": 1971,
-    "labels_applied": 1737
+    "prs_opened": 2285,
+    "reviews_given": 12605,
+    "merges_done": 3246,
+    "issues_opened": 1986,
+    "labels_applied": 1760
+   },
+   {
+    "team": "hiero-improvement-proposals-maintainers",
+    "members": 4,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 159,
+    "reviews_given": 355,
+    "merges_done": 168,
+    "issues_opened": 182,
+    "labels_applied": 268
    },
    {
     "team": "hiero-json-rpc-relay-committers",
@@ -5018,11 +4934,11 @@
     "active_members": 16,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 841,
-    "reviews_given": 6055,
-    "merges_done": 1241,
-    "issues_opened": 908,
-    "labels_applied": 1006
+    "prs_opened": 849,
+    "reviews_given": 6036,
+    "merges_done": 1235,
+    "issues_opened": 922,
+    "labels_applied": 1036
    },
    {
     "team": "hiero-json-rpc-relay-internal-contributors",
@@ -5030,11 +4946,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 149,
-    "reviews_given": 1433,
-    "merges_done": 187,
-    "issues_opened": 418,
-    "labels_applied": 328
+    "prs_opened": 148,
+    "reviews_given": 1459,
+    "merges_done": 185,
+    "issues_opened": 415,
+    "labels_applied": 335
    },
    {
     "team": "hiero-json-rpc-relay-maintainers",
@@ -5043,10 +4959,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 317,
-    "reviews_given": 3372,
-    "merges_done": 582,
-    "issues_opened": 530,
-    "labels_applied": 512
+    "reviews_given": 3337,
+    "merges_done": 575,
+    "issues_opened": 524,
+    "labels_applied": 517
    },
    {
     "team": "hiero-local-node-committers",
@@ -5054,11 +4970,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 492,
-    "reviews_given": 3091,
-    "merges_done": 464,
+    "prs_opened": 494,
+    "reviews_given": 3089,
+    "merges_done": 462,
     "issues_opened": 437,
-    "labels_applied": 510
+    "labels_applied": 521
    },
    {
     "team": "hiero-local-node-maintainers",
@@ -5066,11 +4982,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 338,
-    "reviews_given": 2033,
-    "merges_done": 320,
-    "issues_opened": 374,
-    "labels_applied": 469
+    "prs_opened": 339,
+    "reviews_given": 2057,
+    "merges_done": 318,
+    "issues_opened": 372,
+    "labels_applied": 480
    },
    {
     "team": "hiero-mirror-node-committers",
@@ -5078,11 +4994,11 @@
     "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 971,
-    "reviews_given": 5395,
-    "merges_done": 1609,
-    "issues_opened": 444,
-    "labels_applied": 976
+    "prs_opened": 968,
+    "reviews_given": 5399,
+    "merges_done": 1602,
+    "issues_opened": 440,
+    "labels_applied": 1005
    },
    {
     "team": "hiero-mirror-node-explorer-committers",
@@ -5090,11 +5006,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 106,
-    "reviews_given": 487,
-    "merges_done": 387,
-    "issues_opened": 101,
-    "labels_applied": 93
+    "prs_opened": 108,
+    "reviews_given": 492,
+    "merges_done": 389,
+    "issues_opened": 100,
+    "labels_applied": 91
    },
    {
     "team": "hiero-mirror-node-explorer-maintainers",
@@ -5102,11 +5018,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 106,
-    "reviews_given": 487,
-    "merges_done": 387,
-    "issues_opened": 101,
-    "labels_applied": 93
+    "prs_opened": 108,
+    "reviews_given": 492,
+    "merges_done": 389,
+    "issues_opened": 100,
+    "labels_applied": 91
    },
    {
     "team": "hiero-mirror-node-maintainers",
@@ -5114,11 +5030,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 473,
-    "reviews_given": 2866,
-    "merges_done": 1431,
+    "prs_opened": 471,
+    "reviews_given": 2853,
+    "merges_done": 1424,
     "issues_opened": 248,
-    "labels_applied": 656
+    "labels_applied": 673
    },
    {
     "team": "hiero-performance-engineers",
@@ -5126,11 +5042,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 639,
-    "reviews_given": 2250,
-    "merges_done": 404,
-    "issues_opened": 683,
-    "labels_applied": 829
+    "prs_opened": 629,
+    "reviews_given": 2227,
+    "merges_done": 389,
+    "issues_opened": 666,
+    "labels_applied": 834
    },
    {
     "team": "hiero-protobufs-committers",
@@ -5138,11 +5054,11 @@
     "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1070,
-    "reviews_given": 3906,
-    "merges_done": 789,
-    "issues_opened": 745,
-    "labels_applied": 172
+    "prs_opened": 1077,
+    "reviews_given": 3922,
+    "merges_done": 792,
+    "issues_opened": 778,
+    "labels_applied": 179
    },
    {
     "team": "hiero-protobufs-maintainers",
@@ -5150,11 +5066,35 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 488,
-    "reviews_given": 1583,
+    "prs_opened": 491,
+    "reviews_given": 1581,
     "merges_done": 379,
-    "issues_opened": 395,
-    "labels_applied": 64
+    "issues_opened": 430,
+    "labels_applied": 72
+   },
+   {
+    "team": "hiero-sdk-cpp-maintainers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 156,
+    "reviews_given": 1109,
+    "merges_done": 505,
+    "issues_opened": 393,
+    "labels_applied": 1282
+   },
+   {
+    "team": "hiero-sdk-go-committers",
+    "members": 5,
+    "active_members": 5,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 97,
+    "reviews_given": 512,
+    "merges_done": 229,
+    "issues_opened": 109,
+    "labels_applied": 107
    },
    {
     "team": "hiero-sdk-go-maintainers",
@@ -5162,11 +5102,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 154,
-    "reviews_given": 703,
-    "merges_done": 384,
-    "issues_opened": 139,
-    "labels_applied": 121
+    "prs_opened": 149,
+    "reviews_given": 685,
+    "merges_done": 372,
+    "issues_opened": 137,
+    "labels_applied": 118
    },
    {
     "team": "hiero-sdk-good-first-issue-support",
@@ -5174,11 +5114,23 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 595,
-    "reviews_given": 4727,
-    "merges_done": 1406,
-    "issues_opened": 1253,
-    "labels_applied": 2974
+    "prs_opened": 592,
+    "reviews_given": 4676,
+    "merges_done": 1396,
+    "issues_opened": 1223,
+    "labels_applied": 2904
+   },
+   {
+    "team": "hiero-sdk-java-committers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 49,
+    "reviews_given": 313,
+    "merges_done": 115,
+    "issues_opened": 83,
+    "labels_applied": 65
    },
    {
     "team": "hiero-sdk-java-maintainers",
@@ -5186,11 +5138,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 132,
-    "reviews_given": 624,
-    "merges_done": 341,
-    "issues_opened": 174,
-    "labels_applied": 115
+    "prs_opened": 128,
+    "reviews_given": 622,
+    "merges_done": 340,
+    "issues_opened": 173,
+    "labels_applied": 113
    },
    {
     "team": "hiero-sdk-js-committers",
@@ -5198,11 +5150,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 532,
-    "reviews_given": 1422,
-    "merges_done": 716,
-    "issues_opened": 360,
-    "labels_applied": 316
+    "prs_opened": 529,
+    "reviews_given": 1426,
+    "merges_done": 738,
+    "issues_opened": 370,
+    "labels_applied": 384
    },
    {
     "team": "hiero-sdk-js-maintainers",
@@ -5210,11 +5162,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 443,
-    "reviews_given": 1225,
-    "merges_done": 582,
-    "issues_opened": 330,
-    "labels_applied": 288
+    "prs_opened": 446,
+    "reviews_given": 1243,
+    "merges_done": 612,
+    "issues_opened": 341,
+    "labels_applied": 357
    },
    {
     "team": "hiero-sdk-python-committers",
@@ -5222,11 +5174,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 499,
-    "reviews_given": 4336,
-    "merges_done": 1086,
-    "issues_opened": 952,
-    "labels_applied": 1817
+    "prs_opened": 500,
+    "reviews_given": 4299,
+    "merges_done": 1082,
+    "issues_opened": 925,
+    "labels_applied": 1752
    },
    {
     "team": "hiero-sdk-python-maintainers",
@@ -5234,11 +5186,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 544,
-    "reviews_given": 5022,
-    "merges_done": 1288,
-    "issues_opened": 1083,
-    "labels_applied": 2067
+    "prs_opened": 545,
+    "reviews_given": 5007,
+    "merges_done": 1290,
+    "issues_opened": 1056,
+    "labels_applied": 2004
    },
    {
     "team": "hiero-sdk-python-triage",
@@ -5246,11 +5198,23 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 366,
-    "reviews_given": 3853,
-    "merges_done": 935,
-    "issues_opened": 901,
-    "labels_applied": 1768
+    "prs_opened": 364,
+    "reviews_given": 3815,
+    "merges_done": 931,
+    "issues_opened": 874,
+    "labels_applied": 1703
+   },
+   {
+    "team": "hiero-sdk-rust-maintainers",
+    "members": 4,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 59,
+    "reviews_given": 248,
+    "merges_done": 114,
+    "issues_opened": 93,
+    "labels_applied": 89
    },
    {
     "team": "hiero-sdk-swift-maintainers",
@@ -5258,11 +5222,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 268,
-    "reviews_given": 1121,
+    "prs_opened": 269,
+    "reviews_given": 1127,
     "merges_done": 432,
     "issues_opened": 466,
-    "labels_applied": 1277
+    "labels_applied": 1291
    },
    {
     "team": "hiero-sdk-tck-committers",
@@ -5270,11 +5234,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 588,
-    "reviews_given": 2190,
-    "merges_done": 1127,
-    "issues_opened": 521,
-    "labels_applied": 1368
+    "prs_opened": 585,
+    "reviews_given": 2196,
+    "merges_done": 1145,
+    "issues_opened": 531,
+    "labels_applied": 1445
    },
    {
     "team": "hiero-sdk-tck-maintainers",
@@ -5282,11 +5246,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 421,
-    "reviews_given": 1515,
-    "merges_done": 645,
-    "issues_opened": 527,
-    "labels_applied": 1343
+    "prs_opened": 425,
+    "reviews_given": 1554,
+    "merges_done": 676,
+    "issues_opened": 538,
+    "labels_applied": 1420
    },
    {
     "team": "hiero-sdk-triage",
@@ -5294,11 +5258,11 @@
     "active_members": 14,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1117,
-    "reviews_given": 5948,
-    "merges_done": 2323,
-    "issues_opened": 1586,
-    "labels_applied": 3209
+    "prs_opened": 1109,
+    "reviews_given": 5864,
+    "merges_done": 2304,
+    "issues_opened": 1555,
+    "labels_applied": 3145
    },
    {
     "team": "hiero-solo-action-committers",
@@ -5306,11 +5270,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 171,
-    "reviews_given": 480,
-    "merges_done": 225,
-    "issues_opened": 52,
-    "labels_applied": 42
+    "prs_opened": 172,
+    "reviews_given": 476,
+    "merges_done": 226,
+    "issues_opened": 55,
+    "labels_applied": 40
    },
    {
     "team": "hiero-solo-action-maintainers",
@@ -5319,10 +5283,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 213,
-    "reviews_given": 667,
-    "merges_done": 343,
-    "issues_opened": 79,
-    "labels_applied": 85
+    "reviews_given": 657,
+    "merges_done": 340,
+    "issues_opened": 81,
+    "labels_applied": 82
    },
    {
     "team": "hiero-triage",
@@ -5330,11 +5294,11 @@
     "active_members": 15,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 646,
-    "reviews_given": 4402,
-    "merges_done": 1434,
-    "issues_opened": 1015,
-    "labels_applied": 1273
+    "prs_opened": 644,
+    "reviews_given": 4426,
+    "merges_done": 1430,
+    "issues_opened": 1012,
+    "labels_applied": 1291
    },
    {
     "team": "hiero-website-committers",
@@ -5343,10 +5307,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 537,
-    "reviews_given": 3847,
-    "merges_done": 1146,
-    "issues_opened": 937,
-    "labels_applied": 1769
+    "reviews_given": 3801,
+    "merges_done": 1136,
+    "issues_opened": 908,
+    "labels_applied": 1693
    },
    {
     "team": "hiero-website-maintainers",
@@ -5354,11 +5318,11 @@
     "active_members": 4,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 512,
-    "reviews_given": 3798,
-    "merges_done": 1141,
-    "issues_opened": 934,
-    "labels_applied": 1766
+    "prs_opened": 510,
+    "reviews_given": 3750,
+    "merges_done": 1131,
+    "issues_opened": 904,
+    "labels_applied": 1690
    },
    {
     "team": "hiero-website-triage",
@@ -5366,11 +5330,11 @@
     "active_members": 2,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 148,
-    "reviews_given": 324,
-    "merges_done": 128,
+    "prs_opened": 146,
+    "reviews_given": 317,
+    "merges_done": 127,
     "issues_opened": 27,
-    "labels_applied": 15
+    "labels_applied": 9
    },
    {
     "team": "homebrew-tools-committers",
@@ -5378,11 +5342,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1114,
-    "reviews_given": 3835,
-    "merges_done": 1014,
-    "issues_opened": 836,
-    "labels_applied": 1192
+    "prs_opened": 1101,
+    "reviews_given": 3797,
+    "merges_done": 994,
+    "issues_opened": 822,
+    "labels_applied": 1194
    },
    {
     "team": "homebrew-tools-maintainers",
@@ -5390,11 +5354,71 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 715,
-    "reviews_given": 4623,
-    "merges_done": 1676,
-    "issues_opened": 746,
-    "labels_applied": 1516
+    "prs_opened": 704,
+    "reviews_given": 4593,
+    "merges_done": 1667,
+    "issues_opened": 734,
+    "labels_applied": 1517
+   },
+   {
+    "team": "identity-collaboration-hub-committers",
+    "members": 4,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 102,
+    "reviews_given": 354,
+    "merges_done": 147,
+    "issues_opened": 172,
+    "labels_applied": 271
+   },
+   {
+    "team": "identity-collaboration-hub-maintainers",
+    "members": 8,
+    "active_members": 4,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 95,
+    "reviews_given": 321,
+    "merges_done": 147,
+    "issues_opened": 171,
+    "labels_applied": 270
+   },
+   {
+    "team": "lf-staff",
+    "members": 9,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 157,
+    "reviews_given": 236,
+    "merges_done": 172,
+    "issues_opened": 22,
+    "labels_applied": 20
+   },
+   {
+    "team": "roadmap-committers",
+    "members": 6,
+    "active_members": 6,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 415,
+    "reviews_given": 2674,
+    "merges_done": 1197,
+    "issues_opened": 327,
+    "labels_applied": 531
+   },
+   {
+    "team": "roadmap-maintainers",
+    "members": 3,
+    "active_members": 3,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 232,
+    "reviews_given": 1791,
+    "merges_done": 1035,
+    "issues_opened": 179,
+    "labels_applied": 428
    },
    {
     "team": "roadmap-viewers",
@@ -5402,11 +5426,11 @@
     "active_members": 29,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 2218,
-    "reviews_given": 12285,
-    "merges_done": 3122,
-    "issues_opened": 2192,
-    "labels_applied": 3219
+    "prs_opened": 2217,
+    "reviews_given": 12192,
+    "merges_done": 3109,
+    "issues_opened": 2216,
+    "labels_applied": 3255
    },
    {
     "team": "sdk-collaboration-hub-maintainers",
@@ -5414,35 +5438,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 377,
-    "reviews_given": 1369,
-    "merges_done": 560,
-    "issues_opened": 423,
-    "labels_applied": 1242
-   },
-   {
-    "team": "security-maintainers",
-    "members": 8,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 56,
-    "reviews_given": 131,
-    "merges_done": 43,
-    "issues_opened": 8,
-    "labels_applied": 9
-   },
-   {
-    "team": "solo-admins",
-    "members": 3,
-    "active_members": 3,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 167,
-    "reviews_given": 1450,
-    "merges_done": 633,
-    "issues_opened": 287,
-    "labels_applied": 919
+    "prs_opened": 376,
+    "reviews_given": 1365,
+    "merges_done": 559,
+    "issues_opened": 424,
+    "labels_applied": 1252
    },
    {
     "team": "solo-build-actions-committers",
@@ -5450,11 +5450,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1121,
-    "reviews_given": 4397,
-    "merges_done": 1225,
-    "issues_opened": 954,
-    "labels_applied": 1894
+    "prs_opened": 1123,
+    "reviews_given": 4441,
+    "merges_done": 1258,
+    "issues_opened": 964,
+    "labels_applied": 1991
    },
    {
     "team": "solo-build-actions-maintainers",
@@ -5462,11 +5462,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 281,
-    "reviews_given": 2496,
-    "merges_done": 902,
+    "prs_opened": 280,
+    "reviews_given": 2499,
+    "merges_done": 908,
     "issues_opened": 357,
-    "labels_applied": 1048
+    "labels_applied": 1057
    },
    {
     "team": "solo-charts-committers",
@@ -5474,11 +5474,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 615,
-    "reviews_given": 3128,
-    "merges_done": 1156,
-    "issues_opened": 540,
-    "labels_applied": 1193
+    "prs_opened": 618,
+    "reviews_given": 3168,
+    "merges_done": 1193,
+    "issues_opened": 552,
+    "labels_applied": 1274
    },
    {
     "team": "solo-charts-maintainers",
@@ -5486,11 +5486,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 787,
-    "reviews_given": 3765,
-    "merges_done": 971,
-    "issues_opened": 771,
-    "labels_applied": 1749
+    "prs_opened": 785,
+    "reviews_given": 3772,
+    "merges_done": 973,
+    "issues_opened": 769,
+    "labels_applied": 1774
    },
    {
     "team": "solo-committers",
@@ -5498,11 +5498,11 @@
     "active_members": 12,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1396,
-    "reviews_given": 4666,
-    "merges_done": 1418,
-    "issues_opened": 1257,
-    "labels_applied": 2156
+    "prs_opened": 1400,
+    "reviews_given": 4708,
+    "merges_done": 1451,
+    "issues_opened": 1261,
+    "labels_applied": 2261
    },
    {
     "team": "solo-containers-committers",
@@ -5510,11 +5510,11 @@
     "active_members": 6,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 615,
-    "reviews_given": 3128,
-    "merges_done": 1156,
-    "issues_opened": 540,
-    "labels_applied": 1193
+    "prs_opened": 618,
+    "reviews_given": 3168,
+    "merges_done": 1193,
+    "issues_opened": 552,
+    "labels_applied": 1274
    },
    {
     "team": "solo-containers-maintainers",
@@ -5522,23 +5522,11 @@
     "active_members": 5,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 787,
-    "reviews_given": 3765,
-    "merges_done": 971,
-    "issues_opened": 771,
-    "labels_applied": 1749
-   },
-   {
-    "team": "solo-docs-admins",
-    "members": 2,
-    "active_members": 2,
-    "status": "active",
-    "days_since_active": 0.0,
-    "prs_opened": 160,
-    "reviews_given": 1441,
-    "merges_done": 632,
-    "issues_opened": 285,
-    "labels_applied": 918
+    "prs_opened": 785,
+    "reviews_given": 3772,
+    "merges_done": 973,
+    "issues_opened": 769,
+    "labels_applied": 1774
    },
    {
     "team": "solo-docs-committers",
@@ -5546,11 +5534,11 @@
     "active_members": 7,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 737,
-    "reviews_given": 2332,
-    "merges_done": 1032,
-    "issues_opened": 742,
-    "labels_applied": 1483
+    "prs_opened": 742,
+    "reviews_given": 2350,
+    "merges_done": 1051,
+    "issues_opened": 754,
+    "labels_applied": 1570
    },
    {
     "team": "solo-docs-maintainers",
@@ -5558,11 +5546,11 @@
     "active_members": 8,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1048,
-    "reviews_given": 4088,
-    "merges_done": 1117,
-    "issues_opened": 1113,
-    "labels_applied": 2218
+    "prs_opened": 1049,
+    "reviews_given": 4097,
+    "merges_done": 1119,
+    "issues_opened": 1110,
+    "labels_applied": 2251
    },
    {
     "team": "solo-internal-contributors",
@@ -5570,11 +5558,11 @@
     "active_members": 12,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 1410,
-    "reviews_given": 4723,
-    "merges_done": 1418,
-    "issues_opened": 1294,
-    "labels_applied": 2151
+    "prs_opened": 1414,
+    "reviews_given": 4768,
+    "merges_done": 1451,
+    "issues_opened": 1297,
+    "labels_applied": 2254
    },
    {
     "team": "solo-maintainers",
@@ -5583,10 +5571,10 @@
     "status": "active",
     "days_since_active": 0.0,
     "prs_opened": 288,
-    "reviews_given": 2505,
-    "merges_done": 903,
-    "issues_opened": 359,
-    "labels_applied": 1049
+    "reviews_given": 2508,
+    "merges_done": 909,
+    "issues_opened": 360,
+    "labels_applied": 1058
    },
    {
     "team": "tsc",
@@ -5594,11 +5582,23 @@
     "active_members": 9,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 168,
-    "reviews_given": 417,
-    "merges_done": 165,
+    "prs_opened": 166,
+    "reviews_given": 409,
+    "merges_done": 163,
     "issues_opened": 79,
-    "labels_applied": 17
+    "labels_applied": 11
+   },
+   {
+    "team": "tsc-eligibility-check-admins",
+    "members": 2,
+    "active_members": 2,
+    "status": "active",
+    "days_since_active": 0.0,
+    "prs_opened": 157,
+    "reviews_given": 236,
+    "merges_done": 172,
+    "issues_opened": 22,
+    "labels_applied": 20
    },
    {
     "team": "tsc-eligibility-check-committers",
@@ -5606,11 +5606,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 288,
-    "reviews_given": 549,
-    "merges_done": 301,
-    "issues_opened": 49,
-    "labels_applied": 35
+    "prs_opened": 282,
+    "reviews_given": 541,
+    "merges_done": 299,
+    "issues_opened": 47,
+    "labels_applied": 28
    },
    {
     "team": "tsc-eligibility-check-maintainers",
@@ -5618,11 +5618,11 @@
     "active_members": 3,
     "status": "active",
     "days_since_active": 0.0,
-    "prs_opened": 288,
-    "reviews_given": 549,
-    "merges_done": 301,
-    "issues_opened": 49,
-    "labels_applied": 35
+    "prs_opened": 282,
+    "reviews_given": 541,
+    "merges_done": 299,
+    "issues_opened": 47,
+    "labels_applied": 28
    }
   ]
  },

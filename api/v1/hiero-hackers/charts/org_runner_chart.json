@@ -34,7 +34,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-16T13:55:32.642139+00:00"
+  "end": "2026-10-21T14:30:24.194247+00:00"
  },
  "series": [
   {
@@ -58,19 +58,19 @@
   {
    "repo": "hiero-enterprise-js",
    "Self-Hosted": 0,
-   "Standard": 7,
+   "Standard": 8,
    "Indeterminate": 1
   },
   {
    "repo": "analytics",
    "Self-Hosted": 0,
-   "Standard": 13,
+   "Standard": 14,
    "Indeterminate": 0
   },
   {
    "repo": "sdk-automations",
    "Self-Hosted": 0,
-   "Standard": 14,
+   "Standard": 17,
    "Indeterminate": 0
   },
   {
@@ -170,6 +170,6 @@
    "Indeterminate": 0
   }
  ],
- "generated_at": "2026-10-16T13:55:32.642139+00:00",
+ "generated_at": "2026-10-21T14:30:24.194247+00:00",
  "stale": false
 }

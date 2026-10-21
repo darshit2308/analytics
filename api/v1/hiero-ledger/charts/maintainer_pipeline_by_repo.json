@@ -34,7 +34,7 @@
  "window": {
   "kind": "all",
   "days": null,
-  "end": "2026-10-16T13:51:33.271463+00:00"
+  "end": "2026-10-21T14:25:57.886108+00:00"
  },
  "series": [
   {
@@ -62,7 +62,7 @@
  "rows": [
   {
    "repo": "hiero-sdk-js",
-   "general_user": 331,
+   "general_user": 337,
    "triage": 10,
    "committer": 2,
    "maintainer": 6
@@ -76,14 +76,14 @@
   },
   {
    "repo": "hiero-sdk-python",
-   "general_user": 258,
+   "general_user": 260,
    "triage": 11,
    "committer": 6,
    "maintainer": 5
   },
   {
    "repo": "hiero-mirror-node",
-   "general_user": 223,
+   "general_user": 225,
    "triage": 0,
    "committer": 11,
    "maintainer": 2
@@ -132,14 +132,14 @@
   },
   {
    "repo": "hiero-sdk-cpp",
-   "general_user": 101,
+   "general_user": 102,
    "triage": 12,
    "committer": 0,
    "maintainer": 3
   },
   {
    "repo": "solo",
-   "general_user": 84,
+   "general_user": 85,
    "triage": 1,
    "committer": 9,
    "maintainer": 4
@@ -202,14 +202,14 @@
   },
   {
    "repo": "sdk-collaboration-hub",
-   "general_user": 30,
+   "general_user": 31,
    "triage": 3,
    "committer": 5,
    "maintainer": 3
   },
   {
    "repo": "hiero-cryptography",
-   "general_user": 30,
+   "general_user": 31,
    "triage": 0,
    "committer": 2,
    "maintainer": 4
@@ -223,7 +223,7 @@
   },
   {
    "repo": "tsc",
-   "general_user": 19,
+   "general_user": 20,
    "triage": 0,
    "committer": 0,
    "maintainer": 10
@@ -334,18 +334,18 @@
    "maintainer": 2
   },
   {
-   "repo": "solo-charts",
-   "general_user": 2,
+   "repo": "solo-containers",
+   "general_user": 3,
    "triage": 0,
    "committer": 0,
    "maintainer": 3
   },
   {
-   "repo": "solo-containers",
+   "repo": "solo-charts",
    "general_user": 2,
    "triage": 0,
    "committer": 0,
-   "maintainer": 2
+   "maintainer": 3
   },
   {
    "repo": "tsc-eligibility-check",
@@ -355,6 +355,6 @@
    "maintainer": 2
   }
  ],
- "generated_at": "2026-10-16T13:51:33.271463+00:00",
+ "generated_at": "2026-10-21T14:25:57.886108+00:00",
  "stale": false
 }

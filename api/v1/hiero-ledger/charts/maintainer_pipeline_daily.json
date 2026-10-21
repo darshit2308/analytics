@@ -25,8 +25,8 @@
  "frequency": "day",
  "timezone": "UTC",
  "comparison": {
-  "current": "2026-10-15",
-  "previous": "2026-10-14"
+  "current": "2026-10-20",
+  "previous": "2026-10-19"
  },
  "category": {
   "key": "bucket",
@@ -34,8 +34,8 @@
  },
  "window": {
   "kind": "calendar",
-  "first": "2026-10-10",
-  "last": "2026-10-16"
+  "first": "2026-10-15",
+  "last": "2026-10-21"
  },
  "series": [
   {
@@ -62,46 +62,6 @@
  "details": [],
  "rows": [
   {
-   "bucket": "2026-10-10",
-   "general_user": 6,
-   "triage": 0,
-   "committer": 3,
-   "maintainer": 6,
-   "partial": false
-  },
-  {
-   "bucket": "2026-10-11",
-   "general_user": 4,
-   "triage": 0,
-   "committer": 0,
-   "maintainer": 4,
-   "partial": false
-  },
-  {
-   "bucket": "2026-10-12",
-   "general_user": 6,
-   "triage": 1,
-   "committer": 20,
-   "maintainer": 23,
-   "partial": false
-  },
-  {
-   "bucket": "2026-10-13",
-   "general_user": 9,
-   "triage": 1,
-   "committer": 27,
-   "maintainer": 30,
-   "partial": false
-  },
-  {
-   "bucket": "2026-10-14",
-   "general_user": 6,
-   "triage": 1,
-   "committer": 28,
-   "maintainer": 25,
-   "partial": false
-  },
-  {
    "bucket": "2026-10-15",
    "general_user": 6,
    "triage": 1,
@@ -111,13 +71,53 @@
   },
   {
    "bucket": "2026-10-16",
-   "general_user": 3,
-   "triage": 1,
-   "committer": 20,
-   "maintainer": 16,
+   "general_user": 8,
+   "triage": 2,
+   "committer": 27,
+   "maintainer": 25,
+   "partial": false
+  },
+  {
+   "bucket": "2026-10-17",
+   "general_user": 9,
+   "triage": 0,
+   "committer": 2,
+   "maintainer": 6,
+   "partial": false
+  },
+  {
+   "bucket": "2026-10-18",
+   "general_user": 7,
+   "triage": 0,
+   "committer": 0,
+   "maintainer": 3,
+   "partial": false
+  },
+  {
+   "bucket": "2026-10-19",
+   "general_user": 9,
+   "triage": 0,
+   "committer": 23,
+   "maintainer": 26,
+   "partial": false
+  },
+  {
+   "bucket": "2026-10-20",
+   "general_user": 12,
+   "triage": 0,
+   "committer": 30,
+   "maintainer": 24,
+   "partial": false
+  },
+  {
+   "bucket": "2026-10-21",
+   "general_user": 5,
+   "triage": 0,
+   "committer": 19,
+   "maintainer": 19,
    "partial": true
   }
  ],
- "generated_at": "2026-10-16T13:51:32.368858+00:00",
+ "generated_at": "2026-10-21T14:25:57.117125+00:00",
  "stale": false
 }

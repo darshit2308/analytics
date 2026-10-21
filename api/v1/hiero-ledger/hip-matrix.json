@@ -1230,8 +1230,8 @@
     },
     {
      "key": "hiero-ledger/hiero-sdk-js",
-     "merged": 3,
-     "open": 1
+     "merged": 4,
+     "open": 0
     },
     {
      "key": "hiero-ledger/hiero-sdk-cpp",
@@ -13563,6 +13563,6 @@
  ],
  "evidence_section": "hip-evidence",
  "macro": "HIPs",
- "generated_at": "2026-10-16T13:54:51.994042+00:00",
+ "generated_at": "2026-10-21T14:29:38.762706+00:00",
  "stale": false
 }

@@ -381,10 +381,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-16T13:55:36.656457+00:00",
+ "generated_at": "2026-10-21T14:30:28.043602+00:00",
  "provenance": {
   "git_sha": "193100a",
-  "data_as_of": "2026-10-11T15:29:06.070706+00:00"
+  "data_as_of": "2026-10-21T14:24:15.499872+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -393,7 +393,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1496,
+     "row_count": 1504,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -407,7 +407,7 @@
      "id": "understaffed",
      "macro": "Governance",
      "title": "Repos with one or fewer active maintainers",
-     "row_count": 15,
+     "row_count": 14,
      "path": "hiero-ledger/understaffed.json"
     },
     {
@@ -442,7 +442,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2860,
+     "row_count": 2865,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -1248,7 +1248,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-16T13:54:51.998704+00:00"
+      "generated_at": "2026-10-21T14:29:38.765872+00:00"
      }
     },
     {
@@ -1330,7 +1330,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-16T13:54:51.994714+00:00"
+      "generated_at": "2026-10-21T14:29:38.763206+00:00"
      }
     },
     {
@@ -1501,7 +1501,7 @@
          "label": "1 month",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_30d.png",
          "width": 2091,
-         "height": 2032,
+         "height": 1969,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_30d.json"
@@ -1511,7 +1511,7 @@
          "label": "Week",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_7d.png",
          "width": 2093,
-         "height": 1468,
+         "height": 1343,
          "interactive": {
           "kind": "categories",
           "path": "hiero-ledger/charts/difficulty_by_repo_7d.json"
@@ -1616,8 +1616,8 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/release_timeline_7d.png",
-         "width": 1791,
-         "height": 982,
+         "width": 1792,
+         "height": 669,
          "interactive": {
           "kind": "events",
           "path": "hiero-ledger/charts/release_timeline_7d.json"
@@ -1630,7 +1630,8 @@
         "Filter to the selected span (Week / 1 month / 1 year / Last 18 months).",
         "Plot one point per release, sorted top-to-bottom by release count within that span.",
         "Label each row with its exact count instead of relying on dot density, which would distort under high cadence."
-       ]
+       ],
+       "full_row": true
       }
      ],
      "group": "Release cadence & staleness"
@@ -1656,7 +1657,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1496,
+      "value": 1504,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1666,7 +1667,7 @@
      },
      {
       "label": "active last month %",
-      "value": "10%",
+      "value": "11%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -1693,7 +1694,7 @@
      },
      {
       "label": "open PRs %",
-      "value": "72%",
+      "value": "73%",
       "note": "The share of contributors who have authored at least one pull request. Used as the proxy for \u201cwrites code\u201d: commits themselves are not ingested, only PRs.",
       "methodology": [
        "Count contributors whose all-time PRs-opened total is above zero.",
@@ -1773,7 +1774,7 @@
      },
      {
       "label": "quiet permission-holders (180d+)",
-      "value": 97,
+      "value": 98,
       "note": "People holding a granted role who have had no tracked activity for 180 days or more \u2014 an access-hygiene list, not a judgement about the people on it.",
       "methodology": [
        "Take everyone holding a triage, committer, or maintainer role in any repository.",
@@ -1814,7 +1815,7 @@
      },
      {
       "label": ">3x their own typical gap",
-      "value": 5,
+      "value": 6,
       "note": "Repos currently more than 3x past their own typical release gap \u2014 furthest behind *relative to their own pace*, not by raw days. A repo with a naturally long cadence isn't counted just for having one; only repos with an established cadence (2+ releases) are eligible.",
       "methodology": [
        "For each repo with 2+ releases, compute the median gap between consecutive releases.",
@@ -1831,7 +1832,7 @@
     },
     "contributors": {
      "path": "hiero-ledger/entities/contributors.json",
-     "count": 1496
+     "count": 1504
     }
    }
   },
@@ -2347,7 +2348,7 @@
           "Label each row with its exact count instead of relying on dot density, which would distort under high cadence."
          ],
          "width": 1792,
-         "height": 731,
+         "height": 794,
          "interactive": {
           "kind": "events",
           "path": "hiero-hackers/charts/release_timeline.json"
@@ -2357,7 +2358,7 @@
          "label": "1 year",
          "file": "charts/org/hiero-hackers/release_timeline_365d.png",
          "width": 1792,
-         "height": 731,
+         "height": 794,
          "interactive": {
           "kind": "events",
           "path": "hiero-hackers/charts/release_timeline_365d.json"
@@ -2421,7 +2422,7 @@
      },
      {
       "label": "multi-repo %",
-      "value": "33%",
+      "value": "35%",
       "note": "The share of contributors active in two or more repositories \u2014 how much the contributor base spans the organisation rather than sitting in one project.",
       "methodology": [
        "For each contributor, count the distinct repositories they were active in (all-time).",
@@ -2430,7 +2431,7 @@
      },
      {
       "label": "file issues %",
-      "value": "51%",
+      "value": "53%",
       "note": "The share of contributors who have opened at least one issue.",
       "methodology": [
        "Count contributors whose all-time issues-opened total is above zero.",
@@ -2448,7 +2449,7 @@
      },
      {
       "label": "give reviews %",
-      "value": "51%",
+      "value": "53%",
       "note": "The share of contributors who have reviewed at least one pull request \u2014 the review load's breadth, not its volume.",
       "methodology": [
        "Count contributors whose all-time reviews-given total is above zero.",
@@ -2457,7 +2458,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "27%",
+      "value": "29%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",
@@ -2478,7 +2479,7 @@
      },
      {
       "label": "released last 90d %",
-      "value": "100%",
+      "value": "62%",
       "note": "Of repos that have ever released (not the full repo universe), the share that shipped a release in the last 90 days.",
       "methodology": [
        "Take repos with at least one release ever.",
@@ -2488,7 +2489,7 @@
      },
      {
       "label": ">3x their own typical gap",
-      "value": 0,
+      "value": 1,
       "note": "Repos currently more than 3x past their own typical release gap \u2014 furthest behind *relative to their own pace*, not by raw days. A repo with a naturally long cadence isn't counted just for having one; only repos with an established cadence (2+ releases) are eligible.",
       "methodology": [
        "For each repo with 2+ releases, compute the median gap between consecutive releases.",
