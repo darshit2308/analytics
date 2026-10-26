@@ -34,7 +34,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-21T14:28:56.325989+00:00"
+  "end": "2026-10-26T16:03:14.459187+00:00"
  },
  "series": [
   {
@@ -99,9 +99,9 @@
   },
   {
    "repo": "hiero-consensus-node",
-   "Self-Hosted": 283,
+   "Self-Hosted": 281,
    "Standard": 0,
-   "Indeterminate": 8
+   "Indeterminate": 7
   },
   {
    "repo": "hiero-docs",
@@ -135,7 +135,7 @@
   },
   {
    "repo": "hiero-sdk-tck",
-   "Self-Hosted": 8,
+   "Self-Hosted": 9,
    "Standard": 2,
    "Indeterminate": 0
   },
@@ -153,9 +153,9 @@
   },
   {
    "repo": "solo",
-   "Self-Hosted": 37,
+   "Self-Hosted": 38,
    "Standard": 5,
-   "Indeterminate": 6
+   "Indeterminate": 7
   },
   {
    "repo": "hiero-block-node",
@@ -290,6 +290,6 @@
    "Indeterminate": 0
   }
  ],
- "generated_at": "2026-10-21T14:28:56.325989+00:00",
+ "generated_at": "2026-10-26T16:03:14.459187+00:00",
  "stale": false
 }

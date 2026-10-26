@@ -69,45 +69,9 @@
  "window": {
   "kind": "trailing",
   "days": 548,
-  "end": "2026-10-21T14:29:08.197624+00:00"
+  "end": "2026-10-26T16:03:24.195270+00:00"
  },
  "rows": [
-  {
-   "repo": "hiero-consensus-node",
-   "time": "2025-04-21T22:22:41Z",
-   "tag_name": "v0.61.4",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-consensus-node",
-   "time": "2025-04-22T12:56:09Z",
-   "tag_name": "v0.62.0",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-json-rpc-relay",
-   "time": "2025-04-22T18:10:13Z",
-   "tag_name": "v0.67.0",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-mirror-node",
-   "time": "2025-04-23T22:07:25Z",
-   "tag_name": "v0.128.0",
-   "type": "release"
-  },
-  {
-   "repo": "solo-containers",
-   "time": "2025-04-24T20:01:45Z",
-   "tag_name": "v0.37.2",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-mirror-node-explorer",
-   "time": "2025-04-25T15:18:36Z",
-   "tag_name": "v24.14.0",
-   "type": "release"
-  },
   {
    "repo": "hiero-mirror-node",
    "time": "2025-04-29T16:39:41Z",
@@ -5207,8 +5171,44 @@
    "time": "2026-10-21T14:14:55Z",
    "tag_name": "v0.80.2",
    "type": "release"
+  },
+  {
+   "repo": "solo-containers",
+   "time": "2026-10-21T23:59:47Z",
+   "tag_name": "v0.46.3",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-consensus-node",
+   "time": "2026-10-22T15:33:16Z",
+   "tag_name": "v0.78.1",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-block-node",
+   "time": "2026-10-22T17:54:45Z",
+   "tag_name": "v0.44.3",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-consensus-node",
+   "time": "2026-10-23T18:39:22Z",
+   "tag_name": "v0.78.0",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-mirror-node",
+   "time": "2026-10-23T19:01:13Z",
+   "tag_name": "v0.165.1",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-json-rpc-relay",
+   "time": "2026-10-25T16:02:59Z",
+   "tag_name": "v0.80.3",
+   "type": "release"
   }
  ],
- "generated_at": "2026-10-21T14:29:08.197624+00:00",
+ "generated_at": "2026-10-26T16:03:24.195270+00:00",
  "stale": false
 }

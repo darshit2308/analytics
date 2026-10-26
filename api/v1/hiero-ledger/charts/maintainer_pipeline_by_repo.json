@@ -34,7 +34,7 @@
  "window": {
   "kind": "all",
   "days": null,
-  "end": "2026-10-21T14:25:57.886108+00:00"
+  "end": "2026-10-26T16:00:24.142347+00:00"
  },
  "series": [
   {
@@ -62,8 +62,8 @@
  "rows": [
   {
    "repo": "hiero-sdk-js",
-   "general_user": 337,
-   "triage": 10,
+   "general_user": 339,
+   "triage": 11,
    "committer": 2,
    "maintainer": 6
   },
@@ -83,7 +83,7 @@
   },
   {
    "repo": "hiero-mirror-node",
-   "general_user": 225,
+   "general_user": 226,
    "triage": 0,
    "committer": 11,
    "maintainer": 2
@@ -209,7 +209,7 @@
   },
   {
    "repo": "hiero-cryptography",
-   "general_user": 31,
+   "general_user": 32,
    "triage": 0,
    "committer": 2,
    "maintainer": 4
@@ -292,18 +292,18 @@
    "maintainer": 5
   },
   {
+   "repo": ".github",
+   "general_user": 10,
+   "triage": 0,
+   "committer": 0,
+   "maintainer": 6
+  },
+  {
    "repo": "hiero-did-sdk-python",
    "general_user": 11,
    "triage": 0,
    "committer": 2,
    "maintainer": 3
-  },
-  {
-   "repo": ".github",
-   "general_user": 10,
-   "triage": 0,
-   "committer": 0,
-   "maintainer": 5
   },
   {
    "repo": "hiero-hederium",
@@ -335,7 +335,7 @@
   },
   {
    "repo": "solo-containers",
-   "general_user": 3,
+   "general_user": 4,
    "triage": 0,
    "committer": 0,
    "maintainer": 3
@@ -355,6 +355,6 @@
    "maintainer": 2
   }
  ],
- "generated_at": "2026-10-21T14:25:57.886108+00:00",
+ "generated_at": "2026-10-26T16:00:24.142347+00:00",
  "stale": false
 }

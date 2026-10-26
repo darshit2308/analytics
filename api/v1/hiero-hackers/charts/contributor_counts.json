@@ -33,7 +33,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-21T14:29:23.946197+00:00"
+  "end": "2026-10-26T16:03:39.391158+00:00"
  },
  "series": [
   {
@@ -58,18 +58,18 @@
   },
   {
    "repo": "sdk-automations",
-   "contributors": 7
+   "contributors": 8
   },
   {
    "repo": "hiero-streams-rs",
    "contributors": 5
   },
   {
-   "repo": "hiero-x402",
-   "contributors": 4
+   "repo": "hiero-sdk-v3-prototyping",
+   "contributors": 5
   },
   {
-   "repo": "hiero-sdk-v3-prototyping",
+   "repo": "hiero-x402",
    "contributors": 4
   },
   {
@@ -133,6 +133,6 @@
    "contributors": 1
   }
  ],
- "generated_at": "2026-10-21T14:29:23.946197+00:00",
+ "generated_at": "2026-10-26T16:03:39.391158+00:00",
  "stale": false
 }

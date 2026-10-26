@@ -54,7 +54,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-21T14:28:01.348657+00:00"
+  "end": "2026-10-26T16:02:20.528564+00:00"
  },
  "nodes": [
   {
@@ -62,136 +62,136 @@
    "active": 5,
    "total": 12,
    "category": "SDKs",
-   "x": 0.3194,
-   "y": -0.0677
+   "x": 0.2244,
+   "y": 1.1945
   },
   {
    "id": "hiero-sdk-cpp",
    "active": 3,
    "total": 15,
    "category": "SDKs",
-   "x": -0.3939,
-   "y": -0.2731
+   "x": -0.1694,
+   "y": 0.3625
+  },
+  {
+   "id": "hiero-sdk-js",
+   "active": 3,
+   "total": 13,
+   "category": "SDKs",
+   "x": 1.0278,
+   "y": -0.0948
   },
   {
    "id": "hiero-sdk-go",
    "active": 3,
    "total": 11,
    "category": "SDKs",
-   "x": -1.2666,
-   "y": 0.1972
-  },
-  {
-   "id": "hiero-sdk-tck",
-   "active": 3,
-   "total": 8,
-   "category": "SDKs",
-   "x": -1.3138,
-   "y": 1.1617
+   "x": -1.0323,
+   "y": 0.6771
   },
   {
    "id": "hiero-sdk-swift",
    "active": 2,
    "total": 15,
    "category": "SDKs",
-   "x": -0.4543,
-   "y": 0.5916
-  },
-  {
-   "id": "hiero-sdk-js",
-   "active": 2,
-   "total": 12,
-   "category": "SDKs",
-   "x": 0.2049,
-   "y": 0.9125
+   "x": 0.2439,
+   "y": -0.1907
   },
   {
    "id": "hiero-sdk-rust",
    "active": 2,
    "total": 12,
    "category": "SDKs",
-   "x": -1.3186,
-   "y": -0.6499
+   "x": -0.5766,
+   "y": 1.2912
+  },
+  {
+   "id": "hiero-sdk-tck",
+   "active": 2,
+   "total": 8,
+   "category": "SDKs",
+   "x": 1.0323,
+   "y": 1.6372
   },
   {
    "id": "hiero-consensus-node",
    "active": 2,
    "total": 3,
    "category": "Core network",
-   "x": 2.4398,
-   "y": -2.9568
+   "x": 3.0529,
+   "y": -3.8783
   },
   {
    "id": "hiero-sdk-python",
    "active": 1,
    "total": 13,
    "category": "SDKs",
-   "x": 0.2774,
-   "y": -1.0398
+   "x": -0.7612,
+   "y": -0.3379
   },
   {
    "id": "sdk-collaboration-hub",
    "active": 1,
    "total": 6,
    "category": "SDKs",
-   "x": -2.2583,
-   "y": 0.0173
+   "x": -0.1294,
+   "y": 2.2583
   },
   {
    "id": "hiero-block-node",
    "active": 1,
    "total": 2,
    "category": "Core network",
-   "x": 5.297,
-   "y": 1.3368
+   "x": 4.8361,
+   "y": -1.6733
   },
   {
    "id": "hiero-enterprise-java",
    "active": 0,
    "total": 12,
    "category": "Apps / Integrations",
-   "x": -0.71,
-   "y": -1.1617
+   "x": 0.9308,
+   "y": 0.7039
   },
   {
    "id": "hiero-website",
    "active": 0,
    "total": 5,
    "category": "Docs / Web",
-   "x": 2.2583,
-   "y": 0.3257
+   "x": 0.3522,
+   "y": -2.2583
   },
   {
    "id": "solo-build-actions",
    "active": 0,
    "total": 3,
    "category": "Tooling / DevEx",
-   "x": 4.8202,
-   "y": -1.0777
+   "x": 6.6432,
+   "y": -1.3793
   },
   {
    "id": "hiero-contracts",
    "active": 0,
    "total": 1,
    "category": "EVM / smart contracts",
-   "x": 3.7019,
-   "y": 0.3975
+   "x": 7.138,
+   "y": 0.7182
   },
   {
    "id": "hiero-json-rpc-relay",
    "active": 0,
    "total": 1,
    "category": "EVM / smart contracts",
-   "x": 7.138,
-   "y": 0.8604
+   "x": 5.2191,
+   "y": 1.6733
   },
   {
    "id": "solo",
    "active": 0,
    "total": 1,
    "category": "Tooling / DevEx",
-   "x": 6.7041,
-   "y": -1.3368
+   "x": 3.7019,
+   "y": 0.1591
   }
  ],
  "edges": [
@@ -511,6 +511,6 @@
    "shared": 1
   }
  ],
- "generated_at": "2026-10-21T14:28:01.348657+00:00",
+ "generated_at": "2026-10-26T16:02:20.528564+00:00",
  "stale": false
 }

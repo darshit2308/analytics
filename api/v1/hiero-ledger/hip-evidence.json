@@ -64,8 +64,8 @@
    "repo": "hiero-ledger/sdk-collaboration-hub",
    "pr_number": 287,
    "pr_title": "Add HIP-1535 SDK design doc: CLPR",
-   "pr_state": "OPEN",
-   "pr_merged_at": null,
+   "pr_state": "MERGED",
+   "pr_merged_at": "2026-10-22 15:04:23+00:00",
    "match_sources": "title|branch|body",
    "qualifier": null,
    "counted": true,
@@ -407,6 +407,20 @@
    "counted": true,
    "snippet": "edera.services.bdd.suites.contract.hips.hip1340.CodeDelegationType4TransactionTest\"` ->",
    "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/26975"
+  },
+  {
+   "hip": 1340,
+   "hip_title": "EOA Code Delegation",
+   "repo": "hiero-ledger/hiero-consensus-node",
+   "pr_number": 27854,
+   "pr_title": "fix: require EIP-7702 authority to match the account's current key",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "odeDelegationAuthorityKeyRotationTest` (HIP-1340 HAPI): after rotating an ECDSA account",
+   "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/27854"
   },
   {
    "hip": 1340,
@@ -1961,6 +1975,20 @@
    "counted": true,
    "snippet": "/`doWithStartupConfig` flag toggles in `hip1261/*SimpleFeesTest` * Collapse simple-vs-l",
    "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/26028"
+  },
+  {
+   "hip": 1261,
+   "hip_title": "Simple Fees",
+   "repo": "hiero-ledger/hiero-consensus-node",
+   "pr_number": 27590,
+   "pr_title": "fix: scale simple fees for contract id keys, NFT allowance serials and token dissociate",
+   "pr_state": "MERGED",
+   "pr_merged_at": "2026-10-23 21:14:49+00:00",
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "follows Keith's decision of 30 Jul in #hip-1261-simpler-fees. - **TokenCreate / TokenU",
+   "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/27590"
   },
   {
    "hip": 1261,
@@ -6805,6 +6833,20 @@
    "counted": true,
    "snippet": "ion**: Root cause: The test validates HIP-993's irreversible preceding stream items v",
    "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/25027"
+  },
+  {
+   "hip": 993,
+   "hip_title": "Improve record stream legibility and extensibility",
+   "repo": "hiero-ledger/hiero-consensus-node",
+   "pr_number": 27846,
+   "pr_title": "fix: externalize committed EVM self-destruct deletions",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "sed | | `SelfDestructRecordsSuite` plus HIP-993 natural dispatch ordering, four-node su",
+   "url": "https://github.com/hiero-ledger/hiero-consensus-node/pull/27846"
   },
   {
    "hip": 991,
@@ -12001,8 +12043,8 @@
    "url": "https://github.com/hiero-ledger/hiero-sdk-python/pull/380"
   }
  ],
- "row_count": 853,
- "generated_at": "2026-10-21T14:29:38.760154+00:00",
+ "row_count": 856,
+ "generated_at": "2026-10-26T16:03:54.667212+00:00",
  "stale": false,
  "group": "Evidence",
  "macro": "HIPs"
