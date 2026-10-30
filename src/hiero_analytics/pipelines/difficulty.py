@@ -22,10 +22,7 @@ from hiero_analytics.analysis.difficulty_analysis import (
 )
 from hiero_analytics.config.analysis import TIMELINE_MAX_WORKERS
 from hiero_analytics.config.paths import ORG
-from hiero_analytics.data_sources.github_ingest import (
-    fetch_org_issue_label_events_graphql,
-    fetch_org_issues_graphql,
-)
+from hiero_analytics.data_sources.github_ingest import fetch_org_issues_graphql
 from hiero_analytics.data_sources.models import IssueRecord, IssueTimelineEventRecord
 from hiero_analytics.domain.labels import (
     DIFFICULTY_LEVELS,
@@ -33,7 +30,7 @@ from hiero_analytics.domain.labels import (
 )
 from hiero_analytics.domain.periods import ACTIVITY_PERIODS
 from hiero_analytics.export.save import save_dataframe
-from hiero_analytics.pipelines._shared import org_context
+from hiero_analytics.pipelines._shared import load_issue_label_events, org_context
 
 logger = logging.getLogger(__name__)
 
@@ -126,21 +123,18 @@ def main(org: str = ORG) -> None:
 
     logger.info("Running difficulty analytics for org: %s", org)
 
-    issues = fetch_org_issues_graphql(client, org=org, states=["OPEN"])
-
-    logger.info("Fetched %d issues", len(issues))
+    issues = fetch_org_issues_graphql(client, org=org)
+    issues = [i for i in issues if i.state == "OPEN"]
+    logger.info("Fetched %d open issues", len(issues))
 
     df = issues_to_dataframe(issues)
 
-    # Fetch label add/remove events (GraphQL timelineItems) to determine when
-    # difficulty labels were applied. Only LABELED/UNLABELED events are
-    # transferred, avoiding the repo-wide REST event firehose.
-    timeline_events = fetch_org_issue_label_events_graphql(
-        client,
-        org=org,
-        states=["OPEN"],
-        max_workers=TIMELINE_MAX_WORKERS,
-    )
+    # Label add/remove events (GraphQL timelineItems), shared with every other
+    # consumer from one persisted all-states dataset — fetching them here with a
+    # states filter would only have built a redundant second copy of a subset of
+    # the same data. Restricted to the OPEN issue set below by the join, since a
+    # difficulty label on a closed issue must not count as an active one.
+    timeline_events = load_issue_label_events(client, org, max_workers=TIMELINE_MAX_WORKERS)
     logger.info("Fetched %d timeline events", len(timeline_events))
 
     # One fetch, one snapshot per span (dashboard tabs). Spans are the shared

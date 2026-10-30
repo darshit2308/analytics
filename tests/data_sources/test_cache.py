@@ -514,7 +514,7 @@ def test_fetch_org_issues_first_run_full_then_incremental(monkeypatch, tmp_path)
 
 
 def test_fetch_org_issues_dataset_fingerprint_ignores_state_order(monkeypatch, tmp_path):
-    """State filter order does not change the dataset file (same fingerprint)."""
+    """Issue set identity does not change the dataset file (same fingerprint)."""
     mock_client = Mock()
     seen_paths = []
 
@@ -529,8 +529,8 @@ def test_fetch_org_issues_dataset_fingerprint_ignores_state_order(monkeypatch, t
     monkeypatch.setattr(ingest.issues, "fetch_repo_issues_graphql", Mock(return_value=[]))
     monkeypatch.setattr(ingest.issues, "fetch_repo_issues_since_graphql", Mock(return_value=[]))
 
-    ingest.fetch_org_issues_graphql(mock_client, "org", states=["closed", "open"])
-    ingest.fetch_org_issues_graphql(mock_client, "org", states=["OPEN", "CLOSED"])
+    ingest.fetch_org_issues_graphql(mock_client, "org")
+    ingest.fetch_org_issues_graphql(mock_client, "org")
 
     assert seen_paths[0] == seen_paths[1]  # identical regardless of state order
 

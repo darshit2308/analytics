@@ -96,7 +96,6 @@ def fetch_repo_issues_since_graphql(
 def fetch_org_issues_graphql(
     client: GitHubClient,
     org: str,
-    states: list[str] | None = None,
     max_workers: int = GITHUB_MAX_WORKERS,
     *,
     refresh: bool = False,
@@ -108,7 +107,6 @@ def fetch_org_issues_graphql(
     fetch on any error, so this is never slower or more broken than a full fetch.
     ``refresh=True`` forces a full re-fetch (self-heal).
     """
-    norm_states = sorted(s.upper() for s in states) if states else []
     return fetch_org_batched_incremental(
         client,
         ISSUES_RESOURCE,
@@ -116,12 +114,10 @@ def fetch_org_issues_graphql(
         query_name="issues",
         since_query_name="issues_since",
         nodes_path=["issues"],
-        variables={"states": norm_states or None},
-        per_repo=lambda repo: fetch_repo_issues_graphql(client, repo.owner, repo.name, states=states, use_cache=False),
-        per_repo_since=lambda repo, since: fetch_repo_issues_since_graphql(
-            client, repo.owner, repo.name, since, states
-        ),
-        fingerprint="-".join(norm_states) if norm_states else "all",
+        variables={"states": None},
+        per_repo=lambda repo: fetch_repo_issues_graphql(client, repo.owner, repo.name, use_cache=False),
+        per_repo_since=lambda repo, since: fetch_repo_issues_since_graphql(client, repo.owner, repo.name, since),
+        fingerprint="all",
         max_workers=max_workers,
         refresh=refresh,
     )
@@ -194,7 +190,6 @@ def fetch_repo_issue_label_events_since_graphql(
 def fetch_org_issue_label_events_graphql(
     client: GitHubClient,
     org: str,
-    states: list[str] | None = None,
     max_workers: int = GITHUB_MAX_WORKERS,
     *,
     refresh: bool = False,
@@ -208,7 +203,6 @@ def fetch_org_issue_label_events_graphql(
     The since-fetch falls back to a full fetch on error. ``refresh=True`` forces
     a full re-fetch.
     """
-    norm_states = sorted(s.upper() for s in states) if states else []
     return fetch_org_batched_incremental(
         client,
         ISSUE_LABEL_EVENTS_RESOURCE,
@@ -216,14 +210,12 @@ def fetch_org_issue_label_events_graphql(
         query_name="issue_label_events",
         since_query_name="issue_label_events_since",
         nodes_path=["issues"],
-        variables={"states": norm_states or None},
-        per_repo=lambda repo: fetch_repo_issue_label_events_graphql(
-            client, repo.owner, repo.name, states=states, use_cache=False
-        ),
+        variables={"states": None},
+        per_repo=lambda repo: fetch_repo_issue_label_events_graphql(client, repo.owner, repo.name, use_cache=False),
         per_repo_since=lambda repo, since: fetch_repo_issue_label_events_since_graphql(
-            client, repo.owner, repo.name, since, states
+            client, repo.owner, repo.name, since
         ),
-        fingerprint="-".join(norm_states) if norm_states else "all",
+        fingerprint="all",
         max_workers=max_workers,
         refresh=refresh,
     )

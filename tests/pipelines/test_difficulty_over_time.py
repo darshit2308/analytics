@@ -76,8 +76,8 @@ def _patch_pipeline(
         lambda _client, **_kwargs: issues,
     )
     monkeypatch.setattr(
-        "hiero_analytics.pipelines.difficulty_over_time.fetch_org_issue_label_events_graphql",
-        lambda _client, **_kwargs: events,
+        "hiero_analytics.pipelines.difficulty_over_time.load_issue_label_events",
+        lambda _client, _org, **_kwargs: events,
     )
 
 

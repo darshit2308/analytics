@@ -85,11 +85,27 @@ def load_contributor_activity(client: GitHubClient, org: str) -> list[Contributo
     )
 
 
-def load_issue_label_events(client: GitHubClient, org: str) -> list[IssueTimelineEventRecord]:
-    """The persisted org-wide issue label-event dataset, fetched on a cold start."""
+def load_issue_label_events(
+    client: GitHubClient,
+    org: str,
+    *,
+    max_workers: int | None = None,
+) -> list[IssueTimelineEventRecord]:
+    """The persisted org-wide issue label-event dataset, fetched on a cold start.
+
+    Shared across pipelines within a run: whichever pipeline needs it first
+    fetches and persists it; the rest read it from disk. Every caller reads the
+    *same* all-states dataset (``fingerprint="all"``), so customizing to open
+    issues only is the caller's own issue-set join, not a separate fetch.
+
+    ``max_workers`` throttles the underlying fetch and only has an effect on the
+    run that triggers the cold fetch — pass ``TIMELINE_MAX_WORKERS`` from the
+    event-heavy pipelines.
+    """
+    kwargs = {} if max_workers is None else {"max_workers": max_workers}
     return load_or_fetch(
         "issue_label_events",
         org,
         IssueTimelineEventRecord,
-        lambda: fetch_org_issue_label_events_graphql(client, org=org),
+        lambda: fetch_org_issue_label_events_graphql(client, org=org, **kwargs),
     )

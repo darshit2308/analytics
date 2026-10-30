@@ -340,7 +340,6 @@ def outputs_root(tmp_path_factory) -> Path:
         # Fetch-layer stubs, per pipeline namespace.
         for mod in (difficulty_mod, difficulty_time_mod):
             mp.setattr(mod, "fetch_org_issues_graphql", lambda _c, **_k: ISSUES)
-            mp.setattr(mod, "fetch_org_issue_label_events_graphql", lambda _c, **_k: TIMELINE)
         mp.setattr(onboarding_mod, "fetch_repo_issues_graphql", lambda _c, **_k: REPO_ISSUES)
         mp.setattr(onboarding_mod, "fetch_repo_merged_pr_difficulty_graphql", lambda _c, **_k: REPO_PRS)
         mp.setattr(profiles_mod, "fetch_repo_merged_pr_difficulty_graphql", lambda _c, **_k: REPO_PRS)
@@ -357,8 +356,16 @@ def outputs_root(tmp_path_factory) -> Path:
             overview_mod,
         ):
             mp.setattr(mod, "load_contributor_activity", lambda _c, org: _org_activity(org))
-        for mod in (role_coverage_mod, activity_mod, entity_mod):
-            mp.setattr(mod, "load_issue_label_events", lambda _c, _org: TIMELINE)
+        # Every label-event consumer now reads the one shared dataset, so they
+        # all stub the same helper (difficulty passes max_workers too).
+        for mod in (
+            role_coverage_mod,
+            activity_mod,
+            entity_mod,
+            difficulty_mod,
+            difficulty_time_mod,
+        ):
+            mp.setattr(mod, "load_issue_label_events", lambda _c, _org, **_k: TIMELINE)
         mp.setattr(affiliation_mod, "load_affiliations", lambda: AFFILIATIONS)
         mp.setattr(affiliation_mod, "load_manual_logins", set)
         mp.setattr(

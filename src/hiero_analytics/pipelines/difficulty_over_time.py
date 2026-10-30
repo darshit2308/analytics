@@ -15,12 +15,9 @@ from hiero_analytics.analysis.timeseries import (
 )
 from hiero_analytics.config.analysis import DIFFICULTY_OVER_TIME_WINDOW_DAYS, TIMELINE_MAX_WORKERS
 from hiero_analytics.config.paths import ORG
-from hiero_analytics.data_sources.github_ingest import (
-    fetch_org_issue_label_events_graphql,
-    fetch_org_issues_graphql,
-)
+from hiero_analytics.data_sources.github_ingest import fetch_org_issues_graphql
 from hiero_analytics.export.save import save_dataframe
-from hiero_analytics.pipelines._shared import org_context
+from hiero_analytics.pipelines._shared import load_issue_label_events, org_context
 
 logger = logging.getLogger(__name__)
 
@@ -53,18 +50,14 @@ def main(org: str = ORG) -> None:
     logger.info(f"Window: {start_at.date().isoformat()} to {end_at.date().isoformat()}")
 
     # Fetch all issues (open and closed) to get the complete issue set.
-    all_issues = fetch_org_issues_graphql(client, org=org, states=["OPEN", "CLOSED"])
+    all_issues = fetch_org_issues_graphql(client, org=org)
     logger.info("Fetched %d total issues", len(all_issues))
 
-    # Fetch label add/remove events (GraphQL timelineItems) to identify label
-    # application dates. Only LABELED/UNLABELED events are transferred, so this
-    # avoids the repo-wide REST event firehose and its 300-page truncation.
-    timeline_events = fetch_org_issue_label_events_graphql(
-        client,
-        org=org,
-        states=["OPEN", "CLOSED"],
-        max_workers=TIMELINE_MAX_WORKERS,
-    )
+    # Label add/remove events (GraphQL timelineItems), shared from the same
+    # persisted all-states dataset every other consumer reads — the OPEN+CLOSED
+    # states filter here used to build a duplicate copy identical to the shared
+    # one (every issue is open or closed)
+    timeline_events = load_issue_label_events(client, org, max_workers=TIMELINE_MAX_WORKERS)
     logger.info("Fetched %d repository issue events", len(timeline_events))
 
     # Build event-based difficulty-over-time series: one restricted to
