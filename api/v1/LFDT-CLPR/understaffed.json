@@ -1,0 +1,103 @@
+{
+ "id": "understaffed",
+ "title": "Repos with one or fewer active maintainers",
+ "description": "Repos where at most one maintainer has been active in the selected period. 'maintainers' is the total on paper; 'committers' and 'triage' show others with access to the repo. Fewest active maintainers first.",
+ "source": "maintainer_coverage_risk.csv",
+ "columns": [
+  {
+   "key": "repo",
+   "label": "repo"
+  },
+  {
+   "key": "maintainers",
+   "label": "maintainers",
+   "format": "number"
+  },
+  {
+   "key": "active_maintainers",
+   "label": "active maintainers",
+   "format": "number"
+  },
+  {
+   "key": "committers",
+   "label": "committers",
+   "format": "number"
+  },
+  {
+   "key": "triage",
+   "label": "triage",
+   "format": "number"
+  }
+ ],
+ "rows": [
+  {
+   "repo": "clpr-spec",
+   "maintainers": 3,
+   "active_maintainers": 1,
+   "committers": 7,
+   "triage": 0
+  }
+ ],
+ "row_count": 1,
+ "generated_at": "2026-10-31T06:47:50.166594+00:00",
+ "stale": false,
+ "periods": {
+  "7d": [
+   {
+    "repo": "clpr-smart-contracts",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 15,
+    "triage": 0
+   },
+   {
+    "repo": "clpr-endpoint",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 10,
+    "triage": 0
+   },
+   {
+    "repo": "clpr-spec",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 7,
+    "triage": 0
+   }
+  ],
+  "30d": [
+   {
+    "repo": "clpr-smart-contracts",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 15,
+    "triage": 0
+   },
+   {
+    "repo": "clpr-endpoint",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 10,
+    "triage": 0
+   },
+   {
+    "repo": "clpr-spec",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 7,
+    "triage": 0
+   }
+  ],
+  "365d": [
+   {
+    "repo": "clpr-spec",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 7,
+    "triage": 0
+   }
+  ]
+ },
+ "group": "Coverage & risk",
+ "macro": "Governance"
+}

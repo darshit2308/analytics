@@ -61,6 +61,20 @@
   {
    "hip": 1535,
    "hip_title": "CLPR \u2014 A Cross Ledger Protocol for Hiero",
+   "repo": "hiero-ledger/hiero-sdk-js",
+   "pr_number": 4641,
+   "pr_title": "feat: add HIP-1535 CLPR transactions, queries and ownership helpers",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "title|body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "feat: add HIP-1535 CLPR transactions, queries and ownershi",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-js/pull/4641"
+  },
+  {
+   "hip": 1535,
+   "hip_title": "CLPR \u2014 A Cross Ledger Protocol for Hiero",
    "repo": "hiero-ledger/sdk-collaboration-hub",
    "pr_number": 287,
    "pr_title": "Add HIP-1535 SDK design doc: CLPR",
@@ -1083,6 +1097,20 @@
   {
    "hip": 1313,
    "hip_title": "High-Volume Entity Creation",
+   "repo": "hiero-ledger/hiero-sdk-go",
+   "pr_number": 1879,
+   "pr_title": "fix(tck): forward commonTransactionParams.highVolume",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "monTransactionParams.highVolume, so the HIP-1313 TCK tests sent createAccount without th",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-go/pull/1879"
+  },
+  {
+   "hip": 1313,
+   "hip_title": "High-Volume Entity Creation",
    "repo": "hiero-ledger/hiero-sdk-java",
    "pr_number": 2572,
    "pr_title": "feat: HIP-1313",
@@ -1093,6 +1121,20 @@
    "counted": true,
    "snippet": "feat: HIP-1313",
    "url": "https://github.com/hiero-ledger/hiero-sdk-java/pull/2572"
+  },
+  {
+   "hip": 1313,
+   "hip_title": "High-Volume Entity Creation",
+   "repo": "hiero-ledger/hiero-sdk-java",
+   "pr_number": 3029,
+   "pr_title": "fix(tck): forward commonTransactionParams.highVolume (HIP-1313)",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "title|body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "ard commonTransactionParams.highVolume (HIP-1313)",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-java/pull/3029"
   },
   {
    "hip": 1313,
@@ -1541,6 +1583,20 @@
    "counted": true,
    "snippet": "feat: Implement HIP-1300 Tests & Add Admin Client Support",
    "url": "https://github.com/hiero-ledger/hiero-sdk-swift/pull/510"
+  },
+  {
+   "hip": 1300,
+   "hip_title": "Increased Transaction Size for Governance Accounts",
+   "repo": "hiero-ledger/hiero-sdk-tck",
+   "pr_number": 789,
+   "pr_title": "chore(deps): bump @hashgraph/sdk from 2.73.1 to 2.81.0",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "/h1> <h3>Addded</h3> <ul> <li>Tests for HIP-1300</li> </ul> <h1>2.79.0-beta.13</h1> <h3>",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-tck/pull/789"
   },
   {
    "hip": 1300,
@@ -3487,6 +3543,20 @@
    "counted": true,
    "snippet": "feat: implement HIP-1195 Hiero Hooks",
    "url": "https://github.com/hiero-ledger/hiero-sdk-swift/pull/497"
+  },
+  {
+   "hip": 1195,
+   "hip_title": "Hiero hooks and an application to allowances",
+   "repo": "hiero-ledger/hiero-sdk-tck",
+   "pr_number": 789,
+   "pr_title": "chore(deps): bump @hashgraph/sdk from 2.73.1 to 2.81.0",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "1.0-beta.1</h1> <h3>Added</h3> <ul> <li>HIP-1195 support. <a href=\"https://redirect.gith",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-tck/pull/789"
   },
   {
    "hip": 1195,
@@ -12043,8 +12113,8 @@
    "url": "https://github.com/hiero-ledger/hiero-sdk-python/pull/380"
   }
  ],
- "row_count": 856,
- "generated_at": "2026-10-26T16:03:54.667212+00:00",
+ "row_count": 861,
+ "generated_at": "2026-10-31T06:46:26.316121+00:00",
  "stale": false,
  "group": "Evidence",
  "macro": "HIPs"

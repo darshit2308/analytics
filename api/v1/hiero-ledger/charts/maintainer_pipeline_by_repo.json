@@ -34,7 +34,7 @@
  "window": {
   "kind": "all",
   "days": null,
-  "end": "2026-10-26T16:00:24.142347+00:00"
+  "end": "2026-10-31T06:40:44.584316+00:00"
  },
  "series": [
   {
@@ -62,7 +62,7 @@
  "rows": [
   {
    "repo": "hiero-sdk-js",
-   "general_user": 339,
+   "general_user": 340,
    "triage": 11,
    "committer": 2,
    "maintainer": 6
@@ -83,14 +83,14 @@
   },
   {
    "repo": "hiero-mirror-node",
-   "general_user": 226,
+   "general_user": 227,
    "triage": 0,
    "committer": 11,
    "maintainer": 2
   },
   {
    "repo": "hiero-sdk-java",
-   "general_user": 199,
+   "general_user": 203,
    "triage": 9,
    "committer": 4,
    "maintainer": 4
@@ -104,10 +104,17 @@
   },
   {
    "repo": "hiero-json-rpc-relay",
-   "general_user": 132,
+   "general_user": 133,
    "triage": 0,
    "committer": 14,
    "maintainer": 7
+  },
+  {
+   "repo": "hiero-sdk-go",
+   "general_user": 126,
+   "triage": 9,
+   "committer": 1,
+   "maintainer": 5
   },
   {
    "repo": "governance",
@@ -115,13 +122,6 @@
    "triage": 0,
    "committer": 37,
    "maintainer": 18
-  },
-  {
-   "repo": "hiero-sdk-go",
-   "general_user": 123,
-   "triage": 9,
-   "committer": 1,
-   "maintainer": 5
   },
   {
    "repo": "hiero-docs",
@@ -139,16 +139,16 @@
   },
   {
    "repo": "solo",
-   "general_user": 85,
+   "general_user": 87,
    "triage": 1,
    "committer": 9,
    "maintainer": 4
   },
   {
    "repo": "hiero-mirror-node-explorer",
-   "general_user": 95,
+   "general_user": 94,
    "triage": 0,
-   "committer": 0,
+   "committer": 1,
    "maintainer": 3
   },
   {
@@ -173,18 +173,18 @@
    "maintainer": 4
   },
   {
+   "repo": "hiero-cli",
+   "general_user": 50,
+   "triage": 0,
+   "committer": 2,
+   "maintainer": 6
+  },
+  {
    "repo": "hiero-sdk-swift",
    "general_user": 51,
    "triage": 4,
    "committer": 0,
    "maintainer": 3
-  },
-  {
-   "repo": "hiero-cli",
-   "general_user": 49,
-   "triage": 0,
-   "committer": 2,
-   "maintainer": 6
   },
   {
    "repo": "hiero-sdk-rust",
@@ -195,7 +195,7 @@
   },
   {
    "repo": "hiero-sdk-tck",
-   "general_user": 29,
+   "general_user": 30,
    "triage": 6,
    "committer": 5,
    "maintainer": 4
@@ -209,7 +209,7 @@
   },
   {
    "repo": "hiero-cryptography",
-   "general_user": 32,
+   "general_user": 33,
    "triage": 0,
    "committer": 2,
    "maintainer": 4
@@ -258,7 +258,7 @@
   },
   {
    "repo": "hiero-contracts",
-   "general_user": 10,
+   "general_user": 11,
    "triage": 0,
    "committer": 3,
    "maintainer": 6
@@ -355,6 +355,6 @@
    "maintainer": 2
   }
  ],
- "generated_at": "2026-10-26T16:00:24.142347+00:00",
+ "generated_at": "2026-10-31T06:40:44.584316+00:00",
  "stale": false
 }

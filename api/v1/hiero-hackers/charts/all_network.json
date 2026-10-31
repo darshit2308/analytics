@@ -64,7 +64,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-26T16:04:35.234048+00:00"
+  "end": "2026-10-31T06:46:44.286286+00:00"
  },
  "nodes": [
   {
@@ -72,24 +72,24 @@
    "active": 20,
    "total": 30,
    "category": "Tooling / DevEx",
-   "x": 0.0797,
-   "y": 0.0793
+   "x": 0.0187,
+   "y": 0.0791
   },
   {
    "id": "sdk-automations",
    "active": 8,
    "total": 8,
    "category": "Tooling / DevEx",
-   "x": 1.7084,
-   "y": -1.5548
+   "x": -1.6155,
+   "y": 1.5897
   },
   {
    "id": "hiero-enterprise-js",
    "active": 7,
    "total": 9,
    "category": "Apps / Integrations",
-   "x": 1.718,
-   "y": 1.718
+   "x": 1.6479,
+   "y": -1.4358
   },
   {
    "id": "hiero-sdk-v3-prototyping",
@@ -104,22 +104,22 @@
    "active": 4,
    "total": 5,
    "category": "Other",
-   "x": -1.718,
+   "x": -1.6479,
    "y": -1.718
-  },
-  {
-   "id": "hiero-x402",
-   "active": 3,
-   "total": 4,
-   "category": "Other",
-   "x": -2.25,
-   "y": -3.338
   },
   {
    "id": "clpr-smart-contracts",
    "active": 3,
    "total": 3,
    "category": "EVM / smart contracts",
+   "x": -2.25,
+   "y": -3.338
+  },
+  {
+   "id": "hiero-x402",
+   "active": 2,
+   "total": 4,
+   "category": "Other",
    "x": -1.35,
    "y": -3.338
   },
@@ -132,7 +132,7 @@
    "y": -3.338
   },
   {
-   "id": "hiero-journal-rs",
+   "id": "hiero-payment-requests",
    "active": 2,
    "total": 2,
    "category": "Other",
@@ -140,7 +140,7 @@
    "y": -3.338
   },
   {
-   "id": "hiero-payment-requests",
+   "id": "hiero-tck-action",
    "active": 2,
    "total": 2,
    "category": "Other",
@@ -148,7 +148,7 @@
    "y": -3.338
   },
   {
-   "id": "hiero-tck-action",
+   "id": "hiero-verify-fn",
    "active": 2,
    "total": 2,
    "category": "Other",
@@ -156,25 +156,25 @@
    "y": -3.338
   },
   {
-   "id": "hiero-verify-fn",
-   "active": 2,
-   "total": 2,
-   "category": "Other",
-   "x": 3.15,
-   "y": -3.338
-  },
-  {
    "id": "governance",
    "active": 1,
    "total": 15,
    "category": "Governance",
-   "x": -1.5547,
-   "y": 1.7087
+   "x": 1.538,
+   "y": 1.718
   },
   {
    "id": "hiero-checkout",
    "active": 1,
    "total": 3,
+   "category": "Other",
+   "x": 3.15,
+   "y": -3.338
+  },
+  {
+   "id": "hiero-journal-rs",
+   "active": 1,
+   "total": 2,
    "category": "Other",
    "x": -3.15,
    "y": -4.238
@@ -282,6 +282,6 @@
    "shared": 4
   }
  ],
- "generated_at": "2026-10-26T16:04:35.234048+00:00",
+ "generated_at": "2026-10-31T06:46:44.286286+00:00",
  "stale": false
 }

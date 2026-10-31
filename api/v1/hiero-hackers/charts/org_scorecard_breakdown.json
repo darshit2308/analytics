@@ -97,14 +97,14 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-26T16:04:36.578314+00:00"
+  "end": "2026-10-31T06:47:09.288740+00:00"
  },
  "rows": [
   {
    "repo": "hiero-enterprise-js",
-   "score": 7.2,
+   "score": 7.3,
    "Maintained": 10.0,
-   "Code-Review": 2.0,
+   "Code-Review": 3.0,
    "CII-Best-Practices": 0.0,
    "Dangerous-Workflow": 10.0,
    "Binary-Artifacts": 10.0,
@@ -120,7 +120,7 @@
   },
   {
    "repo": "analytics",
-   "score": 9.3,
+   "score": 9.2,
    "Maintained": 10.0,
    "Code-Review": 10.0,
    "CII-Best-Practices": 0.0,
@@ -138,7 +138,7 @@
   },
   {
    "repo": "sdk-automations",
-   "score": 8.6,
+   "score": 8.5,
    "Maintained": 10.0,
    "Code-Review": 10.0,
    "CII-Best-Practices": 0.0,
@@ -156,7 +156,7 @@
   },
   {
    "repo": "hiero-verify-fn",
-   "score": 7.0,
+   "score": 6.8,
    "Maintained": 2.0,
    "Code-Review": 0.0,
    "CII-Best-Practices": 0.0,
@@ -174,8 +174,8 @@
   },
   {
    "repo": "hiero-notifications",
-   "score": 6.0,
-   "Maintained": 3.0,
+   "score": 5.9,
+   "Maintained": 1.0,
    "Code-Review": 0.0,
    "CII-Best-Practices": 0.0,
    "Dangerous-Workflow": 10.0,
@@ -192,8 +192,8 @@
   },
   {
    "repo": "hiero-receipts",
-   "score": 6.6,
-   "Maintained": 5.0,
+   "score": 6.5,
+   "Maintained": 3.0,
    "Code-Review": 0.0,
    "CII-Best-Practices": 0.0,
    "Dangerous-Workflow": 10.0,
@@ -210,8 +210,8 @@
   },
   {
    "repo": "hiero-payment-requests",
-   "score": 7.1,
-   "Maintained": 10.0,
+   "score": 6.9,
+   "Maintained": 8.0,
    "Code-Review": 2.0,
    "CII-Best-Practices": 0.0,
    "Dangerous-Workflow": 10.0,
@@ -228,8 +228,8 @@
   },
   {
    "repo": "hiero-x402",
-   "score": 6.1,
-   "Maintained": 7.0,
+   "score": 5.5,
+   "Maintained": 0.0,
    "Code-Review": 2.0,
    "CII-Best-Practices": 0.0,
    "Dangerous-Workflow": 10.0,
@@ -245,6 +245,6 @@
    "SAST": 10.0
   }
  ],
- "generated_at": "2026-10-26T16:04:36.578314+00:00",
+ "generated_at": "2026-10-31T06:47:09.288740+00:00",
  "stale": false
 }

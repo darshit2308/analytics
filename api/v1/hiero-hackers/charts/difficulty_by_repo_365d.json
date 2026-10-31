@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 365,
-  "end": "2026-10-26T16:04:00.433189+00:00"
+  "end": "2026-10-31T06:46:33.433384+00:00"
  },
  "series": [
   {
@@ -70,10 +70,10 @@
   {
    "repo": "analytics",
    "Unknown": 5,
-   "Good First Issue": 4,
-   "Beginner": 6,
-   "Intermediate": 16,
-   "Advanced": 6
+   "Good First Issue": 2,
+   "Beginner": 3,
+   "Intermediate": 7,
+   "Advanced": 0
   },
   {
    "repo": "hiero-checkout",
@@ -85,11 +85,11 @@
   },
   {
    "repo": "hiero-enterprise-js",
-   "Unknown": 11,
-   "Good First Issue": 3,
-   "Beginner": 11,
-   "Intermediate": 16,
-   "Advanced": 7
+   "Unknown": 6,
+   "Good First Issue": 0,
+   "Beginner": 2,
+   "Intermediate": 6,
+   "Advanced": 5
   },
   {
    "repo": "hiero-journal-rs",
@@ -165,11 +165,11 @@
   },
   {
    "repo": "sdk-automations",
-   "Unknown": 6,
+   "Unknown": 3,
    "Good First Issue": 0,
    "Beginner": 0,
-   "Intermediate": 2,
-   "Advanced": 1
+   "Intermediate": 1,
+   "Advanced": 0
   },
   {
    "repo": "vscode-hedera-transaction-viewer",
@@ -180,6 +180,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-26T16:04:00.433189+00:00",
+ "generated_at": "2026-10-31T06:46:33.433384+00:00",
  "stale": false
 }

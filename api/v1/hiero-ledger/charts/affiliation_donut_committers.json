@@ -33,7 +33,7 @@
  "window": {
   "kind": "snapshot",
   "days": null,
-  "end": "2026-10-26T16:02:26.889115+00:00"
+  "end": "2026-10-31T06:44:41.440384+00:00"
  },
  "series": [
   {
@@ -50,11 +50,11 @@
   },
   {
    "organisation": "Independent",
-   "committers": 26
+   "committers": 28
   },
   {
    "organisation": "LimeChain",
-   "committers": 15
+   "committers": 17
   },
   {
    "organisation": "BlockyDevs",
@@ -125,6 +125,6 @@
    "committers": 1
   }
  ],
- "generated_at": "2026-10-26T16:02:26.889115+00:00",
+ "generated_at": "2026-10-31T06:44:41.440384+00:00",
  "stale": false
 }

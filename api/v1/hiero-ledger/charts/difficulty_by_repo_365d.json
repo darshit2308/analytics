@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 365,
-  "end": "2026-10-26T15:58:38.414563+00:00"
+  "end": "2026-10-31T06:38:48.602552+00:00"
  },
  "series": [
   {
@@ -69,7 +69,7 @@
   },
   {
    "repo": "heka-identity-platform",
-   "Unknown": 19,
+   "Unknown": 5,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -85,7 +85,7 @@
   },
   {
    "repo": "hiero-block-node",
-   "Unknown": 489,
+   "Unknown": 367,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -93,7 +93,7 @@
   },
   {
    "repo": "hiero-cli",
-   "Unknown": 35,
+   "Unknown": 36,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -101,8 +101,8 @@
   },
   {
    "repo": "hiero-consensus-node",
-   "Unknown": 806,
-   "Good First Issue": 1,
+   "Unknown": 653,
+   "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
    "Advanced": 0
@@ -117,7 +117,7 @@
   },
   {
    "repo": "hiero-contracts",
-   "Unknown": 2,
+   "Unknown": 1,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -125,7 +125,7 @@
   },
   {
    "repo": "hiero-cryptography",
-   "Unknown": 22,
+   "Unknown": 12,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -142,14 +142,14 @@
   {
    "repo": "hiero-docs",
    "Unknown": 2,
-   "Good First Issue": 1,
+   "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
    "Advanced": 0
   },
   {
    "repo": "hiero-enterprise-java",
-   "Unknown": 52,
+   "Unknown": 41,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -157,7 +157,7 @@
   },
   {
    "repo": "hiero-gradle-conventions",
-   "Unknown": 7,
+   "Unknown": 6,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -173,7 +173,7 @@
   },
   {
    "repo": "hiero-json-rpc-relay",
-   "Unknown": 101,
+   "Unknown": 39,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -189,7 +189,7 @@
   },
   {
    "repo": "hiero-mirror-node",
-   "Unknown": 110,
+   "Unknown": 80,
    "Good First Issue": 3,
    "Beginner": 0,
    "Intermediate": 0,
@@ -197,7 +197,7 @@
   },
   {
    "repo": "hiero-mirror-node-explorer",
-   "Unknown": 17,
+   "Unknown": 13,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -213,7 +213,7 @@
   },
   {
    "repo": "hiero-sdk-go",
-   "Unknown": 23,
+   "Unknown": 22,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -221,27 +221,27 @@
   },
   {
    "repo": "hiero-sdk-java",
-   "Unknown": 26,
-   "Good First Issue": 6,
+   "Unknown": 11,
+   "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
    "Advanced": 0
   },
   {
    "repo": "hiero-sdk-js",
-   "Unknown": 46,
-   "Good First Issue": 14,
-   "Beginner": 19,
-   "Intermediate": 6,
+   "Unknown": 21,
+   "Good First Issue": 0,
+   "Beginner": 8,
+   "Intermediate": 5,
    "Advanced": 2
   },
   {
    "repo": "hiero-sdk-python",
-   "Unknown": 13,
-   "Good First Issue": 6,
-   "Beginner": 13,
-   "Intermediate": 28,
-   "Advanced": 23
+   "Unknown": 6,
+   "Good First Issue": 3,
+   "Beginner": 3,
+   "Intermediate": 8,
+   "Advanced": 12
   },
   {
    "repo": "hiero-sdk-rust",
@@ -255,13 +255,13 @@
    "repo": "hiero-sdk-swift",
    "Unknown": 7,
    "Good First Issue": 2,
-   "Beginner": 4,
-   "Intermediate": 11,
-   "Advanced": 5
+   "Beginner": 8,
+   "Intermediate": 15,
+   "Advanced": 6
   },
   {
    "repo": "hiero-sdk-tck",
-   "Unknown": 47,
+   "Unknown": 37,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -269,7 +269,7 @@
   },
   {
    "repo": "hiero-solo-action",
-   "Unknown": 5,
+   "Unknown": 1,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -277,11 +277,11 @@
   },
   {
    "repo": "hiero-website",
-   "Unknown": 6,
+   "Unknown": 2,
    "Good First Issue": 1,
-   "Beginner": 2,
-   "Intermediate": 4,
-   "Advanced": 10
+   "Beginner": 1,
+   "Intermediate": 2,
+   "Advanced": 0
   },
   {
    "repo": "sdk-collaboration-hub",
@@ -293,8 +293,8 @@
   },
   {
    "repo": "solo",
-   "Unknown": 247,
-   "Good First Issue": 3,
+   "Unknown": 109,
+   "Good First Issue": 1,
    "Beginner": 0,
    "Intermediate": 0,
    "Advanced": 0
@@ -317,7 +317,7 @@
   },
   {
    "repo": "solo-docs",
-   "Unknown": 16,
+   "Unknown": 13,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
@@ -340,6 +340,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-26T15:58:38.414563+00:00",
+ "generated_at": "2026-10-31T06:38:48.602552+00:00",
  "stale": false
 }

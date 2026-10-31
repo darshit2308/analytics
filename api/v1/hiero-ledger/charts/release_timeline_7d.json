@@ -32,88 +32,80 @@
   }
  ],
  "categories": [
-  "hiero-consensus-node",
-  "hiero-json-rpc-relay",
-  "hiero-mirror-node",
-  "hiero-block-node",
   "hiero-cryptography",
-  "hiero-enterprise-java",
+  "hiero-block-node",
+  "hiero-mirror-node",
+  "hiero-json-rpc-relay",
   "solo",
   "solo-containers"
  ],
  "window": {
   "kind": "trailing",
   "days": 7,
-  "end": "2026-10-26T16:03:24.195270+00:00"
+  "end": "2026-10-31T06:45:45.450691+00:00"
  },
  "rows": [
-  {
-   "repo": "hiero-cryptography",
-   "time": "2026-10-19T18:17:15Z",
-   "tag_name": "v3.23.0",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-enterprise-java",
-   "time": "2026-10-20T11:43:53Z",
-   "tag_name": "v0.22.0",
-   "type": "release"
-  },
-  {
-   "repo": "solo",
-   "time": "2026-10-20T14:15:01Z",
-   "tag_name": "v0.94.0",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-mirror-node",
-   "time": "2026-10-20T20:36:48Z",
-   "tag_name": "v0.165.0",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-json-rpc-relay",
-   "time": "2026-10-21T14:14:55Z",
-   "tag_name": "v0.80.2",
-   "type": "release"
-  },
-  {
-   "repo": "solo-containers",
-   "time": "2026-10-21T23:59:47Z",
-   "tag_name": "v0.46.3",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-consensus-node",
-   "time": "2026-10-22T15:33:16Z",
-   "tag_name": "v0.78.1",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-block-node",
-   "time": "2026-10-22T17:54:45Z",
-   "tag_name": "v0.44.3",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-consensus-node",
-   "time": "2026-10-23T18:39:22Z",
-   "tag_name": "v0.78.0",
-   "type": "release"
-  },
-  {
-   "repo": "hiero-mirror-node",
-   "time": "2026-10-23T19:01:13Z",
-   "tag_name": "v0.165.1",
-   "type": "release"
-  },
   {
    "repo": "hiero-json-rpc-relay",
    "time": "2026-10-25T16:02:59Z",
    "tag_name": "v0.80.3",
    "type": "release"
+  },
+  {
+   "repo": "hiero-mirror-node",
+   "time": "2026-10-26T19:42:15Z",
+   "tag_name": "v0.165.2-rc1",
+   "type": "prerelease"
+  },
+  {
+   "repo": "solo-containers",
+   "time": "2026-10-26T23:07:13Z",
+   "tag_name": "v0.47.0",
+   "type": "release"
+  },
+  {
+   "repo": "solo",
+   "time": "2026-10-27T16:24:51Z",
+   "tag_name": "v0.95.0",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-cryptography",
+   "time": "2026-10-27T16:52:18Z",
+   "tag_name": "v3.24.0",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-cryptography",
+   "time": "2026-10-29T19:23:14Z",
+   "tag_name": "v3.25.0",
+   "type": "release"
+  },
+  {
+   "repo": "hiero-block-node",
+   "time": "2026-10-30T03:36:09Z",
+   "tag_name": "v0.46.0-rc1",
+   "type": "prerelease"
+  },
+  {
+   "repo": "hiero-mirror-node",
+   "time": "2026-10-30T08:36:56Z",
+   "tag_name": "v0.166.0-rc1",
+   "type": "prerelease"
+  },
+  {
+   "repo": "hiero-block-node",
+   "time": "2026-10-30T13:45:06Z",
+   "tag_name": "v0.45.0-rc5",
+   "type": "prerelease"
+  },
+  {
+   "repo": "hiero-cryptography",
+   "time": "2026-10-30T21:51:34Z",
+   "tag_name": "v3.26.0",
+   "type": "release"
   }
  ],
- "generated_at": "2026-10-26T16:03:24.195270+00:00",
+ "generated_at": "2026-10-31T06:45:45.450691+00:00",
  "stale": false
 }

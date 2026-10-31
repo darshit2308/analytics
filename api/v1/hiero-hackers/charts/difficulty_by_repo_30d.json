@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 30,
-  "end": "2026-10-26T16:04:00.729166+00:00"
+  "end": "2026-10-31T06:46:33.440175+00:00"
  },
  "series": [
   {
@@ -64,16 +64,16 @@
    "Unknown": 4,
    "Good First Issue": 2,
    "Beginner": 1,
-   "Intermediate": 5,
+   "Intermediate": 3,
    "Advanced": 0
   },
   {
    "repo": "hiero-enterprise-js",
-   "Unknown": 5,
-   "Good First Issue": 3,
-   "Beginner": 11,
-   "Intermediate": 14,
-   "Advanced": 7
+   "Unknown": 4,
+   "Good First Issue": 0,
+   "Beginner": 2,
+   "Intermediate": 5,
+   "Advanced": 5
   },
   {
    "repo": "sdk-automations",
@@ -84,6 +84,6 @@
    "Advanced": 0
   }
  ],
- "generated_at": "2026-10-26T16:04:00.729166+00:00",
+ "generated_at": "2026-10-31T06:46:33.440175+00:00",
  "stale": false
 }

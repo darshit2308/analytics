@@ -1,0 +1,157 @@
+{
+ "id": "committeraffiliations",
+ "title": "Committer affiliations \u2014 reference",
+ "description": "The same reference as the Maintainers tab, for people whose highest role anywhere is committer \u2014 write access, but no maintainer seat in any repository. The two populations are disjoint, so nobody appears in both. Curation coverage is thinner here than for maintainers, so expect more 'unknown' rows; each one resolved makes the committer diversity chart sharper. To fix a mapping or resolve an unknown, add a row for the login to data/affiliation_overrides.yaml with the reason as a comment, or use 'Suggest a correction' to open an issue on the analytics repo.",
+ "source": "committer_affiliations.csv",
+ "columns": [
+  {
+   "key": "login",
+   "label": "committer"
+  },
+  {
+   "key": "organisation",
+   "label": "organisation"
+  },
+  {
+   "key": "status",
+   "label": "status"
+  },
+  {
+   "key": "method",
+   "label": "method"
+  }
+ ],
+ "rows": [
+  {
+   "login": "andrewb1269",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "ashumahajan",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "bartoszsolkabd",
+   "organisation": "BlockyDevs",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "bootcodes",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "diogper",
+   "organisation": "Independent",
+   "status": "independent",
+   "method": "automated"
+  },
+  {
+   "login": "dr20240304",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "ferparishuertas",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "jasuwienas",
+   "organisation": "Independent",
+   "status": "independent",
+   "method": "automated"
+  },
+  {
+   "login": "jivkokelchev",
+   "organisation": "LimeChain",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "jnels124",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "lukasz-hashgraph",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "mhess-swl",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "mxtartaglia-sl",
+   "organisation": null,
+   "status": "unknown",
+   "method": "automated"
+  },
+  {
+   "login": "nathanklick",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "neeharika-sompalli",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "rbair23",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "rbarker-dev",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "timo0",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "tinker-michaelj",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  },
+  {
+   "login": "viniciusjssouza",
+   "organisation": "Hashgraph",
+   "status": "affiliated",
+   "method": "automated"
+  }
+ ],
+ "row_count": 20,
+ "label": "Committers",
+ "action": {
+  "url": "https://github.com/hiero-hackers/analytics/issues",
+  "label": "Suggest a correction"
+ },
+ "generated_at": "2026-10-31T06:47:50.726137+00:00",
+ "stale": false,
+ "group": "Organisation diversity",
+ "macro": "Governance",
+ "absorbed_by": "affiliations"
+}
