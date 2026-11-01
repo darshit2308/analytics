@@ -13,7 +13,7 @@
 # "?" (unknown — no public signal).
 #
 # Each row's comment is 'governance-role · name' (maintainer | committer |
-# triage | team). Only the 103 maintainers feed the maintainer-org charts;
+# triage | team). Only the 104 maintainers feed the maintainer-org charts;
 # the rest are here so the team-concentration view is fully covered.
 
 0x-ds: "Hashgraph"  # triage · Denys Sinyakov
@@ -62,7 +62,7 @@ bubo: "LimeChain"  # maintainer · Lyuben Ivanov
 bugbytesinc: "BugBytes, Inc."  # committer · Jason Fabritz
 cacampbell: "Launchbadge"  # committer · Chris Campbell
 changobuitrago: "The Hashgraph Association"  # maintainer · Pablo Buitrago (w3n:buitrago)
-cheese-cakee: "Independent"  # triage · Cheese Cake
+cheese-cakee: "Independent"  # triage · cheese cake
 chelleswf: "Hashgraph Online"  # maintainer
 christinaharter: "Linux Foundation"  # maintainer · Christina Harter
 chung-chao: "?"  # committer · Chung
@@ -82,17 +82,17 @@ ddeskov-limechain: "LimeChain"  # maintainer · Dian Deskov
 derektriley: "Hashgraph"  # committer · Derek Riley
 deshmukhpranali: "Hashgraph"  # maintainer · Pranali Deshmukh
 devmab: "BlockyDevs"  # maintainer · Mike Abrams
-diegoescalonaro: "?"  # maintainer
+diegoescalonaro: "?"  # maintainer · Diego Escalona
 dimitar-dinev: "Independent"  # committer · Dimitar Dinev
 diogper: "Independent"  # committer · Diogo Pereira
 djsplice: "lmnt"  # team · Jeff Barrows
 dmueller2001: "Hedera"  # maintainer · Diane Mueller
 donaldthibeau: "?"  # committer
 dosik13: "LimeChain"  # maintainer · Dosi Kolev
-dr20240304: "Hashgraph"  # team
+dr20240304: "Hashgraph"  # committer
 drgorb: "Hashgraph"  # maintainer · Micha Roon
 ebadiere: "Independent"  # committer · Eric Badiere
-edward-swirldslabs: "Hashgraph"  # committer · Edward Wertz
+edward-swirldslabs: "Hashgraph"  # maintainer · Edward Wertz
 elijahlynn: "Hashgraph"  # committer · Elijah Lynn
 ericleponner: "Hashgraph"  # maintainer · Eric Le Ponner
 evdokia-georgieva: "LimeChain"  # committer
