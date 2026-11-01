@@ -167,7 +167,7 @@
   }
  ],
  "row_count": 12,
- "generated_at": "2026-10-31T06:47:47.935959+00:00",
+ "generated_at": "2026-11-01T07:15:05.460187+00:00",
  "stale": false,
  "periods": {
   "7d": [
@@ -355,7 +355,7 @@
    },
    {
     "contributor": "shayansal",
-    "prs_opened": 17,
+    "prs_opened": 2,
     "reviews_given": 0,
     "merges_done": 0,
     "issues_opened": 2,

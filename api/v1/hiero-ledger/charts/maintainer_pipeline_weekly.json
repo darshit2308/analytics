@@ -95,13 +95,13 @@
   },
   {
    "bucket": "2026-W44",
-   "general_user": 20,
+   "general_user": 21,
    "triage": 1,
    "committer": 31,
-   "maintainer": 36,
+   "maintainer": 37,
    "partial": true
   }
  ],
- "generated_at": "2026-10-31T06:40:44.481522+00:00",
+ "generated_at": "2026-11-01T07:07:52.709018+00:00",
  "stale": false
 }
