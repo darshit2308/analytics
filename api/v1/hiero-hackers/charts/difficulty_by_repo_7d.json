@@ -28,7 +28,7 @@
  "window": {
   "kind": "trailing",
   "days": 7,
-  "end": "2026-11-01T07:13:58.546665+00:00"
+  "end": "2026-11-02T07:18:50.471466+00:00"
  },
  "series": [
   {
@@ -60,14 +60,14 @@
  "details": [],
  "rows": [
   {
-   "repo": "hiero-enterprise-js",
-   "Unknown": 1,
+   "repo": "analytics",
+   "Unknown": 0,
    "Good First Issue": 0,
    "Beginner": 0,
    "Intermediate": 0,
-   "Advanced": 0
+   "Advanced": 1
   }
  ],
- "generated_at": "2026-11-01T07:13:58.546665+00:00",
+ "generated_at": "2026-11-02T07:18:50.471466+00:00",
  "stale": false
 }

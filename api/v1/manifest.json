@@ -391,10 +391,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-11-01T07:15:12.440905+00:00",
+ "generated_at": "2026-11-02T07:20:16.750502+00:00",
  "provenance": {
   "git_sha": "6734b68",
-  "data_as_of": "2026-11-01T07:06:02.510959+00:00"
+  "data_as_of": "2026-11-02T07:10:26.196357+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -405,7 +405,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1513,
+     "row_count": 1514,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -461,7 +461,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2916,
+     "row_count": 2917,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -1186,7 +1186,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-11-01T07:13:54.325846+00:00"
+      "generated_at": "2026-11-02T07:18:45.579166+00:00"
      }
     },
     {
@@ -1262,7 +1262,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-11-01T07:13:54.322928+00:00"
+      "generated_at": "2026-11-02T07:18:45.575791+00:00"
      }
     },
     {
@@ -1556,7 +1556,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1513,
+      "value": 1514,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1731,7 +1731,7 @@
     },
     "contributors": {
      "path": "hiero-ledger/entities/contributors.json",
-     "count": 1513
+     "count": 1514
     }
    }
   },
@@ -2332,7 +2332,7 @@
      },
      {
       "label": "released last 90d %",
-      "value": "50%",
+      "value": "38%",
       "note": "Of repos that have ever released (not the full repo universe), the share that shipped a release in the last 90 days.",
       "methodology": [
        "Take repos with at least one release ever.",
