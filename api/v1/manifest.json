@@ -391,10 +391,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-11-02T07:20:16.750502+00:00",
+ "generated_at": "2026-11-03T07:41:44.850083+00:00",
  "provenance": {
   "git_sha": "6734b68",
-  "data_as_of": "2026-11-02T07:10:26.196357+00:00"
+  "data_as_of": "2026-11-03T07:31:04.586919+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -519,7 +519,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 862,
+     "row_count": 863,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -1186,7 +1186,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-11-02T07:18:45.579166+00:00"
+      "generated_at": "2026-11-03T07:40:17.439813+00:00"
      }
     },
     {
@@ -1262,7 +1262,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-11-02T07:18:45.575791+00:00"
+      "generated_at": "2026-11-03T07:40:17.435329+00:00"
      }
     },
     {
@@ -1673,7 +1673,7 @@
      },
      {
       "label": "quiet permission-holders (180d+)",
-      "value": 100,
+      "value": 99,
       "note": "People holding a granted role who have had no tracked activity for 180 days or more \u2014 an access-hygiene list, not a judgement about the people on it.",
       "methodology": [
        "Take everyone holding a triage, committer, or maintainer role in any repository.",
@@ -1743,7 +1743,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 51,
+     "row_count": 52,
      "path": "hiero-hackers/profiles.json"
     },
     {
@@ -2221,13 +2221,6 @@
           "kind": "events",
           "path": "hiero-hackers/charts/release_timeline_30d.json"
          }
-        },
-        {
-         "label": "Week",
-         "interactive": {
-          "kind": "events",
-          "path": "hiero-hackers/charts/release_timeline_7d.json"
-         }
         }
        ],
        "note": "One dot per release, diamonds for prereleases. Repos with zero releases in the selected span aren't shown on the chart (see the table for those).",
@@ -2256,7 +2249,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 51,
+      "value": 52,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -2266,7 +2259,7 @@
      },
      {
       "label": "active last month %",
-      "value": "39%",
+      "value": "40%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -2275,7 +2268,7 @@
      },
      {
       "label": "multi-repo %",
-      "value": "39%",
+      "value": "38%",
       "note": "The share of contributors active in two or more repositories \u2014 how much the contributor base spans the organisation rather than sitting in one project.",
       "methodology": [
        "For each contributor, count the distinct repositories they were active in (all-time).",
@@ -2284,7 +2277,7 @@
      },
      {
       "label": "file issues %",
-      "value": "53%",
+      "value": "52%",
       "note": "The share of contributors who have opened at least one issue.",
       "methodology": [
        "Count contributors whose all-time issues-opened total is above zero.",
@@ -2293,7 +2286,7 @@
      },
      {
       "label": "open PRs %",
-      "value": "82%",
+      "value": "83%",
       "note": "The share of contributors who have authored at least one pull request. Used as the proxy for \u201cwrites code\u201d: commits themselves are not ingested, only PRs.",
       "methodology": [
        "Count contributors whose all-time PRs-opened total is above zero.",
@@ -2302,7 +2295,7 @@
      },
      {
       "label": "give reviews %",
-      "value": "55%",
+      "value": "54%",
       "note": "The share of contributors who have reviewed at least one pull request \u2014 the review load's breadth, not its volume.",
       "methodology": [
        "Count contributors whose all-time reviews-given total is above zero.",
@@ -2311,7 +2304,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "31%",
+      "value": "33%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",
@@ -2359,7 +2352,7 @@
     },
     "contributors": {
      "path": "hiero-hackers/entities/contributors.json",
-     "count": 51
+     "count": 52
     }
    }
   },

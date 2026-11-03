@@ -61,6 +61,20 @@
   {
    "hip": 1535,
    "hip_title": "CLPR \u2014 A Cross Ledger Protocol for Hiero",
+   "repo": "hiero-ledger/hiero-sdk-go",
+   "pr_number": 1891,
+   "pr_title": " feat: add HIP-1535 CLPR support",
+   "pr_state": "OPEN",
+   "pr_merged_at": null,
+   "match_sources": "title|body",
+   "qualifier": null,
+   "counted": true,
+   "snippet": "feat: add HIP-1535 CLPR support",
+   "url": "https://github.com/hiero-ledger/hiero-sdk-go/pull/1891"
+  },
+  {
+   "hip": 1535,
+   "hip_title": "CLPR \u2014 A Cross Ledger Protocol for Hiero",
    "repo": "hiero-ledger/hiero-sdk-js",
    "pr_number": 4641,
    "pr_title": "feat: add HIP-1535 CLPR transactions, queries and ownership helpers",
@@ -1100,8 +1114,8 @@
    "repo": "hiero-ledger/hiero-sdk-go",
    "pr_number": 1879,
    "pr_title": "fix(tck): forward commonTransactionParams.highVolume",
-   "pr_state": "OPEN",
-   "pr_merged_at": null,
+   "pr_state": "MERGED",
+   "pr_merged_at": "2026-11-02 10:16:32+00:00",
    "match_sources": "body",
    "qualifier": null,
    "counted": true,
@@ -6924,8 +6938,8 @@
    "repo": "hiero-ledger/hiero-consensus-node",
    "pr_number": 27846,
    "pr_title": "fix: externalize committed EVM self-destruct deletions",
-   "pr_state": "OPEN",
-   "pr_merged_at": null,
+   "pr_state": "MERGED",
+   "pr_merged_at": "2026-11-02 17:24:20+00:00",
    "match_sources": "body",
    "qualifier": null,
    "counted": true,
@@ -12127,8 +12141,8 @@
    "url": "https://github.com/hiero-ledger/hiero-sdk-python/pull/380"
   }
  ],
- "row_count": 862,
- "generated_at": "2026-11-02T07:18:45.572065+00:00",
+ "row_count": 863,
+ "generated_at": "2026-11-03T07:40:17.429967+00:00",
  "stale": false,
  "group": "Evidence",
  "macro": "HIPs"

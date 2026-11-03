@@ -151,13 +151,13 @@
   },
   {
    "bucket": "2026-11",
-   "general_user": 0,
+   "general_user": 1,
    "triage": 0,
    "committer": 0,
-   "maintainer": 0,
+   "maintainer": 1,
    "partial": true
   }
  ],
- "generated_at": "2026-11-02T07:20:09.537150+00:00",
+ "generated_at": "2026-11-03T07:41:37.298647+00:00",
  "stale": false
 }
