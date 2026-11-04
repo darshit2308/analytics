@@ -39,21 +39,21 @@
   }
  ],
  "row_count": 1,
- "generated_at": "2026-11-03T07:41:39.330223+00:00",
+ "generated_at": "2026-11-04T07:23:47.475395+00:00",
  "stale": false,
  "periods": {
   "7d": [
    {
     "repo": "clpr-smart-contracts",
     "maintainers": 3,
-    "active_maintainers": 1,
+    "active_maintainers": 0,
     "committers": 15,
     "triage": 0
    },
    {
     "repo": "clpr-endpoint",
     "maintainers": 3,
-    "active_maintainers": 1,
+    "active_maintainers": 0,
     "committers": 10,
     "triage": 0
    },

@@ -391,10 +391,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-11-03T07:41:44.850083+00:00",
+ "generated_at": "2026-11-04T07:23:52.797209+00:00",
  "provenance": {
   "git_sha": "6734b68",
-  "data_as_of": "2026-11-03T07:31:04.586919+00:00"
+  "data_as_of": "2026-11-04T07:13:18.533273+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -405,7 +405,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1514,
+     "row_count": 1515,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -519,7 +519,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 863,
+     "row_count": 866,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -1186,7 +1186,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-11-03T07:40:17.439813+00:00"
+      "generated_at": "2026-11-04T07:22:28.561428+00:00"
      }
     },
     {
@@ -1262,7 +1262,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-11-03T07:40:17.435329+00:00"
+      "generated_at": "2026-11-04T07:22:28.558643+00:00"
      }
     },
     {
@@ -1556,7 +1556,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1514,
+      "value": 1515,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1731,7 +1731,7 @@
     },
     "contributors": {
      "path": "hiero-ledger/entities/contributors.json",
-     "count": 1514
+     "count": 1515
     }
    }
   },
@@ -2220,6 +2220,13 @@
          "interactive": {
           "kind": "events",
           "path": "hiero-hackers/charts/release_timeline_30d.json"
+         }
+        },
+        {
+         "label": "Week",
+         "interactive": {
+          "kind": "events",
+          "path": "hiero-hackers/charts/release_timeline_7d.json"
          }
         }
        ],
